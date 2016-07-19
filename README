@@ -1,0 +1,44 @@
+=============================================================================
+1. Prerequisites
+=============================================================================
+1a.TurboParser
+You need download TurboParser v2.3 and compile it following the instructions in TurboParser's README file.
+LINK:http://www.cs.cmu.edu/~ark/TurboParser/
+
+1b. Stanford word segmenter
+You need download Stanford segmenter v3.6.0 and unzip the file.
+LINK:http://nlp.stanford.edu/software/segmenter.shtml#Download
+
+1c. pre-trained Arabic models for pos tagging and dependency parser
+-> Download two models from the following link:  
+-> Uncompress the models. 
+-> create a folder "arabic" under directory models/ in the root folder of TurboParser and save the models in that folder (e.g. /users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/models/arabic/arabic_tagger.model)
+
+============================================================================
+2. Usage
+============================================================================
+Download the entire repository and save it in the root folder of TurboParser. Shell script run_text.sh is provided to do phrase extraction of an input arabic file.
+
+usage: run_text.sh test_sample.xml
+
+2a. Input data format
+A sample "test_sample.xml" of input data can be found under directory data/
+
+2b. Running run_text.sh
+You need change the value of following parameters based on your situation
+
+-> SCRIPT: the location where you put folder "scripts"
+example:
+SCRIPT=/users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/phrase_extractor/scripts
+
+-> FILE: the location where you put the input file 
+example:
+FILE=/users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/phrase_extractor/data
+
+-> STANFORD_SEG: the location where the stanford segmenter is saved
+example:
+STANFORD_SEG=/users/ljwinnie/Downloads/stanford-segmenter-2015-12-09
+
+-> TurboParserPath: the location where TurboParser is saved
+example:
+TurboParserPath=/users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0
