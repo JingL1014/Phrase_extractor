@@ -10,7 +10,7 @@ You need download Stanford segmenter v3.6.0 and unzip the file.
 LINK:http://nlp.stanford.edu/software/segmenter.shtml#Download
 
 1c. pre-trained Arabic models for pos tagging and dependency parser
--> Download two models from the following link:  
+-> Download two models from the following link: https://1drv.ms/u/s!An8tQToldhOkhO9O8p3lB1oR5MUl6A
 -> Uncompress the models. 
 -> create a folder "arabic" under directory models/ in the root folder of TurboParser and save the models in that folder (e.g. /users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/models/arabic/arabic_tagger.model)
 
