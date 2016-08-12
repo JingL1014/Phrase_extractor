@@ -49,10 +49,31 @@ class Sentence:
 
 	def get_nounPharse(self, nounhead):
 		npIDs=[]
-		if(self.udgraph.node[nounhead]['pos'] in ['NOUN','ADJ']):
+		if(self.udgraph.node[nounhead]['pos'] in ['NOUN','ADJ','PROPN']):
 			allsuccessors = nx.dfs_successors(self.udgraph,nounhead)
-			for value in allsuccessors.values():
-				npIDs.extend(value)
+
+			flag = True
+			parents = [nounhead]
+			
+			while len(parents)>0:
+				temp = []
+				for parent in parents:
+					if parent in allsuccessors.keys():
+						for child in allsuccessors[parent]:
+							if parent!=nounhead or self.udgraph[parent][child]['relation'] not in ['cc','conj']:
+								npIDs.append(child)
+								temp.append(child)
+				parents = temp
+			
+			'''
+			for parent,child in allsuccessors.items():
+				print(str(parent))
+				print(child)
+			'''		
+
+
+			#for value in allsuccessors.values():
+			#	npIDs.extend(value)
 			#print(npIDs)
 
 		npIDs.append(nounhead)
@@ -83,13 +104,23 @@ class Sentence:
 				if(self.udgraph[nodeID][successor]['relation']=='nsubj'):
 					#source.append(self.udgraph.node[successor]['token'])
 					source.append(self.get_nounPharse(successor))
+					source.extend(self.get_conj_noun(successor))
 				elif(self.udgraph[nodeID][successor]['relation'] in ['dobj','iobj','nsubjpass']):
 					target.append(self.get_nounPharse(successor))
+					target.extend(self.get_conj_noun(successor))
 				elif(self.udgraph[nodeID][successor]['relation'] in ['nmod']):
 					othernoun.append(self.get_nounPharse(successor))
+					othernoun.extend(self.get_conj_noun(successor))
 
 		return source,target,othernoun
 
+	def get_conj_noun(self,nodeID):
+		conj_noun = []
+		for successor in self.udgraph.successors(nodeID):
+			if(self.udgraph[nodeID][successor]['relation']=='conj'):
+				conj_noun.append(self.get_nounPharse(successor))
+
+		return conj_noun
 
 
 	def get_phrases(self):
