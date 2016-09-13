@@ -49,7 +49,7 @@ def read_xml_input(filepaths, parsed=False):
 				else:
 					parsed_content = ''
 
-				if story.attrib['sentence'] == 'True':
+				if story.attrib['sentence'].lower() == 'true':
 					entry_id =  story.attrib['id'][0:story.attrib['id'].rindex('_')]
 					sent_id = story.attrib['id'][story.attrib['id'].rindex('_')+1:]
 

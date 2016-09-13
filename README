@@ -14,17 +14,26 @@ LINK:http://nlp.stanford.edu/software/segmenter.shtml#Download
 -> Uncompress the models. 
 -> create a folder "arabic" under directory models/ in the root folder of TurboParser and save the models in that folder (e.g. /users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/models/arabic/arabic_tagger.model)
 
+1d. Stanford CoreNLP
+If your input file is document and you need to use Stanford CoreNLP to do sentence splitting
+LINK:http://stanfordnlp.github.io/CoreNLP/download.html
+
 ============================================================================
 2. Usage
 ============================================================================
-Download the entire repository and save it in the root folder of TurboParser. Shell script run_text.sh is provided to do phrase extraction of an input arabic file.
+Download the entire repository and save it in the root folder of TurboParser. Shell script run_sentence.sh and run_document.sh are provided to do phrase extraction of an input arabic file.
 
-usage: run_text.sh test_sample.xml
+usage: Based on the input format (sentence or document), you can run either run_sentence.sh or run_document.sh
+run_sentence.sh Sample_arabic_sent.xml
+run_document.sh Sample_arabic_doc.xml
+
 
 2a. Input data format
-A sample "test_sample.xml" of input data can be found under directory data/
+Two types of input format is allowed:
+-> sentence: the input file has one sentence per entry. A sample "Sample_arabic_sent.xml" of input data can be found under directory data/
+-> document: the input file has one document per entry. This type of input will perform sentence splitting before other processes. A sample "Sample_arabic_doc.xml" of input data can be found under directory data/
 
-2b. Running run_text.sh
+2b. Running run_document.sh or run_sentence.sh
 You need change the value of following parameters based on your situation
 
 -> SCRIPT: the location where you put folder "scripts"
@@ -42,3 +51,8 @@ STANFORD_SEG=/users/ljwinnie/Downloads/stanford-segmenter-2015-12-09
 -> TurboParserPath: the location where TurboParser is saved
 example:
 TurboParserPath=/users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0
+
+->STANFORD_CORENLP: the location where the Stanford CoreNLP is saved
+example:
+STANFORD_CORENLP=/users/ljwinnie/toolbox/stanford-corenlp-full-2015-01-29
+

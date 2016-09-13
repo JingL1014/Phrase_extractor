@@ -1,0 +1,4212 @@
+<Sentences>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-7" source = "AAW_ARB" sentence = "True">
+<Text>ونجح استخدام هدف المعدن بحالته السائلة في رفع قدرة المدفع على انتاج النيوترونات بنسبة 80%.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	نجح	_	VERB	VERB	_	1	parataxis
+3	استخدام	_	NOUN	NOUN	_	2	nsubj
+4	هدف	_	NOUN	NOUN	_	3	nmod
+5	المعدن	_	_	_	_	0	cc
+6	ب	_	ADP	ADP	_	7	case
+7	حالة	_	NOUN	NOUN	_	2	nmod
+8	ه	_	PRON	PRON	_	7	nmod
+9	السائلة	_	ADJ	ADJ	_	7	amod
+10	في	_	ADP	ADP	_	11	case
+11	رفع	_	NOUN	NOUN	_	2	nmod
+12	قدرة	_	NOUN	NOUN	_	11	nmod
+13	المدفع	_	NOUN	NOUN	_	12	nmod
+14	على	_	ADP	ADP	_	15	case
+15	انتاج	_	NOUN	NOUN	_	12	nmod
+16	النيوترونات	_	_	_	_	0	det
+17	ب	_	ADP	ADP	_	18	case
+18	نسبة	_	NOUN	NOUN	_	11	advcl
+19	80	_	NUM	NUM	_	18	nummod
+20	%.	_	NOUN	NOUN	_	19	nmod
+</Parse>
+<Verbs>
+نجح
+</Verbs>
+<Nouns>
+استخدام هدف
+رفع قدرة المدفع على انتاج ب نسبة 80 %.
+حالة ه السائلة
+</Nouns>
+<Tuples>
+source: استخدام هدف	target: -	verb: نجح	other_noun: رفع قدرة المدفع على انتاج ب نسبة 80 %. حالة ه السائلة
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0004-6" source = "AAW_ARB" sentence = "True">
+<Text>ومن جهته، اعتبر النائب الاصلاحي اسماعيل غيرامي مقدم «ان الشعب الايراني والجمهورية الاسلامية لا يستحقان هذه اللغة».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	من	_	ADP	ADP	_	3	case
+3	جهة	_	NOUN	NOUN	_	6	nmod
+4	ه	_	PRON	PRON	_	3	nmod
+5	,	_	PUNCT	PUNCT	_	4	punct
+6	اعتبر	_	VERB	VERB	_	1	parataxis
+7	النائب	_	NOUN	NOUN	_	6	nsubj
+8	الاصلاحي	_	ADJ	ADJ	_	7	amod
+9	اسماعيل	_	X	X	_	10	nmod
+10	غيرامي	_	X	X	_	7	nmod
+11	مقدم	_	ADJ	ADJ	_	10	amod
+12	"	_	PUNCT	PUNCT	_	1	punct
+13	ان	_	CONJ	CONJ	_	20	mark
+14	الشعب	_	NOUN	NOUN	_	20	nsubj
+15	الايراني	_	ADJ	ADJ	_	14	amod
+16	و	_	CONJ	CONJ	_	14	cc
+17	الجمهورية	_	NOUN	NOUN	_	14	conj
+18	الاسلامية	_	ADJ	ADJ	_	17	amod
+19	لا	_	PART	PART	_	20	neg
+20	يستحقان	_	VERB	VERB	_	6	ccomp
+21	هذه	_	DET	DET	_	22	det
+22	اللغة	_	NOUN	NOUN	_	20	dobj
+23	".	_	ADJ	ADJ	_	22	amod
+</Parse>
+<Verbs>
+اعتبر
+يستحقان
+</Verbs>
+<Nouns>
+النائب الاصلاحي اسماعيل غيرامي مقدم
+جهة ه ,
+الشعب الايراني
+الجمهورية الاسلامية
+هذه اللغة ".
+</Nouns>
+<Tuples>
+source: النائب الاصلاحي اسماعيل غيرامي مقدم	target: -	verb: اعتبر	other_noun: جهة ه ,
+source: الشعب الايراني	target: هذه اللغة ".	verb: يستحقان	other_noun: 
+source: الجمهورية الاسلامية	target: هذه اللغة ".	verb: يستحقان	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-13" source = "AAW_ARB" sentence = "True">
+<Text>ويفترض ان توفر الطبقات الكلسية والملحية حاجزا أمينا ضد الاشعاعات، إلا أن علماء البيئة يشكون بصحة هذه المعلومات ويحذرون من احتمالات انهيار الطبقات الأرضية أو تحركها بفعل الزلازل أو الظواهر الطبيعية الأخرى.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	يفترض	_	VERB	VERB	_	1	parataxis
+3	ان	_	CONJ	CONJ	_	4	mark
+4	توفر	_	VERB	VERB	_	2	csubj
+5	الطبقات	_	NOUN	NOUN	_	4	dobj
+6	الكلسية	_	ADJ	ADJ	_	5	amod
+7	و	_	CONJ	CONJ	_	6	cc
+8	الملحية	_	ADJ	ADJ	_	6	conj
+9	حاجزا	_	X	X	_	10	nmod
+10	امينا	_	X	X	_	5	nmod
+11	ضد	_	ADP	ADP	_	12	case
+12	الاشعاعات	_	NOUN	NOUN	_	4	advmod
+13	,	_	PUNCT	PUNCT	_	12	punct
+14	الا	_	PART	PART	_	4	cc
+15	ان	_	CONJ	CONJ	_	14	cc
+16	علماء	_	NOUN	NOUN	_	15	nsubj
+17	البيئة	_	NOUN	NOUN	_	16	nmod
+18	يشكون	_	_	_	_	0	det
+19	ب	_	ADP	ADP	_	20	case
+20	صحة	_	NOUN	NOUN	_	16	nmod
+21	هذه	_	DET	DET	_	20	det
+22	المعلومات	_	NOUN	NOUN	_	21	nmod
+23	و	_	CONJ	CONJ	_	4	cc
+24	يحذرون	_	VERB	VERB	_	4	conj
+25	من	_	ADP	ADP	_	26	case
+26	احتمالات	_	NOUN	NOUN	_	24	dobj
+27	انهيار	_	NOUN	NOUN	_	26	nmod
+28	الطبقات	_	NOUN	NOUN	_	27	nmod
+29	الارضية	_	ADJ	ADJ	_	28	amod
+30	او	_	CONJ	CONJ	_	27	cc
+31	تحرك	_	VERB	VERB	_	27	advcl
+32	ها	_	PRON	PRON	_	31	dobj
+33	ب	_	ADP	ADP	_	34	case
+34	فعل	_	NOUN	NOUN	_	31	nmod
+35	الزلازل	_	NOUN	NOUN	_	34	nmod
+36	او	_	CONJ	CONJ	_	35	cc
+37	الظواهر	_	NOUN	NOUN	_	35	conj
+38	الطبيعية	_	ADJ	ADJ	_	37	amod
+39	الاخرى	_	ADJ	ADJ	_	35	advmod:emph
+40	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+يفترض
+توفر
+يحذرون
+تحرك
+</Verbs>
+<Nouns>
+الطبقات الكلسية و الملحية حاجزا امينا
+احتمالات انهيار الطبقات الارضية او تحرك ها ب فعل الزلازل او الظواهر الطبيعية الاخرى
+ها
+فعل الزلازل او الظواهر الطبيعية الاخرى
+</Nouns>
+<Tuples>
+source: -	target: الطبقات الكلسية و الملحية حاجزا امينا	verb: توفر	other_noun: 
+source: -	target: احتمالات انهيار الطبقات الارضية او تحرك ها ب فعل الزلازل او الظواهر الطبيعية الاخرى	verb: يحذرون	other_noun: 
+source: -	target: ها	verb: تحرك	other_noun: فعل الزلازل او الظواهر الطبيعية الاخرى
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-5" source = "AAW_ARB" sentence = "True">
+<Text>وسقط سايكس ضحية عدوى الانفلونزا الاسبانية قبل نحو 90 عاما، وهي العدوى التي ادت الى مقتل 30 مليون شخص في العالم.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	سقط	_	VERB	VERB	_	1	parataxis
+3	سايكس	_	X	X	_	2	nsubj
+4	ضحية	_	NOUN	NOUN	_	3	nmod
+5	عدوى	_	NOUN	NOUN	_	4	nmod
+6	الانفلونزا	_	NOUN	NOUN	_	5	nmod
+7	الاسبانية	_	ADJ	ADJ	_	6	amod
+8	قبل	_	ADP	ADP	_	10	case
+9	نحو	_	ADP	ADP	_	10	case
+10	90	_	NUM	NUM	_	2	advmod
+11	عاما	_	NOUN	NOUN	_	10	nmod
+12	,	_	PUNCT	PUNCT	_	11	punct
+13	و	_	CONJ	CONJ	_	2	cc
+14	هي	_	PRON	PRON	_	2	conj
+15	العدوى	_	NOUN	NOUN	_	14	nmod
+16	التي	_	PRON	PRON	_	15	cc
+17	ادت	_	VERB	VERB	_	15	acl
+18	الى	_	ADP	ADP	_	19	case
+19	مقتل	_	NOUN	NOUN	_	17	dobj
+20	30	_	NUM	NUM	_	19	nummod
+21	مليون	_	NUM	NUM	_	20	nummod
+22	شخص	_	NOUN	NOUN	_	21	nmod
+23	في	_	ADP	ADP	_	24	case
+24	العالم	_	NOUN	NOUN	_	17	nmod
+25	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+سقط
+ادت
+</Verbs>
+<Nouns>
+سايكس
+مقتل 30 مليون شخص
+العالم
+</Nouns>
+<Tuples>
+source: سايكس	target: -	verb: سقط	other_noun: 
+source: -	target: مقتل 30 مليون شخص	verb: ادت	other_noun: العالم
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0006-2" source = "AAW_ARB" sentence = "True">
+<Text>فقد قامت مجموعة محلية صغيرة في مدينة ناشفيل في ولاية تاناسي تعود لمركز تاناسي لإبحاث السياسات، حيث يعيش آل غور، بالإطلاع على فواتير الطاقة المتعلقة بمنزله الضخم، لمعرفة ما إذا كان الخاسر امام الرئيس بوش في انتخابات عام 2000 يطبق على نفسه ما يروج له من الناحية البيئية.</Text>
+<Parse>
+1	ف	_	CONJ	CONJ	_	0	root
+2	قد	_	PART	PART	_	3	aux
+3	قامت	_	VERB	VERB	_	1	parataxis
+4	مجموعة	_	NOUN	NOUN	_	3	dobj
+5	محلية	_	ADJ	ADJ	_	4	amod
+6	صغيرة	_	ADJ	ADJ	_	4	amod
+7	في	_	ADP	ADP	_	8	case
+8	مدينة	_	NOUN	NOUN	_	3	nmod
+9	ناشفيل	_	X	X	_	8	nmod
+10	في	_	ADP	ADP	_	11	case
+11	ولاية	_	NOUN	NOUN	_	8	nmod
+12	تاناسي	_	X	X	_	11	nmod
+13	تعود	_	VERB	VERB	_	12	acl
+14	ل	_	ADP	ADP	_	15	case
+15	مركز	_	NOUN	NOUN	_	13	dobj
+16	تاناسي	_	_	_	_	0	det
+17	ل	_	ADP	ADP	_	18	case
+18	ابحاث	_	NOUN	NOUN	_	13	nmod
+19	السياسات	_	NOUN	NOUN	_	18	nmod
+20	,	_	PUNCT	PUNCT	_	19	punct
+21	حيث	_	CONJ	CONJ	_	22	mark
+22	يعيش	_	VERB	VERB	_	13	advcl
+23	ال	_	X	X	_	24	nmod
+24	غور	_	X	X	_	22	nsubj
+25	,	_	PUNCT	PUNCT	_	24	punct
+26	ب	_	ADP	ADP	_	27	case
+27	الاطلاع	_	NOUN	NOUN	_	22	dobj
+28	على	_	ADP	ADP	_	29	case
+29	فواتير	_	NOUN	NOUN	_	27	nmod
+30	الطاقة	_	NOUN	NOUN	_	29	nmod
+31	المتعلقة	_	ADJ	ADJ	_	30	amod
+32	ب	_	ADP	ADP	_	33	case
+33	منزل	_	NOUN	NOUN	_	31	dobj
+34	ه	_	PRON	PRON	_	33	nmod
+35	الضخم	_	ADJ	ADJ	_	33	amod
+36	,	_	PUNCT	PUNCT	_	35	punct
+37	ل	_	ADP	ADP	_	38	case
+38	معرفة	_	NOUN	NOUN	_	31	advmod
+39	ما	_	DET	DET	_	38	det
+40	اذا	_	CONJ	CONJ	_	41	mark
+41	كان	_	VERB	VERB	_	39	acl
+42	الخاسر	_	ADJ	ADJ	_	41	nsubj
+43	امام	_	ADP	ADP	_	44	case
+44	الرئيس	_	NOUN	NOUN	_	42	nmod
+45	بوش	_	X	X	_	44	nmod
+46	في	_	ADP	ADP	_	47	case
+47	انتخابات	_	NOUN	NOUN	_	42	nmod
+48	عام	_	NOUN	NOUN	_	47	nmod
+49	20	_	NUM	NUM	_	48	nummod
+50	يطبق	_	VERB	VERB	_	48	acl
+51	على	_	ADP	ADP	_	52	case
+52	نفس	_	NOUN	NOUN	_	50	dobj
+53	ه	_	PRON	PRON	_	52	nmod
+54	ما	_	PRON	PRON	_	53	nsubj
+55	يروج	_	_	_	_	0	mwe
+56	ل	_	ADP	ADP	_	57	case
+57	ه	_	PRON	PRON	_	54	dobj
+58	من	_	ADP	ADP	_	59	case
+59	الناحية	_	NOUN	NOUN	_	54	nmod
+60	البيئية	_	ADJ	ADJ	_	59	amod
+61	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+قامت
+تعود
+يعيش
+كان
+يطبق
+</Verbs>
+<Nouns>
+مجموعة محلية صغيرة
+مدينة ناشفيل في ولاية تاناسي تعود ل مركز ل ابحاث السياسات , حيث يعيش ال غور , ب الاطلاع على فواتير الطاقة المتعلقة ب منزل ه الضخم , ل معرفة ما اذا كان الخاسر امام الرئيس بوش في انتخابات عام 20 يطبق على نفس ه ما ل ه من الناحية البيئية
+مركز
+ابحاث السياسات ,
+غور
+الاطلاع على فواتير الطاقة المتعلقة ب منزل ه الضخم , ل معرفة ما اذا كان الخاسر امام الرئيس بوش في انتخابات عام 20 يطبق على نفس ه ما ل ه من الناحية البيئية
+الخاسر امام الرئيس بوش في انتخابات عام 20 يطبق على نفس ه ما ل ه من الناحية البيئية
+نفس ه ما ل ه من الناحية البيئية
+</Nouns>
+<Tuples>
+source: -	target: مجموعة محلية صغيرة	verb: قامت	other_noun: مدينة ناشفيل في ولاية تاناسي تعود ل مركز ل ابحاث السياسات , حيث يعيش ال غور , ب الاطلاع على فواتير الطاقة المتعلقة ب منزل ه الضخم , ل معرفة ما اذا كان الخاسر امام الرئيس بوش في انتخابات عام 20 يطبق على نفس ه ما ل ه من الناحية البيئية
+source: -	target: مركز	verb: تعود	other_noun: ابحاث السياسات ,
+source: غور	target: الاطلاع على فواتير الطاقة المتعلقة ب منزل ه الضخم , ل معرفة ما اذا كان الخاسر امام الرئيس بوش في انتخابات عام 20 يطبق على نفس ه ما ل ه من الناحية البيئية	verb: يعيش	other_noun: 
+source: الخاسر امام الرئيس بوش في انتخابات عام 20 يطبق على نفس ه ما ل ه من الناحية البيئية	target: -	verb: كان	other_noun: 
+source: -	target: نفس ه ما ل ه من الناحية البيئية	verb: يطبق	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0006-4" source = "AAW_ARB" sentence = "True">
+<Text>وفيما بالغ المعارضون لآل غور في تفاصيل المعلومات المتوفرة، استبعد مؤيدوه ما جاء فيها واعتبروها حملة مغرضة تستهدف شخصية غور ومصادقيته، قبل اعلان العودة الى الحياة السياسية الديمقراطية من ابوابها العريضة.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	فيما	_	CONJ	CONJ	_	3	mark
+3	بالغ	_	VERB	VERB	_	12	advcl
+4	المعارضون	_	NOUN	NOUN	_	3	nsubj
+5	لال	_	X	X	_	6	nmod
+6	غور	_	X	X	_	4	nmod
+7	في	_	ADP	ADP	_	8	case
+8	تفاصيل	_	NOUN	NOUN	_	3	advmod
+9	المعلومات	_	NOUN	NOUN	_	8	nmod
+10	المتوفرة	_	ADJ	ADJ	_	9	amod
+11	,	_	PUNCT	PUNCT	_	10	punct
+12	استبعد	_	VERB	VERB	_	1	parataxis
+13	مؤيدو	_	NOUN	NOUN	_	12	nsubj
+14	ه	_	PRON	PRON	_	13	nmod
+15	ما	_	PRON	PRON	_	12	dobj
+16	جاء	_	VERB	VERB	_	15	acl
+17	في	_	ADP	ADP	_	18	case
+18	ها	_	PRON	PRON	_	16	dobj
+19	و	_	CONJ	CONJ	_	16	cc
+20	اعتبرو	_	VERB	VERB	_	16	conj
+21	ها	_	PRON	PRON	_	20	dobj
+22	حملة	_	NOUN	NOUN	_	20	nsubj
+23	مغرضة	_	ADJ	ADJ	_	22	amod
+24	تستهدف	_	VERB	VERB	_	22	acl
+25	شخصية	_	NOUN	NOUN	_	24	dobj
+26	غور	_	_	_	_	0	cc
+27	و	_	CONJ	CONJ	_	25	cc
+28	مصادقية	_	NOUN	NOUN	_	25	conj
+29	ه	_	PRON	PRON	_	28	nmod
+30	,	_	PUNCT	PUNCT	_	29	punct
+31	قبل	_	ADP	ADP	_	32	case
+32	اعلان	_	NOUN	NOUN	_	24	nmod
+33	العودة	_	NOUN	NOUN	_	32	nmod
+34	الى	_	ADP	ADP	_	35	case
+35	الحياة	_	NOUN	NOUN	_	33	nmod
+36	السياسية	_	ADJ	ADJ	_	35	amod
+37	الديمقراطية	_	ADJ	ADJ	_	35	amod
+38	من	_	ADP	ADP	_	39	case
+39	ابواب	_	NOUN	NOUN	_	37	nmod
+40	ها	_	PRON	PRON	_	39	nmod
+41	العريضة	_	ADJ	ADJ	_	39	amod
+42	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+بالغ
+استبعد
+جاء
+اعتبرو
+تستهدف
+</Verbs>
+<Nouns>
+المعارضون لال غور
+مؤيدو ه
+ما
+ها
+حملة مغرضة تستهدف شخصية و مصادقية ه , قبل اعلان العودة الى الحياة السياسية الديمقراطية من ابواب ها العريضة
+ها
+شخصية
+مصادقية ه ,
+اعلان العودة الى الحياة السياسية الديمقراطية من ابواب ها العريضة
+</Nouns>
+<Tuples>
+source: المعارضون لال غور	target: -	verb: بالغ	other_noun: 
+source: مؤيدو ه	target: ما	verb: استبعد	other_noun: 
+source: -	target: ها	verb: جاء	other_noun: 
+source: حملة مغرضة تستهدف شخصية و مصادقية ه , قبل اعلان العودة الى الحياة السياسية الديمقراطية من ابواب ها العريضة	target: ها	verb: اعتبرو	other_noun: 
+source: -	target: شخصية	verb: تستهدف	other_noun: اعلان العودة الى الحياة السياسية الديمقراطية من ابواب ها العريضة
+source: -	target: مصادقية ه ,	verb: تستهدف	other_noun: اعلان العودة الى الحياة السياسية الديمقراطية من ابواب ها العريضة
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-7" source = "AAW_ARB" sentence = "True">
+<Text>ويكشف شاكر العبسي ان حركة «فتح الاسلام» موجودة في كل دول الطوق كما في مخيمات الجنوب اللبناني بشكل سري «وهدفنا الوصول الى بيت المقدس من كل الدول وليس من لبنان وحده».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	يكشف	_	VERB	VERB	_	1	parataxis
+3	شاكر	_	X	X	_	4	nmod
+4	العبسي	_	X	X	_	2	nsubj
+5	ان	_	CONJ	CONJ	_	17	mark
+6	حركة	_	NOUN	NOUN	_	17	nsubj
+7	"	_	PUNCT	PUNCT	_	8	punct
+8	فتح	_	NOUN	NOUN	_	6	nmod
+9	الاسلام	_	NOUN	NOUN	_	8	nmod
+10	"	_	PUNCT	PUNCT	_	8	punct
+11	موجودة	_	ADJ	ADJ	_	9	amod
+12	في	_	ADP	ADP	_	13	case
+13	كل	_	NOUN	NOUN	_	11	nmod
+14	دول	_	NOUN	NOUN	_	13	nmod
+15	الطوق	_	_	_	_	0	det
+16	ك	_	ADP	ADP	_	17	case
+17	ما	_	PRON	PRON	_	2	nmod
+18	في	_	ADP	ADP	_	19	case
+19	مخيمات	_	NOUN	NOUN	_	17	nmod
+20	الجنوب	_	NOUN	NOUN	_	19	nmod
+21	اللبناني	_	ADJ	ADJ	_	20	amod
+22	ب	_	ADP	ADP	_	23	case
+23	شكل	_	NOUN	NOUN	_	17	nmod
+24	سري	_	ADJ	ADJ	_	23	amod
+25	"	_	PUNCT	PUNCT	_	1	punct
+26	و	_	CONJ	CONJ	_	23	cc
+27	هدف	_	NOUN	NOUN	_	23	conj
+28	نا	_	PRON	PRON	_	27	nmod
+29	الوصول	_	NOUN	NOUN	_	27	nsubj
+30	الى	_	ADP	ADP	_	31	case
+31	بيت	_	NOUN	NOUN	_	29	nmod
+32	المقدس	_	ADJ	ADJ	_	31	amod
+33	من	_	ADP	ADP	_	34	case
+34	كل	_	NOUN	NOUN	_	29	nmod
+35	الدول	_	NOUN	NOUN	_	34	nmod
+36	و	_	CONJ	CONJ	_	29	cc
+37	ليس	_	VERB	VERB	_	39	cop
+38	من	_	ADP	ADP	_	39	case
+39	لبنان	_	NOUN	NOUN	_	29	advcl
+40	وحد	_	NOUN	NOUN	_	39	nmod
+41	ه	_	PRON	PRON	_	42	nmod
+42	".	_	X	X	_	40	nmod
+</Parse>
+<Verbs>
+يكشف
+ليس
+</Verbs>
+<Nouns>
+العبسي
+ما
+</Nouns>
+<Tuples>
+source: العبسي	target: -	verb: يكشف	other_noun: ما
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-1" source = "AAW_ARB" sentence = "True">
+<Text>حقق علماء ألمان وسويسريون خطوة هامة على طريق التخلص من المقابر النووية بعد أن توصلوا إلى طريقة «لتحييد» العناصر المشعة في هذه المقابر.</Text>
+<Parse>
+1	حقق	_	VERB	VERB	_	0	root
+2	علماء	_	NOUN	NOUN	_	1	nsubj
+3	المان	_	ADJ	ADJ	_	2	amod
+4	و	_	CONJ	CONJ	_	3	cc
+5	سويسريون	_	ADJ	ADJ	_	3	conj
+6	خطوة	_	NOUN	NOUN	_	1	dobj
+7	هامة	_	ADJ	ADJ	_	6	amod
+8	على	_	ADP	ADP	_	9	case
+9	طريق	_	NOUN	NOUN	_	1	nmod
+10	التخلص	_	NOUN	NOUN	_	9	nmod
+11	من	_	ADP	ADP	_	12	case
+12	المقابر	_	NOUN	NOUN	_	10	nmod
+13	النووية	_	ADJ	ADJ	_	12	amod
+14	بعد	_	ADP	ADP	_	16	mark
+15	ان	_	CONJ	CONJ	_	16	mark
+16	توصلوا	_	VERB	VERB	_	10	advcl
+17	الى	_	ADP	ADP	_	18	case
+18	طريقة	_	NOUN	NOUN	_	16	dobj
+19	"	_	PUNCT	PUNCT	_	21	punct
+20	ل	_	ADP	ADP	_	21	case
+21	تحييد	_	NOUN	NOUN	_	16	nmod
+22	"	_	PUNCT	PUNCT	_	23	punct
+23	العناصر	_	NOUN	NOUN	_	21	nmod
+24	المشعة	_	ADJ	ADJ	_	23	amod
+25	في	_	ADP	ADP	_	27	case
+26	هذه	_	DET	DET	_	27	det
+27	المقابر	_	NOUN	NOUN	_	23	nmod
+28	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+حقق
+توصلوا
+</Verbs>
+<Nouns>
+علماء المان و سويسريون
+خطوة هامة
+طريق التخلص من المقابر النووية بعد ان توصلوا الى طريقة " ل تحييد " العناصر المشعة في هذه المقابر
+طريقة
+" ل تحييد " العناصر المشعة في هذه المقابر
+</Nouns>
+<Tuples>
+source: علماء المان و سويسريون	target: خطوة هامة	verb: حقق	other_noun: طريق التخلص من المقابر النووية بعد ان توصلوا الى طريقة " ل تحييد " العناصر المشعة في هذه المقابر
+source: -	target: طريقة	verb: توصلوا	other_noun: " ل تحييد " العناصر المشعة في هذه المقابر
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0002-1" source = "AAW_ARB" sentence = "True">
+<Text>برأت المحكمة الجنائية الفدرالية السويسرية امس سبعة اشخاص، خمسة يمنيين وصومالي وعراقي، من تهمة تقديم الدعم اللوجستي لتنظيم القاعدة ضمن خطة التورط في تفجيرات الرياض التي قتل فيها 35 شخصا عام 2003.</Text>
+<Parse>
+1	برات	_	X	X	_	0	root
+2	المحكمة	_	NOUN	NOUN	_	1	nmod
+3	الجنائية	_	ADJ	ADJ	_	2	amod
+4	الفدرالية	_	X	X	_	2	nmod
+5	السويسرية	_	ADJ	ADJ	_	4	amod
+6	امس	_	ADV	ADV	_	7	advmod:emph
+7	سبعة	_	NUM	NUM	_	1	dep
+8	اشخاص	_	NOUN	NOUN	_	7	nmod
+9	,	_	PUNCT	PUNCT	_	8	punct
+10	خمسة	_	NUM	NUM	_	8	nummod
+11	يمنيين	_	_	_	_	0	det
+12	و	_	CONJ	CONJ	_	1	cc
+13	صومالي	_	ADJ	ADJ	_	1	conj
+14	و	_	CONJ	CONJ	_	13	cc
+15	عراقي	_	ADJ	ADJ	_	13	conj
+16	,	_	PUNCT	PUNCT	_	15	punct
+17	من	_	ADP	ADP	_	18	case
+18	تهمة	_	NOUN	NOUN	_	1	dep
+19	تقديم	_	NOUN	NOUN	_	18	nmod
+20	الدعم	_	NOUN	NOUN	_	19	nmod
+21	اللوجستي	_	_	_	_	0	det
+22	ل	_	ADP	ADP	_	23	case
+23	تنظيم	_	NOUN	NOUN	_	1	dep
+24	القاعدة	_	NOUN	NOUN	_	23	nmod
+25	ضمن	_	ADP	ADP	_	26	case
+26	خطة	_	NOUN	NOUN	_	1	dep
+27	التورط	_	ADJ	ADJ	_	26	amod
+28	في	_	ADP	ADP	_	29	case
+29	تفجيرات	_	NOUN	NOUN	_	26	nmod
+30	الرياض	_	NOUN	NOUN	_	29	nmod
+31	التي	_	PRON	PRON	_	30	cc
+32	قتل	_	VERB	VERB	_	30	acl
+33	في	_	ADP	ADP	_	34	case
+34	ها	_	PRON	PRON	_	32	dobj
+35	35	_	NUM	NUM	_	34	nsubj
+36	شخصا	_	NOUN	NOUN	_	35	nmod
+37	عام	_	NOUN	NOUN	_	32	nmod
+38	2003.	_	NUM	NUM	_	37	nummod
+</Parse>
+<Verbs>
+قتل
+</Verbs>
+<Nouns>
+ها
+عام 2003.
+</Nouns>
+<Tuples>
+source: -	target: ها	verb: قتل	other_noun: عام 2003.
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0008-2" source = "AAW_ARB" sentence = "True">
+<Text>وأوضح الدكتور عبد الله المعجل وكيل وزارة التعليم العالي للعلاقات الثقافية أمس، أن الوزارة ستنفذ قريبا برنامجا للابتعاث الداخلي للجامعات والكليات الأهلية يشتمل على 10 آلاف منحة دراسية داخلية أسوة ببرنامج الابتعاث الخارجي الذي يشتمل على 18 الف بعثة على مدى خمس سنوات.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	اوضح	_	VERB	VERB	_	1	parataxis
+3	الدكتور	_	NOUN	NOUN	_	2	nsubj
+4	عبد	_	X	X	_	6	nmod
+5	الله	_	X	X	_	4	nmod
+6	المعجل	_	X	X	_	3	nmod
+7	وكيل	_	NOUN	NOUN	_	6	nmod
+8	وزارة	_	NOUN	NOUN	_	7	nmod
+9	التعليم	_	NOUN	NOUN	_	8	nmod
+10	العالي	_	ADJ	ADJ	_	9	amod
+11	ل	_	ADP	ADP	_	12	case
+12	العلاقات	_	NOUN	NOUN	_	6	dobj
+13	الثقافية	_	ADJ	ADJ	_	12	amod
+14	امس	_	ADV	ADV	_	13	advmod
+15	,	_	PUNCT	PUNCT	_	14	punct
+16	ان	_	CONJ	CONJ	_	19	mark
+17	الوزارة	_	NOUN	NOUN	_	19	nsubj
+18	س	_	PART	PART	_	19	aux
+19	تنفذ	_	VERB	VERB	_	2	csubjpass
+20	قريبا	_	ADJ	ADJ	_	19	amod
+21	برنامجا	_	_	_	_	0	det
+22	ل	_	ADP	ADP	_	23	case
+23	الابتعاث	_	NOUN	NOUN	_	19	nmod
+24	الداخلي	_	ADJ	ADJ	_	23	amod
+25	ل	_	ADP	ADP	_	26	case
+26	الجامعات	_	NOUN	NOUN	_	23	nmod
+27	و	_	CONJ	CONJ	_	26	cc
+28	الكليات	_	NOUN	NOUN	_	26	conj
+29	الاهلية	_	ADJ	ADJ	_	28	amod
+30	يشتمل	_	VERB	VERB	_	28	acl
+31	على	_	ADP	ADP	_	32	case
+32	10	_	NUM	NUM	_	30	dobj
+33	الاف	_	NUM	NUM	_	32	nummod
+34	منحة	_	NOUN	NOUN	_	33	nmod
+35	دراسية	_	ADJ	ADJ	_	34	amod
+36	داخلية	_	ADJ	ADJ	_	35	amod
+37	اسوة	_	_	_	_	0	det
+38	ب	_	ADP	ADP	_	39	case
+39	برنامج	_	NOUN	NOUN	_	19	advmod
+40	الابتعاث	_	NOUN	NOUN	_	39	nmod
+41	الخارجي	_	ADJ	ADJ	_	40	amod
+42	الذي	_	PRON	PRON	_	40	cc
+43	يشتمل	_	VERB	VERB	_	40	acl
+44	على	_	ADP	ADP	_	45	case
+45	18	_	NUM	NUM	_	43	dobj
+46	الف	_	NUM	NUM	_	45	nummod
+47	بعثة	_	NOUN	NOUN	_	46	nmod
+48	على	_	ADP	ADP	_	49	case
+49	مدى	_	NOUN	NOUN	_	43	nmod
+50	خمس	_	NUM	NUM	_	49	nummod
+51	سنوات	_	NOUN	NOUN	_	50	nmod
+52	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اوضح
+تنفذ
+يشتمل
+يشتمل
+</Verbs>
+<Nouns>
+الدكتور عبد الله المعجل وكيل وزارة التعليم العالي ل العلاقات الثقافية امس ,
+الوزارة
+الابتعاث الداخلي ل الجامعات و الكليات الاهلية يشتمل على 10 الاف منحة دراسية داخلية
+10
+18
+مدى خمس سنوات
+</Nouns>
+<Tuples>
+source: الدكتور عبد الله المعجل وكيل وزارة التعليم العالي ل العلاقات الثقافية امس ,	target: -	verb: اوضح	other_noun: 
+source: الوزارة	target: -	verb: تنفذ	other_noun: الابتعاث الداخلي ل الجامعات و الكليات الاهلية يشتمل على 10 الاف منحة دراسية داخلية
+source: -	target: 10	verb: يشتمل	other_noun: 
+source: -	target: 18	verb: يشتمل	other_noun: مدى خمس سنوات
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-5" source = "AAW_ARB" sentence = "True">
+<Text>وكانت التجارب العالمية السابقة تحاول التوصل إلى هذه النتيجة عن طريق إطلاق البروتونات على المعدن في حالته الصلبة، إلا ان العلماء السويسريين نجحوا باستخدامهم المعدن السائل كهدف.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	كانت	_	VERB	VERB	_	1	parataxis
+3	التجارب	_	NOUN	NOUN	_	2	nsubj
+4	العالمية	_	ADJ	ADJ	_	3	amod
+5	السابقة	_	ADJ	ADJ	_	3	amod
+6	تحاول	_	VERB	VERB	_	2	xcomp
+7	التوصل	_	NOUN	NOUN	_	6	dobj
+8	الى	_	ADP	ADP	_	9	case
+9	هذه	_	DET	DET	_	7	det
+10	النتيجة	_	NOUN	NOUN	_	9	nmod
+11	عن	_	ADP	ADP	_	12	case
+12	طريق	_	NOUN	NOUN	_	9	dobj
+13	اطلاق	_	NOUN	NOUN	_	12	nmod
+14	البروتونات	_	NOUN	NOUN	_	13	nmod
+15	على	_	ADP	ADP	_	16	case
+16	المعدن	_	NOUN	NOUN	_	13	nmod
+17	في	_	ADP	ADP	_	18	case
+18	حالة	_	NOUN	NOUN	_	6	nmod
+19	ه	_	PRON	PRON	_	18	nmod
+20	الصلبة	_	ADJ	ADJ	_	18	amod
+21	,	_	PUNCT	PUNCT	_	20	punct
+22	الا	_	PART	PART	_	6	cc
+23	ان	_	CONJ	CONJ	_	24	cc
+24	العلماء	_	NOUN	NOUN	_	22	nsubj
+25	السويسريين	_	NOUN	NOUN	_	24	nmod
+26	نجحوا	_	_	_	_	0	det
+27	ب	_	ADP	ADP	_	28	case
+28	استخدام	_	NOUN	NOUN	_	24	advcl
+29	هم	_	PRON	PRON	_	28	nmod
+30	المعدن	_	ADJ	ADJ	_	28	amod
+31	السائل	_	_	_	_	0	det
+32	ك	_	ADP	ADP	_	33	case
+33	هدف	_	NOUN	NOUN	_	28	xcomp
+34	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+كانت
+تحاول
+</Verbs>
+<Nouns>
+التجارب العالمية السابقة
+التوصل الى هذه النتيجة عن طريق اطلاق البروتونات على المعدن
+حالة ه الصلبة ,
+</Nouns>
+<Tuples>
+source: التجارب العالمية السابقة	target: -	verb: كانت	other_noun: 
+source: -	target: التوصل الى هذه النتيجة عن طريق اطلاق البروتونات على المعدن	verb: تحاول	other_noun: حالة ه الصلبة ,
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0004-3" source = "AAW_ARB" sentence = "True">
+<Text>وبسبب الازمة حول البرنامج النووي الايراني، لا تقبل تلك الدول الطلاب الايرانيين في هذه الاختصاصات.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	ب	_	ADP	ADP	_	4	case
+3	سبب	_	NOUN	NOUN	_	4	cc
+4	الازمة	_	NOUN	NOUN	_	11	cc
+5	حول	_	ADP	ADP	_	6	case
+6	البرنامج	_	NOUN	NOUN	_	4	nmod
+7	النووي	_	ADJ	ADJ	_	6	amod
+8	الايراني	_	ADJ	ADJ	_	6	amod
+9	,	_	PUNCT	PUNCT	_	8	punct
+10	لا	_	PART	PART	_	11	neg
+11	تقبل	_	VERB	VERB	_	1	parataxis
+12	تلك	_	DET	DET	_	6	det
+13	الدول	_	NOUN	NOUN	_	12	nmod
+14	الطلاب	_	NOUN	NOUN	_	12	nsubj
+15	الايرانيين	_	ADJ	ADJ	_	14	amod
+16	في	_	ADP	ADP	_	18	case
+17	هذه	_	DET	DET	_	18	det
+18	الاختصاصات	_	NOUN	NOUN	_	14	nmod
+19	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تقبل
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0004-2" source = "AAW_ARB" sentence = "True">
+<Text>وعلل نائب وزير العلوم محمود ملاباشي سبب منع المنح لتلك الدول بأنها «لا تقبل الطلبة الايرانيين في فروع التكنولوجيا الحديثة، مثل العلوم النووية».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	علل	_	VERB	VERB	_	1	parataxis
+3	نائب	_	NOUN	NOUN	_	2	nsubj
+4	وزير	_	NOUN	NOUN	_	3	nmod
+5	العلوم	_	NOUN	NOUN	_	4	nmod
+6	محمود	_	X	X	_	7	nmod
+7	ملاباشي	_	X	X	_	3	nmod
+8	سبب	_	NOUN	NOUN	_	7	nmod
+9	منع	_	NOUN	NOUN	_	7	nmod
+10	المنح	_	NOUN	NOUN	_	9	nmod
+11	ل	_	ADP	ADP	_	12	case
+12	تلك	_	DET	DET	_	9	det
+13	الدول	_	NOUN	NOUN	_	19	cc
+14	ب	_	ADP	ADP	_	19	mark
+15	ان	_	CONJ	CONJ	_	19	mark
+16	ها	_	PRON	PRON	_	19	nsubj
+17	"	_	PUNCT	PUNCT	_	1	punct
+18	لا	_	PART	PART	_	19	neg
+19	تقبل	_	VERB	VERB	_	12	acl
+20	الطلبة	_	NOUN	NOUN	_	19	dobj
+21	الايرانيين	_	ADJ	ADJ	_	20	amod
+22	في	_	ADP	ADP	_	23	case
+23	فروع	_	NOUN	NOUN	_	20	nmod
+24	التكنولوجيا	_	NOUN	NOUN	_	23	nmod
+25	الحديثة	_	ADJ	ADJ	_	24	amod
+26	,	_	PUNCT	PUNCT	_	25	punct
+27	مثل	_	ADP	ADP	_	28	case
+28	العلوم	_	NOUN	NOUN	_	19	advmod
+29	النووية	_	ADJ	ADJ	_	28	amod
+30	".	_	X	X	_	29	nmod
+</Parse>
+<Verbs>
+علل
+تقبل
+</Verbs>
+<Nouns>
+نائب وزير العلوم محمود ملاباشي سبب منع المنح ل تلك الدول ب ان ها لا تقبل الطلبة الايرانيين في فروع التكنولوجيا الحديثة , مثل العلوم النووية ".
+ها
+الطلبة الايرانيين في فروع التكنولوجيا الحديثة ,
+</Nouns>
+<Tuples>
+source: نائب وزير العلوم محمود ملاباشي سبب منع المنح ل تلك الدول ب ان ها لا تقبل الطلبة الايرانيين في فروع التكنولوجيا الحديثة , مثل العلوم النووية ".	target: -	verb: علل	other_noun: 
+source: ها	target: الطلبة الايرانيين في فروع التكنولوجيا الحديثة ,	verb: تقبل	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0004-1" source = "AAW_ARB" sentence = "True">
+<Text>اعلنت ايران امس قطع المنح الدراسية للطلاب الايرانيين، الذين يرغبون بالدراسة في الولايات المتحدة وبريطانيا وكندا، في خطوة جديدة تزيد من العزلة الايرانية تجاه الغرب.</Text>
+<Parse>
+1	اعلنت	_	VERB	VERB	_	0	root
+2	ايران	_	NOUN	NOUN	_	1	nsubj
+3	امس	_	ADV	ADV	_	1	advmod
+4	قطع	_	NOUN	NOUN	_	1	nmod
+5	المنح	_	NOUN	NOUN	_	4	nmod
+6	الدراسية	_	ADJ	ADJ	_	5	amod
+7	ل	_	ADP	ADP	_	8	case
+8	الطلاب	_	NOUN	NOUN	_	5	nmod
+9	الايرانيين	_	ADJ	ADJ	_	8	amod
+10	,	_	PUNCT	PUNCT	_	9	punct
+11	الذين	_	PRON	PRON	_	1	cc
+12	يرغبون	_	VERB	VERB	_	11	acl
+13	ب	_	ADP	ADP	_	14	case
+14	الدراسة	_	NOUN	NOUN	_	12	dobj
+15	في	_	ADP	ADP	_	16	case
+16	الولايات	_	NOUN	NOUN	_	14	nmod
+17	المتحدة	_	ADJ	ADJ	_	16	amod
+18	و	_	CONJ	CONJ	_	17	cc
+19	بريطانيا	_	ADJ	ADJ	_	17	conj
+20	و	_	CONJ	CONJ	_	16	cc
+21	كندا	_	X	X	_	16	conj
+22	,	_	PUNCT	PUNCT	_	21	punct
+23	في	_	ADP	ADP	_	24	case
+24	خطوة	_	NOUN	NOUN	_	14	advcl
+25	جديدة	_	ADJ	ADJ	_	24	amod
+26	تزيد	_	VERB	VERB	_	24	acl
+27	من	_	ADP	ADP	_	28	case
+28	العزلة	_	NOUN	NOUN	_	26	dobj
+29	الايرانية	_	ADJ	ADJ	_	28	amod
+30	تجاه	_	ADP	ADP	_	31	case
+31	الغرب	_	NOUN	NOUN	_	28	nmod
+32	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اعلنت
+يرغبون
+تزيد
+</Verbs>
+<Nouns>
+ايران
+قطع المنح الدراسية ل الطلاب الايرانيين ,
+الدراسة في الولايات المتحدة و بريطانيا و كندا , في خطوة جديدة تزيد من العزلة الايرانية تجاه الغرب
+العزلة الايرانية تجاه الغرب
+</Nouns>
+<Tuples>
+source: ايران	target: -	verb: اعلنت	other_noun: قطع المنح الدراسية ل الطلاب الايرانيين ,
+source: -	target: الدراسة في الولايات المتحدة و بريطانيا و كندا , في خطوة جديدة تزيد من العزلة الايرانية تجاه الغرب	verb: يرغبون	other_noun: 
+source: -	target: العزلة الايرانية تجاه الغرب	verb: تزيد	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-8" source = "AAW_ARB" sentence = "True">
+<Text>وحسب وكالة الصحافة الفرنسية، قال علي لاريجاني الامين العام للمجلس الاعلى للأمن القومي «من اجل المساعدة في حل المشكلات بالعراق ستبذل ايران قصارى جهدها.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	حسب	_	ADP	ADP	_	3	case
+3	وكالة	_	NOUN	NOUN	_	7	nmod
+4	الصحافة	_	NOUN	NOUN	_	3	nmod
+5	الفرنسية	_	ADJ	ADJ	_	4	amod
+6	,	_	PUNCT	PUNCT	_	5	punct
+7	قال	_	VERB	VERB	_	1	parataxis
+8	علي	_	X	X	_	9	nmod
+9	لاريجاني	_	X	X	_	7	nsubj
+10	الامين	_	NOUN	NOUN	_	9	nmod
+11	العام	_	ADJ	ADJ	_	10	amod
+12	ل	_	ADP	ADP	_	13	case
+13	المجلس	_	NOUN	NOUN	_	10	nmod
+14	الاعلى	_	ADJ	ADJ	_	13	amod
+15	ل	_	ADP	ADP	_	16	case
+16	الامن	_	NOUN	NOUN	_	13	nmod
+17	القومي	_	ADJ	ADJ	_	16	amod
+18	"	_	PUNCT	PUNCT	_	9	punct
+19	من	_	ADP	ADP	_	21	case
+20	اجل	_	NOUN	NOUN	_	21	cc
+21	المساعدة	_	NOUN	NOUN	_	13	amod
+22	في	_	ADP	ADP	_	23	case
+23	حل	_	NOUN	NOUN	_	21	nmod
+24	المشكلات	_	NOUN	NOUN	_	23	nmod
+25	ب	_	ADP	ADP	_	26	case
+26	العراق	_	NOUN	NOUN	_	23	nmod
+27	س	_	PART	PART	_	28	aux
+28	تبذل	_	VERB	VERB	_	21	conj
+29	ايران	_	NOUN	NOUN	_	28	nsubj
+30	قصارى	_	NOUN	NOUN	_	29	nmod
+31	جهد	_	NOUN	NOUN	_	30	nmod
+32	ها	_	PRON	PRON	_	31	nmod
+33	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+قال
+تبذل
+</Verbs>
+<Nouns>
+لاريجاني
+وكالة الصحافة الفرنسية ,
+ايران قصارى جهد ها
+</Nouns>
+<Tuples>
+source: لاريجاني	target: -	verb: قال	other_noun: وكالة الصحافة الفرنسية ,
+source: ايران قصارى جهد ها	target: -	verb: تبذل	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0004-5" source = "AAW_ARB" sentence = "True">
+<Text>وتعقيباً على تصريحات احمدي نجاد بان البرنامج النووي مثل «القطار بدون مكابح»، قال النائب الايراني الاصلاحي قدرة الله علي خاني انها «تقوض جهود مسؤولين اخرين وتجعل الاعداء اكثر تمسكاً بقراراتهم».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	تعقيبا	_	VERB	VERB	_	1	parataxis
+3	على	_	ADP	ADP	_	4	case
+4	تصريحات	_	NOUN	NOUN	_	2	dobj
+5	احمدي	_	ADJ	ADJ	_	4	amod
+6	نجاد	_	_	_	_	0	det
+7	ب	_	ADP	ADP	_	18	mark
+8	ان	_	CONJ	CONJ	_	18	mark
+9	البرنامج	_	NOUN	NOUN	_	18	nsubj
+10	النووي	_	ADJ	ADJ	_	9	amod
+11	مثل	_	ADP	ADP	_	16	case
+12	"	_	PUNCT	PUNCT	_	16	punct
+13	القطار	_	_	_	_	0	det
+14	ب	_	ADP	ADP	_	16	case
+15	دون	_	ADP	ADP	_	16	case
+16	مكابح	_	X	X	_	9	nmod
+17	",	_	X	X	_	16	nmod
+18	قال	_	VERB	VERB	_	2	advcl
+19	النائب	_	NOUN	NOUN	_	18	nsubj
+20	الايراني	_	ADJ	ADJ	_	19	amod
+21	الاصلاحي	_	ADJ	ADJ	_	19	amod
+22	قدرة	_	NOUN	NOUN	_	21	nmod
+23	الله	_	NOUN	NOUN	_	22	nmod
+24	علي	_	X	X	_	23	nmod
+25	خاني	_	ADJ	ADJ	_	24	amod
+26	ان	_	CONJ	CONJ	_	29	mark
+27	ها	_	PRON	PRON	_	29	nsubj
+28	"	_	PUNCT	PUNCT	_	29	punct
+29	تقوض	_	VERB	VERB	_	18	ccomp
+30	جهود	_	NOUN	NOUN	_	29	nsubj
+31	مسؤولين	_	NOUN	NOUN	_	30	nmod
+32	اخرين	_	ADJ	ADJ	_	31	amod
+33	و	_	CONJ	CONJ	_	29	cc
+34	تجعل	_	VERB	VERB	_	29	conj
+35	الاعداء	_	NOUN	NOUN	_	34	nsubj
+36	اكثر	_	ADJ	ADJ	_	35	amod
+37	تمسكا	_	_	_	_	0	det
+38	ب	_	ADP	ADP	_	39	case
+39	قرارات	_	NOUN	NOUN	_	34	dobj
+40	هم	_	PRON	PRON	_	39	nmod
+41	".	_	ADJ	ADJ	_	39	amod
+</Parse>
+<Verbs>
+تعقيبا
+قال
+تقوض
+تجعل
+</Verbs>
+<Nouns>
+تصريحات احمدي
+البرنامج النووي مثل " ب دون مكابح ",
+النائب الايراني الاصلاحي قدرة الله علي خاني
+ها
+جهود مسؤولين اخرين
+الاعداء اكثر
+قرارات هم ".
+</Nouns>
+<Tuples>
+source: -	target: تصريحات احمدي	verb: تعقيبا	other_noun: 
+source: البرنامج النووي مثل " ب دون مكابح ",	target: -	verb: قال	other_noun: 
+source: النائب الايراني الاصلاحي قدرة الله علي خاني	target: -	verb: قال	other_noun: 
+source: ها	target: -	verb: تقوض	other_noun: 
+source: جهود مسؤولين اخرين	target: -	verb: تقوض	other_noun: 
+source: الاعداء اكثر	target: قرارات هم ".	verb: تجعل	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0004-4" source = "AAW_ARB" sentence = "True">
+<Text>وجاء اعلان الحكومة الايرانية في وقت تزداد الانتقادات للرئيس الايراني محمود احمدي نجاد الذي بدأ زيارة إلى السودان أمس، بسبب تصريحاته المثيرة للجدل في ما يخص الازمة النووية.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	جاء	_	VERB	VERB	_	1	parataxis
+3	اعلان	_	NOUN	NOUN	_	2	nsubj
+4	الحكومة	_	NOUN	NOUN	_	3	nmod
+5	الايرانية	_	ADJ	ADJ	_	4	amod
+6	في	_	ADP	ADP	_	7	case
+7	وقت	_	NOUN	NOUN	_	2	nmod
+8	تزداد	_	VERB	VERB	_	7	acl
+9	الانتقادات	_	NOUN	NOUN	_	8	dobj
+10	ل	_	ADP	ADP	_	11	case
+11	الرئيس	_	NOUN	NOUN	_	8	nmod
+12	الايراني	_	ADJ	ADJ	_	11	amod
+13	محمود	_	X	X	_	15	nmod
+14	احمدي	_	X	X	_	15	nmod
+15	نجاد	_	X	X	_	11	nmod
+16	الذي	_	PRON	PRON	_	15	cc
+17	بدا	_	VERB	VERB	_	15	acl
+18	زيارة	_	NOUN	NOUN	_	17	dobj
+19	الى	_	ADP	ADP	_	20	case
+20	السودان	_	NOUN	NOUN	_	17	nmod
+21	امس	_	ADV	ADV	_	20	advmod
+22	,	_	PUNCT	PUNCT	_	21	punct
+23	ب	_	ADP	ADP	_	25	case
+24	سبب	_	NOUN	NOUN	_	25	cc
+25	تصريحات	_	NOUN	NOUN	_	17	nmod
+26	ه	_	PRON	PRON	_	25	nmod
+27	المثيرة	_	_	_	_	0	det
+28	ل	_	ADP	ADP	_	29	case
+29	الجدل	_	NOUN	NOUN	_	25	nmod
+30	في	_	ADP	ADP	_	31	case
+31	ما	_	PRON	PRON	_	29	nmod
+32	يخص	_	VERB	VERB	_	31	acl
+33	الازمة	_	NOUN	NOUN	_	32	dobj
+34	النووية	_	ADJ	ADJ	_	33	amod
+35	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+جاء
+تزداد
+بدا
+يخص
+</Verbs>
+<Nouns>
+اعلان الحكومة الايرانية
+وقت تزداد الانتقادات ل الرئيس الايراني محمود احمدي نجاد الذي بدا زيارة الى السودان امس , ب سبب تصريحات ه ل الجدل في ما يخص الازمة النووية
+الانتقادات
+الرئيس الايراني محمود احمدي نجاد الذي بدا زيارة الى السودان امس , ب سبب تصريحات ه ل الجدل في ما يخص الازمة النووية
+زيارة
+تصريحات ه ل الجدل في ما يخص الازمة النووية
+السودان امس ,
+الازمة النووية
+</Nouns>
+<Tuples>
+source: اعلان الحكومة الايرانية	target: -	verb: جاء	other_noun: وقت تزداد الانتقادات ل الرئيس الايراني محمود احمدي نجاد الذي بدا زيارة الى السودان امس , ب سبب تصريحات ه ل الجدل في ما يخص الازمة النووية
+source: -	target: الانتقادات	verb: تزداد	other_noun: الرئيس الايراني محمود احمدي نجاد الذي بدا زيارة الى السودان امس , ب سبب تصريحات ه ل الجدل في ما يخص الازمة النووية
+source: -	target: زيارة	verb: بدا	other_noun: تصريحات ه ل الجدل في ما يخص الازمة النووية السودان امس ,
+source: -	target: الازمة النووية	verb: يخص	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-4" source = "AAW_ARB" sentence = "True">
+<Text>إننا نستقبل متطوعين.</Text>
+<Parse>
+1	ان	_	CONJ	CONJ	_	0	root
+2	نا	_	PRON	PRON	_	3	nsubj
+3	نستقبل	_	X	X	_	1	parataxis
+4	متطوعين	_	ADJ	ADJ	_	3	amod
+5	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-5" source = "AAW_ARB" sentence = "True">
+<Text>نحن لا نقبل الجميع، ونرفض من لا يتماشون مع وضعنا الداخلي، ومن لا ينتمون الى دول الطوق».</Text>
+<Parse>
+1	نحن	_	X	X	_	3	nsubj
+2	لا	_	PART	PART	_	3	neg
+3	نقبل	_	X	X	_	0	root
+4	الجميع	_	NOUN	NOUN	_	3	dobj
+5	,	_	PUNCT	PUNCT	_	4	punct
+6	و	_	CONJ	CONJ	_	3	cc
+7	نرفض	_	VERB	VERB	_	3	conj
+8	من	_	ADP	ADP	_	10	mark
+9	لا	_	PART	PART	_	10	neg
+10	يتماشون	_	VERB	VERB	_	7	ccomp
+11	مع	_	ADP	ADP	_	12	case
+12	وضع	_	NOUN	NOUN	_	10	dobj
+13	نا	_	PRON	PRON	_	12	nmod
+14	الداخلي	_	ADJ	ADJ	_	12	amod
+15	,	_	PUNCT	PUNCT	_	14	punct
+16	و	_	CONJ	CONJ	_	3	cc
+17	من	_	PRON	PRON	_	3	conj
+18	لا	_	PART	PART	_	19	neg
+19	ينتمون	_	VERB	VERB	_	17	acl
+20	الى	_	ADP	ADP	_	21	case
+21	دول	_	NOUN	NOUN	_	19	dobj
+22	الطوق	_	X	X	_	21	nmod
+23	".	_	X	X	_	22	nmod
+</Parse>
+<Verbs>
+نرفض
+يتماشون
+ينتمون
+</Verbs>
+<Nouns>
+وضع نا الداخلي ,
+دول الطوق ".
+</Nouns>
+<Tuples>
+source: -	target: وضع نا الداخلي ,	verb: يتماشون	other_noun: 
+source: -	target: دول الطوق ".	verb: ينتمون	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0002-3" source = "AAW_ARB" sentence = "True">
+<Text>وكان السبعة يحاكمون على دورهم في محاولة تقديم جواز سفر مزور لرجل يشتبه في انه عضو في القاعدة، ونقل عشرات من رعايا دول عربية ودول في شرق افريقيا الى سويسرا بين 1998 و2004.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	كان	_	VERB	VERB	_	1	parataxis
+3	السبعة	_	NOUN	NOUN	_	2	nsubj
+4	يحاكمون	_	VERB	VERB	_	2	xcomp
+5	على	_	ADP	ADP	_	6	case
+6	دور	_	NOUN	NOUN	_	4	dobj
+7	هم	_	PRON	PRON	_	6	nmod
+8	في	_	ADP	ADP	_	9	case
+9	محاولة	_	NOUN	NOUN	_	4	nmod
+10	تقديم	_	NOUN	NOUN	_	9	nmod
+11	جواز	_	X	X	_	10	nmod
+12	سفر	_	NOUN	NOUN	_	11	nmod
+13	مزور	_	_	_	_	0	det
+14	ل	_	ADP	ADP	_	15	case
+15	رجل	_	NOUN	NOUN	_	11	dobj
+16	يشتبه	_	VERB	VERB	_	11	acl
+17	في	_	ADP	ADP	_	20	case
+18	ان	_	CONJ	CONJ	_	20	mark
+19	ه	_	PRON	PRON	_	20	nsubj
+20	عضو	_	NOUN	NOUN	_	16	conj
+21	في	_	ADP	ADP	_	22	case
+22	القاعدة	_	NOUN	NOUN	_	20	nmod
+23	,	_	PUNCT	PUNCT	_	22	punct
+24	و	_	CONJ	CONJ	_	20	cc
+25	نقل	_	NOUN	NOUN	_	20	conj
+26	عشرات	_	NUM	NUM	_	25	nummod
+27	من	_	ADP	ADP	_	28	case
+28	رعايا	_	NOUN	NOUN	_	25	nmod
+29	دول	_	NOUN	NOUN	_	28	nmod
+30	عربية	_	ADJ	ADJ	_	29	amod
+31	و	_	CONJ	CONJ	_	29	cc
+32	دول	_	NOUN	NOUN	_	29	conj
+33	في	_	ADP	ADP	_	34	case
+34	شرق	_	NOUN	NOUN	_	32	nmod
+35	افريقيا	_	X	X	_	34	nmod
+36	الى	_	ADP	ADP	_	37	case
+37	سويسرا	_	X	X	_	35	nmod
+38	بين	_	ADP	ADP	_	39	case
+39	1998	_	NUM	NUM	_	37	nummod
+40	و2004	_	NUM	NUM	_	39	nummod
+41	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+كان
+يحاكمون
+يشتبه
+</Verbs>
+<Nouns>
+السبعة
+دور هم
+محاولة تقديم جواز سفر ل رجل يشتبه في ان ه عضو في القاعدة , و نقل عشرات من رعايا دول عربية و دول في شرق افريقيا الى سويسرا بين 1998 و2004
+</Nouns>
+<Tuples>
+source: السبعة	target: -	verb: كان	other_noun: 
+source: -	target: دور هم	verb: يحاكمون	other_noun: محاولة تقديم جواز سفر ل رجل يشتبه في ان ه عضو في القاعدة , و نقل عشرات من رعايا دول عربية و دول في شرق افريقيا الى سويسرا بين 1998 و2004
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0002-2" source = "AAW_ARB" sentence = "True">
+<Text>إلا ان ستة من بينهم ادينوا بمخالفة القانون المنظم لاقامة الاجانب، ما يعرضهم لعقوبات تبدأ من ثمانية اشهر الى أحد عشر شهرا مع ايقاف التنفيذ كما ذكرت وكالة الانباء السويسرية.</Text>
+<Parse>
+1	الا	_	PART	PART	_	2	cc
+2	ان	_	CONJ	CONJ	_	16	advmod:emph
+3	ستة	_	NUM	NUM	_	2	nsubj
+4	من	_	ADP	ADP	_	6	case
+5	بين	_	ADP	ADP	_	6	case
+6	هم	_	PRON	PRON	_	3	nmod
+7	ادينوا	_	_	_	_	0	det
+8	ب	_	ADP	ADP	_	9	case
+9	مخالفة	_	NOUN	NOUN	_	6	nsubj
+10	القانون	_	NOUN	NOUN	_	9	nmod
+11	المنظم	_	ADJ	ADJ	_	10	amod
+12	ل	_	ADP	ADP	_	13	case
+13	اقامة	_	NOUN	NOUN	_	10	nmod
+14	الاجانب	_	ADJ	ADJ	_	13	amod
+15	,	_	PUNCT	PUNCT	_	14	punct
+16	ما	_	PRON	PRON	_	0	root
+17	يعرض	_	VERB	VERB	_	16	acl
+18	هم	_	PRON	PRON	_	17	dobj
+19	ل	_	ADP	ADP	_	20	case
+20	عقوبات	_	NOUN	NOUN	_	17	nmod
+21	تبدا	_	NOUN	NOUN	_	20	nmod
+22	من	_	ADP	ADP	_	23	case
+23	ثمانية	_	NUM	NUM	_	21	nummod
+24	اشهر	_	NOUN	NOUN	_	23	nmod
+25	الى	_	ADP	ADP	_	26	case
+26	احد	_	NOUN	NOUN	_	23	nmod
+27	عشر	_	NUM	NUM	_	26	nummod
+28	شهرا	_	NOUN	NOUN	_	27	nmod
+29	مع	_	ADP	ADP	_	30	case
+30	ايقاف	_	NOUN	NOUN	_	27	nmod
+31	التنفيذ	_	NOUN	NOUN	_	30	nmod
+32	ك	_	ADP	ADP	_	33	case
+33	ما	_	PRON	PRON	_	27	appos
+34	ذكرت	_	VERB	VERB	_	33	acl
+35	وكالة	_	NOUN	NOUN	_	34	nsubj
+36	الانباء	_	NOUN	NOUN	_	35	nmod
+37	السويسرية	_	ADJ	ADJ	_	35	amod
+38	.	_	PUNCT	PUNCT	_	16	punct
+</Parse>
+<Verbs>
+يعرض
+ذكرت
+</Verbs>
+<Nouns>
+هم
+عقوبات تبدا من ثمانية اشهر الى احد عشر شهرا مع ايقاف التنفيذ ك ما ذكرت وكالة الانباء السويسرية
+وكالة الانباء السويسرية
+</Nouns>
+<Tuples>
+source: -	target: هم	verb: يعرض	other_noun: عقوبات تبدا من ثمانية اشهر الى احد عشر شهرا مع ايقاف التنفيذ ك ما ذكرت وكالة الانباء السويسرية
+source: وكالة الانباء السويسرية	target: -	verb: ذكرت	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0002-4" source = "AAW_ARB" sentence = "True">
+<Text>وكانت سويسرا قد اعتقلت ثمانية مشبوهين في يناير (كانون الثاني) 2003 في مداهمات متزامنة شنتها الشرطة في خمس مناطق كبرى من بينها بيرن وزيورخ وجنيف في إطار تحقيقات في هجمات الرياض التي قتل فيها 35 شخصا في 12 مايو (ايار) 2003 ويشتبه في ان المعتقلين قدموا دعما لوجستيا لتنظيم القاعدة الذي القيت عليه مسؤولية الهجمات، ثم افرجت عن احد المشبوهين في مارس (اذار) 2004 .</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	كانت	_	VERB	VERB	_	1	parataxis
+3	سويسرا	_	X	X	_	2	nsubj
+4	قد	_	PART	PART	_	5	aux
+5	اعتقلت	_	VERB	VERB	_	2	xcomp
+6	ثمانية	_	NUM	NUM	_	5	dobj
+7	مشبوهين	_	NOUN	NOUN	_	6	nmod
+8	في	_	ADP	ADP	_	9	case
+9	يناير	_	NOUN	NOUN	_	5	nmod
+10	(	_	PUNCT	PUNCT	_	11	punct
+11	كانون	_	NOUN	NOUN	_	9	appos
+12	الثاني	_	ADJ	ADJ	_	11	amod
+13	)	_	PUNCT	PUNCT	_	11	punct
+14	2003	_	NUM	NUM	_	11	nummod
+15	في	_	ADP	ADP	_	16	case
+16	مدا	_	NOUN	NOUN	_	5	advmod
+17	همات	_	X	X	_	16	nmod
+18	متزامنة	_	_	_	_	0	mwe
+19	شنت	_	VERB	VERB	_	16	acl
+20	ها	_	PRON	PRON	_	19	dobj
+21	الشرطة	_	NOUN	NOUN	_	19	nsubj
+22	في	_	ADP	ADP	_	23	case
+23	خمس	_	NUM	NUM	_	19	advmod
+24	مناطق	_	NOUN	NOUN	_	23	nmod
+25	كبرى	_	ADJ	ADJ	_	24	amod
+26	من	_	ADP	ADP	_	28	case
+27	بين	_	ADP	ADP	_	26	mwe
+28	ها	_	PRON	PRON	_	23	nmod
+29	بيرن	_	_	_	_	0	conj
+30	و	_	CONJ	CONJ	_	2	cc
+31	زيورخ	_	VERB	VERB	_	19	conj
+32	و	_	CONJ	CONJ	_	31	cc
+33	جنيف	_	X	X	_	31	conj
+34	في	_	ADP	ADP	_	35	case
+35	اطار	_	NOUN	NOUN	_	33	dobj
+36	تحقيقات	_	NOUN	NOUN	_	35	nmod
+37	في	_	ADP	ADP	_	38	case
+38	هجمات	_	NOUN	NOUN	_	33	dobj
+39	الرياض	_	NOUN	NOUN	_	38	nmod
+40	التي	_	PRON	PRON	_	39	cc
+41	قتل	_	VERB	VERB	_	39	acl
+42	في	_	ADP	ADP	_	43	case
+43	ها	_	PRON	PRON	_	41	dobj
+44	35	_	NUM	NUM	_	43	nsubj
+45	شخصا	_	NOUN	NOUN	_	44	nmod
+46	في	_	ADP	ADP	_	47	case
+47	12	_	NUM	NUM	_	43	advmod
+48	مايو	_	NOUN	NOUN	_	47	nmod
+49	(	_	PUNCT	PUNCT	_	50	punct
+50	ايار	_	NOUN	NOUN	_	47	appos
+51	)	_	PUNCT	PUNCT	_	50	punct
+52	2003	_	NUM	NUM	_	48	appos
+53	و	_	CONJ	CONJ	_	2	cc
+54	يشتبه	_	VERB	VERB	_	2	conj
+55	في	_	ADP	ADP	_	58	mark
+56	ان	_	CONJ	CONJ	_	58	mark
+57	المعتقلين	_	NOUN	NOUN	_	58	nsubj
+58	قدموا	_	VERB	VERB	_	54	ccomp
+59	دعما	_	NOUN	NOUN	_	58	nmod
+60	لوجستيا	_	_	_	_	0	det
+61	ل	_	ADP	ADP	_	62	case
+62	تنظيم	_	NOUN	NOUN	_	58	nmod
+63	القاعدة	_	NOUN	NOUN	_	62	nmod
+64	الذي	_	PRON	PRON	_	63	cc
+65	القيت	_	VERB	VERB	_	63	acl
+66	على	_	ADP	ADP	_	67	case
+67	ه	_	PRON	PRON	_	65	dobj
+68	مسؤولية	_	NOUN	NOUN	_	67	nsubj
+69	الهجمات	_	NOUN	NOUN	_	68	nmod
+70	,	_	PUNCT	PUNCT	_	69	punct
+71	ثم	_	CONJ	CONJ	_	65	cc
+72	افرجت	_	VERB	VERB	_	65	conj
+73	عن	_	ADP	ADP	_	74	case
+74	احد	_	NOUN	NOUN	_	72	dobj
+75	المشبوهين	_	NOUN	NOUN	_	74	nmod
+76	في	_	ADP	ADP	_	77	case
+77	مارس	_	NOUN	NOUN	_	74	nmod
+78	(	_	PUNCT	PUNCT	_	79	punct
+79	اذار	_	NOUN	NOUN	_	77	appos
+80	)	_	PUNCT	PUNCT	_	77	punct
+81	2004	_	NUM	NUM	_	79	nummod
+82	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+كانت
+اعتقلت
+شنت
+زيورخ
+قتل
+يشتبه
+قدموا
+القيت
+افرجت
+</Verbs>
+<Nouns>
+سويسرا
+ثمانية
+يناير ( كانون الثاني ) 2003
+الشرطة
+ها
+ها
+المعتقلين
+دعما
+تنظيم القاعدة الذي القيت على ه مسؤولية الهجمات , ثم افرجت عن احد المشبوهين في مارس ( اذار ) 2004
+ه
+احد المشبوهين في مارس ( اذار ) 2004
+</Nouns>
+<Tuples>
+source: سويسرا	target: -	verb: كانت	other_noun: 
+source: -	target: ثمانية	verb: اعتقلت	other_noun: يناير ( كانون الثاني ) 2003
+source: الشرطة	target: ها	verb: شنت	other_noun: 
+source: -	target: ها	verb: قتل	other_noun: 
+source: المعتقلين	target: -	verb: قدموا	other_noun: دعما تنظيم القاعدة الذي القيت على ه مسؤولية الهجمات , ثم افرجت عن احد المشبوهين في مارس ( اذار ) 2004
+source: -	target: ه	verb: القيت	other_noun: 
+source: -	target: احد المشبوهين في مارس ( اذار ) 2004	verb: افرجت	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-2" source = "AAW_ARB" sentence = "True">
+<Text>وروى العبسي لـ«الشرق الاوسط»، التي التقته في مخيم نهر البارد للاجئين الفلسطينيين في شمال لبنان، حيث تسيطر حركته «لم اسجن في الأردن كما يدعون، وسجنت في سورية لأنني كنت احاول التسلل إلى فلسطين عن طريق الجولان».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	روى	_	X	X	_	1	parataxis
+3	العبسي	_	ADJ	ADJ	_	2	amod
+4	ل	_	ADP	ADP	_	6	case
+5	"	_	PUNCT	PUNCT	_	6	punct
+6	الشرق	_	NOUN	NOUN	_	2	dobj
+7	الاوسط	_	ADJ	ADJ	_	6	amod
+8	",	_	ADJ	ADJ	_	6	amod
+9	التي	_	PRON	PRON	_	6	cc
+10	التقت	_	VERB	VERB	_	9	acl
+11	ه	_	PRON	PRON	_	10	dobj
+12	في	_	ADP	ADP	_	13	case
+13	مخيم	_	NOUN	NOUN	_	10	nmod
+14	نهر	_	NOUN	NOUN	_	13	nmod
+15	البارد	_	ADJ	ADJ	_	14	amod
+16	ل	_	ADP	ADP	_	17	case
+17	الاجئين	_	NOUN	NOUN	_	14	nmod
+18	الفلسطينيين	_	NOUN	NOUN	_	17	nmod
+19	في	_	ADP	ADP	_	20	case
+20	شمال	_	NOUN	NOUN	_	10	nmod
+21	لبنان	_	NOUN	NOUN	_	20	nmod
+22	,	_	PUNCT	PUNCT	_	21	punct
+23	حيث	_	CONJ	CONJ	_	24	mark
+24	تسيطر	_	VERB	VERB	_	14	advcl
+25	حركة	_	NOUN	NOUN	_	24	dobj
+26	ه	_	PRON	PRON	_	25	nmod
+27	"	_	PUNCT	PUNCT	_	29	punct
+28	لم	_	PART	PART	_	29	neg
+29	اسجن	_	X	X	_	24	conj
+30	في	_	ADP	ADP	_	31	case
+31	الاردن	_	NOUN	NOUN	_	29	dobj
+32	ك	_	ADP	ADP	_	33	case
+33	ما	_	PRON	PRON	_	29	dobj
+34	يدعون	_	VERB	VERB	_	33	acl
+35	,	_	PUNCT	PUNCT	_	34	punct
+36	و	_	CONJ	CONJ	_	34	cc
+37	سجنت	_	VERB	VERB	_	34	conj
+38	في	_	ADP	ADP	_	39	case
+39	سورية	_	ADJ	ADJ	_	37	advmod
+40	ل	_	ADP	ADP	_	44	mark
+41	ان	_	CONJ	CONJ	_	44	mark
+42	ني	_	PRON	PRON	_	43	nsubj
+43	كنت	_	X	X	_	44	nsubj
+44	احاول	_	VERB	VERB	_	39	ccomp
+45	التسلل	_	NOUN	NOUN	_	44	dobj
+46	الى	_	ADP	ADP	_	47	case
+47	فلسطين	_	NOUN	NOUN	_	44	advmod
+48	عن	_	ADP	ADP	_	49	case
+49	طريق	_	NOUN	NOUN	_	47	nmod
+50	الجولان	_	NOUN	NOUN	_	49	nmod
+51	".	_	ADJ	ADJ	_	50	amod
+</Parse>
+<Verbs>
+التقت
+تسيطر
+يدعون
+سجنت
+احاول
+</Verbs>
+<Nouns>
+ه
+شمال لبنان ,
+مخيم نهر البارد ل الاجئين الفلسطينيين حيث تسيطر حركة ه " لم اسجن في الاردن ك ما يدعون , و سجنت في سورية ل ان ني كنت احاول التسلل الى فلسطين عن طريق الجولان ".
+حركة ه
+كنت
+التسلل
+</Nouns>
+<Tuples>
+source: -	target: ه	verb: التقت	other_noun: شمال لبنان , مخيم نهر البارد ل الاجئين الفلسطينيين حيث تسيطر حركة ه " لم اسجن في الاردن ك ما يدعون , و سجنت في سورية ل ان ني كنت احاول التسلل الى فلسطين عن طريق الجولان ".
+source: -	target: حركة ه	verb: تسيطر	other_noun: 
+source: كنت	target: التسلل	verb: احاول	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-3" source = "AAW_ARB" sentence = "True">
+<Text>وحول الاتهامات بأن حركته تؤوي متطوعين من الخارج رد قائلا «ما هي تهمتنا؟</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	حول	_	ADP	ADP	_	3	case
+3	الاتهامات	_	NOUN	NOUN	_	17	dobj
+4	ب	_	ADP	ADP	_	8	mark
+5	ان	_	CONJ	CONJ	_	8	mark
+6	حركة	_	NOUN	NOUN	_	8	nsubj
+7	ه	_	PRON	PRON	_	6	nmod
+8	تؤوي	_	VERB	VERB	_	3	ccomp
+9	متطوعين	_	ADJ	ADJ	_	8	nsubj
+10	من	_	ADP	ADP	_	11	case
+11	الخارج	_	NOUN	NOUN	_	8	nmod
+12	رد	_	NOUN	NOUN	_	11	nmod
+13	قائلا	_	ADJ	ADJ	_	12	amod
+14	"	_	PUNCT	PUNCT	_	17	punct
+15	ما	_	PART	PART	_	17	advmod:emph
+16	هي	_	PRON	PRON	_	17	cc
+17	تهمة	_	NOUN	NOUN	_	1	parataxis
+18	نا	_	PRON	PRON	_	19	nmod
+19	?	_	X	X	_	17	nmod
+</Parse>
+<Verbs>
+تؤوي
+</Verbs>
+<Nouns>
+متطوعين
+حركة ه
+الخارج رد قائلا
+</Nouns>
+<Tuples>
+source: متطوعين	target: -	verb: تؤوي	other_noun: الخارج رد قائلا
+source: حركة ه	target: -	verb: تؤوي	other_noun: الخارج رد قائلا
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-14" source = "AAW_ARB" sentence = "True">
+<Text>وفي حديث آخر انتقد الدكتور محمود المشهداني رئيس مجلس النواب (البرلمان) العراقي اعضاء في البرلمان مشيرا الى ان «هناك اعضاء يوجدون في دول الجوار اكثر من وجودهم في العراق، لانهم يشعرون هناك بالامان، ونحن لدينا 3 اجتماعات في الاسبوع وما تبقى من الوقت له الحق في ان يلتقي بناخبيه او يلتحق بعائلته خارج العراق، خاصة ان رواتب اعضاء المجلس جيدة وتمكنهم من السكن خارج العراق بسهولة».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	في	_	ADP	ADP	_	3	case
+3	حديث	_	NOUN	NOUN	_	5	nmod
+4	اخر	_	ADJ	ADJ	_	3	amod
+5	انتقد	_	VERB	VERB	_	1	parataxis
+6	الدكتور	_	NOUN	NOUN	_	5	dobj
+7	محمود	_	X	X	_	8	nmod
+8	المشهداني	_	X	X	_	6	nmod
+9	رئيس	_	NOUN	NOUN	_	8	nmod
+10	مجلس	_	NOUN	NOUN	_	9	nmod
+11	النواب	_	NOUN	NOUN	_	10	nmod
+12	(	_	PUNCT	PUNCT	_	13	punct
+13	البرلمان	_	NOUN	NOUN	_	10	appos
+14	)	_	PUNCT	PUNCT	_	13	punct
+15	العراقي	_	ADJ	ADJ	_	10	appos
+16	اعضاء	_	NOUN	NOUN	_	15	nmod
+17	في	_	ADP	ADP	_	18	case
+18	البرلمان	_	NOUN	NOUN	_	5	advmod
+19	مشيرا	_	ADJ	ADJ	_	5	xcomp
+20	الى	_	ADP	ADP	_	23	case
+21	ان	_	CONJ	CONJ	_	23	mark
+22	"	_	PUNCT	PUNCT	_	23	punct
+23	هناك	_	ADV	ADV	_	19	dobj
+24	اعضاء	_	NOUN	NOUN	_	23	nsubj
+25	يوجدون	_	VERB	VERB	_	24	acl
+26	في	_	ADP	ADP	_	27	case
+27	دول	_	NOUN	NOUN	_	25	nmod
+28	الجوار	_	NOUN	NOUN	_	27	nmod
+29	اكثر	_	ADJ	ADJ	_	28	amod
+30	من	_	ADP	ADP	_	31	case
+31	وجود	_	NOUN	NOUN	_	29	nmod
+32	هم	_	PRON	PRON	_	31	nsubj
+33	في	_	ADP	ADP	_	34	case
+34	العراق	_	NOUN	NOUN	_	31	nmod
+35	,	_	PUNCT	PUNCT	_	34	punct
+36	ل	_	ADP	ADP	_	39	mark
+37	ان	_	CONJ	CONJ	_	39	mark
+38	هم	_	PRON	PRON	_	39	nsubj
+39	يشعرون	_	VERB	VERB	_	25	conj
+40	هناك	_	ADV	ADV	_	39	advmod
+41	ب	_	ADP	ADP	_	42	case
+42	الامان	_	NOUN	NOUN	_	39	advmod
+43	,	_	PUNCT	PUNCT	_	42	punct
+44	و	_	CONJ	CONJ	_	1	cc
+45	نحن	_	PRON	PRON	_	44	mwe
+46	لدي	_	ADP	ADP	_	47	case
+47	نا	_	PRON	PRON	_	45	dobj
+48	3	_	NUM	NUM	_	47	nsubj
+49	اجتماعات	_	NOUN	NOUN	_	48	nmod
+50	في	_	ADP	ADP	_	51	case
+51	الاسبوع	_	NOUN	NOUN	_	48	nmod
+52	و	_	CONJ	CONJ	_	47	cc
+53	ما	_	PRON	PRON	_	47	conj
+54	تبقى	_	VERB	VERB	_	53	acl
+55	من	_	ADP	ADP	_	56	case
+56	الوقت	_	NOUN	NOUN	_	53	nmod
+57	ل	_	ADP	ADP	_	58	case
+58	ه	_	PRON	PRON	_	56	dobj
+59	الحق	_	NOUN	NOUN	_	58	nsubj
+60	في	_	ADP	ADP	_	62	mark
+61	ان	_	CONJ	CONJ	_	62	mark
+62	يلتقي	_	VERB	VERB	_	58	acl
+63	ب	_	ADP	ADP	_	64	case
+64	ناخبي	_	NOUN	NOUN	_	62	dobj
+65	ه	_	PRON	PRON	_	67	mark
+66	او	_	CONJ	CONJ	_	67	mark
+67	يلتحق	_	VERB	VERB	_	62	conj
+68	ب	_	ADP	ADP	_	69	case
+69	عائلة	_	NOUN	NOUN	_	67	dobj
+70	ه	_	PRON	PRON	_	69	nmod
+71	خارج	_	ADP	ADP	_	72	case
+72	العراق	_	NOUN	NOUN	_	69	nmod
+73	,	_	PUNCT	PUNCT	_	72	punct
+74	خاصة	_	ADJ	ADJ	_	73	amod
+75	ان	_	CONJ	CONJ	_	74	cc
+76	رواتب	_	NOUN	NOUN	_	75	appos
+77	اعضاء	_	NOUN	NOUN	_	76	nmod
+78	المجلس	_	NOUN	NOUN	_	77	nmod
+79	جيدة	_	ADJ	ADJ	_	78	amod
+80	و	_	CONJ	CONJ	_	78	cc
+81	تمكن	_	VERB	VERB	_	78	conj
+82	هم	_	PRON	PRON	_	81	dobj
+83	من	_	ADP	ADP	_	84	case
+84	السكن	_	NOUN	NOUN	_	82	nmod
+85	خارج	_	ADP	ADP	_	86	case
+86	العراق	_	NOUN	NOUN	_	84	nmod
+87	ب	_	ADP	ADP	_	88	case
+88	سهولة	_	NOUN	NOUN	_	82	nmod
+89	".	_	NUM	NUM	_	88	nummod
+</Parse>
+<Verbs>
+انتقد
+يوجدون
+يشعرون
+تبقى
+يلتقي
+يلتحق
+تمكن
+</Verbs>
+<Nouns>
+الدكتور محمود المشهداني رئيس مجلس النواب ( البرلمان ) العراقي اعضاء
+حديث اخر
+دول الجوار اكثر من وجود هم في العراق ,
+هم
+ناخبي
+عائلة ه خارج العراق , خاصة ان رواتب اعضاء المجلس جيدة و تمكن هم من السكن خارج العراق ب سهولة ".
+هم
+</Nouns>
+<Tuples>
+source: -	target: الدكتور محمود المشهداني رئيس مجلس النواب ( البرلمان ) العراقي اعضاء	verb: انتقد	other_noun: حديث اخر
+source: هم	target: -	verb: يشعرون	other_noun: 
+source: -	target: ناخبي	verb: يلتقي	other_noun: 
+source: -	target: عائلة ه خارج العراق , خاصة ان رواتب اعضاء المجلس جيدة و تمكن هم من السكن خارج العراق ب سهولة ".	verb: يلتحق	other_noun: 
+source: -	target: هم	verb: تمكن	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-3" source = "AAW_ARB" sentence = "True">
+<Text>لكن البيت الابيض اعلن امس انه لا ينوي اجراء مباحثات ثنائية مع ايران من خلال المشاركة في المؤتمر الدولي حول العراق، مؤكدا انه لم يغير سياسته ازاء ايران وسورية.</Text>
+<Parse>
+1	لكن	_	CONJ	CONJ	_	4	cc
+2	البيت	_	NOUN	NOUN	_	4	nsubj
+3	الابيض	_	ADJ	ADJ	_	2	amod
+4	اعلن	_	VERB	VERB	_	0	root
+5	امس	_	ADV	ADV	_	4	advmod
+6	ان	_	CONJ	CONJ	_	9	mark
+7	ه	_	PRON	PRON	_	9	nsubj
+8	لا	_	PART	PART	_	9	neg
+9	ينوي	_	VERB	VERB	_	4	ccomp
+10	اجراء	_	NOUN	NOUN	_	9	nsubj
+11	مباحثات	_	NOUN	NOUN	_	10	nmod
+12	ثنائية	_	ADJ	ADJ	_	11	amod
+13	مع	_	ADP	ADP	_	14	case
+14	ايران	_	NOUN	NOUN	_	11	nmod
+15	من	_	ADP	ADP	_	17	case
+16	خلال	_	ADP	ADP	_	17	case
+17	المشاركة	_	NOUN	NOUN	_	9	nmod
+18	في	_	ADP	ADP	_	19	case
+19	المؤتمر	_	NOUN	NOUN	_	17	nmod
+20	الدولي	_	ADJ	ADJ	_	19	amod
+21	حول	_	ADP	ADP	_	22	case
+22	العراق	_	NOUN	NOUN	_	19	nmod
+23	,	_	PUNCT	PUNCT	_	22	punct
+24	مؤكدا	_	ADJ	ADJ	_	9	xcomp
+25	ان	_	CONJ	CONJ	_	28	mark
+26	ه	_	PRON	PRON	_	25	mwe
+27	لم	_	PART	PART	_	28	neg
+28	يغير	_	VERB	VERB	_	24	ccomp
+29	سياسة	_	NOUN	NOUN	_	28	nsubj
+30	ه	_	PRON	PRON	_	29	nmod
+31	ازاء	_	ADP	ADP	_	32	case
+32	ايران	_	NOUN	NOUN	_	28	nmod
+33	و	_	CONJ	CONJ	_	32	cc
+34	سورية	_	ADJ	ADJ	_	32	conj
+35	.	_	PUNCT	PUNCT	_	4	punct
+</Parse>
+<Verbs>
+اعلن
+ينوي
+يغير
+</Verbs>
+<Nouns>
+البيت الابيض
+ه
+اجراء مباحثات ثنائية مع ايران
+خلال المشاركة في المؤتمر الدولي حول العراق ,
+سياسة ه
+ايران
+سورية
+</Nouns>
+<Tuples>
+source: البيت الابيض	target: -	verb: اعلن	other_noun: 
+source: ه	target: -	verb: ينوي	other_noun: خلال المشاركة في المؤتمر الدولي حول العراق ,
+source: اجراء مباحثات ثنائية مع ايران	target: -	verb: ينوي	other_noun: خلال المشاركة في المؤتمر الدولي حول العراق ,
+source: سياسة ه	target: -	verb: يغير	other_noun: ايران سورية
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-1" source = "AAW_ARB" sentence = "True">
+<Text>دعا رئيس الوزراء العراقي نوري المالكي أمس البلدان المجاورة والقوى الدولية الى اجتماع في بغداد في 10 مارس (اذار) قائلا انه يأمل أن يجلب المؤتمر المصالحة والدعم لحكومته.</Text>
+<Parse>
+1	دعا	_	VERB	VERB	_	0	root
+2	رئيس	_	NOUN	NOUN	_	1	nsubj
+3	الوزراء	_	NOUN	NOUN	_	2	nmod
+4	العراقي	_	ADJ	ADJ	_	3	amod
+5	نوري	_	X	X	_	6	nmod
+6	المالكي	_	X	X	_	2	nmod
+7	امس	_	ADV	ADV	_	6	advmod
+8	البلدان	_	NOUN	NOUN	_	6	dobj
+9	المجاورة	_	ADJ	ADJ	_	8	amod
+10	و	_	CONJ	CONJ	_	8	cc
+11	القوى	_	NOUN	NOUN	_	8	conj
+12	الدولية	_	ADJ	ADJ	_	11	amod
+13	الى	_	ADP	ADP	_	14	case
+14	اجتماع	_	NOUN	NOUN	_	1	advmod
+15	في	_	ADP	ADP	_	16	case
+16	بغداد	_	NOUN	NOUN	_	14	nmod
+17	في	_	ADP	ADP	_	18	case
+18	10	_	NUM	NUM	_	16	nummod
+19	مارس	_	NOUN	NOUN	_	18	nmod
+20	(	_	PUNCT	PUNCT	_	21	punct
+21	اذار	_	NOUN	NOUN	_	19	appos
+22	)	_	PUNCT	PUNCT	_	21	punct
+23	قائلا	_	ADJ	ADJ	_	1	xcomp
+24	ان	_	CONJ	CONJ	_	26	mark
+25	ه	_	PRON	PRON	_	26	nsubj
+26	يامل	_	VERB	VERB	_	23	ccomp
+27	ان	_	CONJ	CONJ	_	28	mark
+28	يجلب	_	VERB	VERB	_	26	csubj
+29	المؤتمر	_	NOUN	NOUN	_	28	nsubj
+30	المصالحة	_	NOUN	NOUN	_	29	nmod
+31	و	_	CONJ	CONJ	_	30	cc
+32	الدعم	_	NOUN	NOUN	_	30	conj
+33	ل	_	ADP	ADP	_	34	case
+34	حكومة	_	NOUN	NOUN	_	28	nmod
+35	ه	_	PRON	PRON	_	34	nmod
+36	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+دعا
+يامل
+يجلب
+</Verbs>
+<Nouns>
+رئيس الوزراء العراقي نوري المالكي امس البلدان المجاورة و القوى الدولية
+ه
+المؤتمر المصالحة و الدعم
+حكومة ه
+</Nouns>
+<Tuples>
+source: رئيس الوزراء العراقي نوري المالكي امس البلدان المجاورة و القوى الدولية	target: -	verb: دعا	other_noun: 
+source: ه	target: -	verb: يامل	other_noun: 
+source: المؤتمر المصالحة و الدعم	target: -	verb: يجلب	other_noun: حكومة ه
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-10" source = "AAW_ARB" sentence = "True">
+<Text>وفي دمشق اعلن مصدر رسمي في وزارة الخارجية السورية، ان سورية ستحضر المؤتمر.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	في	_	ADP	ADP	_	3	case
+3	دمشق	_	NOUN	NOUN	_	4	nmod
+4	اعلن	_	VERB	VERB	_	1	parataxis
+5	مصدر	_	NOUN	NOUN	_	4	dobj
+6	رسمي	_	ADJ	ADJ	_	5	amod
+7	في	_	ADP	ADP	_	8	case
+8	وزارة	_	NOUN	NOUN	_	5	nmod
+9	الخارجية	_	NOUN	NOUN	_	8	nmod
+10	السورية	_	ADJ	ADJ	_	8	amod
+11	,	_	PUNCT	PUNCT	_	10	punct
+12	ان	_	CONJ	CONJ	_	15	mark
+13	سورية	_	ADJ	ADJ	_	15	nsubj
+14	س	_	PART	PART	_	15	aux
+15	تحضر	_	VERB	VERB	_	4	conj
+16	المؤتمر	_	NOUN	NOUN	_	15	nsubj
+17	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اعلن
+تحضر
+</Verbs>
+<Nouns>
+مصدر رسمي في وزارة الخارجية السورية ,
+دمشق
+المؤتمر
+سورية
+</Nouns>
+<Tuples>
+source: -	target: مصدر رسمي في وزارة الخارجية السورية ,	verb: اعلن	other_noun: دمشق
+source: المؤتمر	target: -	verb: تحضر	other_noun: 
+source: سورية	target: -	verb: تحضر	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-11" source = "AAW_ARB" sentence = "True">
+<Text>واضاف ان الموقف الاميركي في الحضور والتشاور مع سورية في الشأن العراقي يعتبر «خطوة جزئية في الاتجاه الصحيح».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	اضاف	_	VERB	VERB	_	1	parataxis
+3	ان	_	CONJ	CONJ	_	15	mark
+4	الموقف	_	NOUN	NOUN	_	15	nsubj
+5	الاميركي	_	ADJ	ADJ	_	4	amod
+6	في	_	ADP	ADP	_	7	case
+7	الحضور	_	NOUN	NOUN	_	4	nmod
+8	و	_	CONJ	CONJ	_	7	cc
+9	التشاور	_	NOUN	NOUN	_	7	conj
+10	مع	_	ADP	ADP	_	11	case
+11	سورية	_	ADJ	ADJ	_	9	dobj
+12	في	_	ADP	ADP	_	13	case
+13	الشان	_	NOUN	NOUN	_	11	nmod
+14	العراقي	_	ADJ	ADJ	_	13	amod
+15	يعتبر	_	VERB	VERB	_	2	csubjpass
+16	"	_	PUNCT	PUNCT	_	17	punct
+17	خطوة	_	NOUN	NOUN	_	15	dobj
+18	جزئية	_	ADJ	ADJ	_	17	amod
+19	في	_	ADP	ADP	_	20	case
+20	الاتجاه	_	NOUN	NOUN	_	17	nmod
+21	الصحيح	_	ADJ	ADJ	_	20	amod
+22	".	_	X	X	_	20	nmod
+</Parse>
+<Verbs>
+اضاف
+يعتبر
+</Verbs>
+<Nouns>
+الموقف الاميركي في الحضور و التشاور مع سورية في الشان العراقي
+" خطوة جزئية في الاتجاه الصحيح ".
+</Nouns>
+<Tuples>
+source: الموقف الاميركي في الحضور و التشاور مع سورية في الشان العراقي	target: " خطوة جزئية في الاتجاه الصحيح ".	verb: يعتبر	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-12" source = "AAW_ARB" sentence = "True">
+<Text>من جانبها اعلنت فرنسا انها ستحضر الاجتماع الذي سيضم الدول الخمس دائمة العضوية في مجلس الامن الدولي الى جانب دول الجوار العراقي، كما رحبت به بريطانيا.</Text>
+<Parse>
+1	من	_	ADP	ADP	_	2	case
+2	جانب	_	NOUN	NOUN	_	4	nmod
+3	ها	_	PRON	PRON	_	2	nsubj
+4	اعلنت	_	VERB	VERB	_	0	root
+5	فرنسا	_	X	X	_	4	nsubj
+6	ان	_	CONJ	CONJ	_	9	mark
+7	ها	_	PRON	PRON	_	9	nsubj
+8	س	_	PART	PART	_	9	aux
+9	تحضر	_	VERB	VERB	_	4	ccomp
+10	الاجتماع	_	NOUN	NOUN	_	9	nsubj
+11	الذي	_	PRON	PRON	_	10	cc
+12	س	_	PART	PART	_	13	aux
+13	يضم	_	VERB	VERB	_	10	acl
+14	الدول	_	NOUN	NOUN	_	13	nmod
+15	الخمس	_	NUM	NUM	_	14	nummod
+16	دائمة	_	ADJ	ADJ	_	15	amod
+17	العضوية	_	NOUN	NOUN	_	16	nmod
+18	في	_	ADP	ADP	_	19	case
+19	مجلس	_	NOUN	NOUN	_	13	nmod
+20	الامن	_	NOUN	NOUN	_	19	nmod
+21	الدولي	_	ADJ	ADJ	_	19	amod
+22	الى	_	ADP	ADP	_	23	case
+23	جانب	_	NOUN	NOUN	_	13	nmod
+24	دول	_	NOUN	NOUN	_	23	nmod
+25	الجوار	_	NOUN	NOUN	_	24	nmod
+26	العراقي	_	ADJ	ADJ	_	25	amod
+27	,	_	PUNCT	PUNCT	_	26	punct
+28	ك	_	ADP	ADP	_	29	case
+29	ما	_	PRON	PRON	_	13	nmod
+30	رحبت	_	_	_	_	0	det
+31	ب	_	ADP	ADP	_	33	case
+32	ه	_	PRON	PRON	_	33	nmod
+33	بريطانيا	_	X	X	_	29	nmod
+34	.	_	PUNCT	PUNCT	_	4	punct
+</Parse>
+<Verbs>
+اعلنت
+تحضر
+يضم
+</Verbs>
+<Nouns>
+فرنسا
+جانب ها
+الاجتماع س يضم الدول الخمس دائمة العضوية في مجلس الامن الدولي الى جانب دول الجوار العراقي , ك ما ب ه بريطانيا
+ها
+مجلس الامن الدولي
+ما
+الدول الخمس دائمة العضوية
+جانب دول الجوار العراقي ,
+</Nouns>
+<Tuples>
+source: فرنسا	target: -	verb: اعلنت	other_noun: جانب ها
+source: الاجتماع س يضم الدول الخمس دائمة العضوية في مجلس الامن الدولي الى جانب دول الجوار العراقي , ك ما ب ه بريطانيا	target: -	verb: تحضر	other_noun: 
+source: ها	target: -	verb: تحضر	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-13" source = "AAW_ARB" sentence = "True">
+<Text>وفي الشأن الداخلي العراقي نفى نائب رئيس الوزراء العراقي برهم صالح، الذي ترأس لجنة صياغة مسودة قانون النفط العراقي لـ «الشرق الأوسط»، ان تكون المسودة نتيجة «إملاءات أميركية» كما ذكرت تقارير، مؤكدا انها عراقية «مائة في المائة».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	في	_	ADP	ADP	_	3	case
+3	الشان	_	NOUN	NOUN	_	6	nmod
+4	الداخلي	_	ADJ	ADJ	_	3	amod
+5	العراقي	_	ADJ	ADJ	_	3	amod
+6	نفى	_	VERB	VERB	_	1	parataxis
+7	نائب	_	NOUN	NOUN	_	6	nmod
+8	رئيس	_	NOUN	NOUN	_	7	nmod
+9	الوزراء	_	NOUN	NOUN	_	8	nmod
+10	العراقي	_	ADJ	ADJ	_	8	amod
+11	برهم	_	X	X	_	12	nmod
+12	صالح	_	X	X	_	7	nmod
+13	,	_	PUNCT	PUNCT	_	12	punct
+14	الذي	_	PRON	PRON	_	12	cc
+15	تراس	_	VERB	VERB	_	12	acl
+16	لجنة	_	NOUN	NOUN	_	15	dobj
+17	صياغة	_	NOUN	NOUN	_	16	nmod
+18	مسودة	_	ADJ	ADJ	_	17	amod
+19	قانون	_	NOUN	NOUN	_	18	nmod
+20	النفط	_	NOUN	NOUN	_	19	nmod
+21	العراقي	_	ADJ	ADJ	_	20	amod
+22	ل	_	ADP	ADP	_	24	case
+23	"	_	PUNCT	PUNCT	_	24	punct
+24	الشرق	_	NOUN	NOUN	_	21	dobj
+25	الاوسط	_	ADJ	ADJ	_	24	amod
+26	",	_	ADJ	ADJ	_	25	amod
+27	ان	_	CONJ	CONJ	_	28	mark
+28	تكون	_	VERB	VERB	_	29	cop
+29	المسودة	_	ADJ	ADJ	_	26	ccomp
+30	نتيجة	_	NOUN	NOUN	_	29	nmod
+31	"	_	PUNCT	PUNCT	_	32	punct
+32	املاءات	_	NOUN	NOUN	_	30	nmod
+33	اميركية	_	ADJ	ADJ	_	32	amod
+34	"	_	PUNCT	PUNCT	_	32	punct
+35	ك	_	ADP	ADP	_	36	case
+36	ما	_	PRON	PRON	_	6	dobj
+37	ذكرت	_	VERB	VERB	_	36	acl
+38	تقارير	_	NOUN	NOUN	_	37	nsubj
+39	,	_	PUNCT	PUNCT	_	38	punct
+40	مؤكدا	_	ADJ	ADJ	_	6	xcomp
+41	ان	_	CONJ	CONJ	_	45	mark
+42	ها	_	PRON	PRON	_	45	nsubj
+43	عراقية	_	ADJ	ADJ	_	45	advmod
+44	"	_	PUNCT	PUNCT	_	45	punct
+45	مائة	_	NUM	NUM	_	40	dobj
+46	في	_	ADP	ADP	_	47	case
+47	المائة	_	NUM	NUM	_	45	nummod
+48	".	_	NOUN	NOUN	_	47	nmod
+</Parse>
+<Verbs>
+نفى
+تراس
+تكون
+ذكرت
+</Verbs>
+<Nouns>
+ما
+الشان الداخلي العراقي
+نائب رئيس الوزراء العراقي برهم صالح , الذي تراس لجنة صياغة مسودة قانون النفط العراقي ل " الشرق الاوسط ", ان تكون المسودة نتيجة " املاءات اميركية "
+لجنة صياغة مسودة قانون النفط العراقي ل " الشرق الاوسط ", ان تكون المسودة نتيجة " املاءات اميركية "
+تقارير ,
+</Nouns>
+<Tuples>
+source: -	target: ما	verb: نفى	other_noun: الشان الداخلي العراقي نائب رئيس الوزراء العراقي برهم صالح , الذي تراس لجنة صياغة مسودة قانون النفط العراقي ل " الشرق الاوسط ", ان تكون المسودة نتيجة " املاءات اميركية "
+source: -	target: لجنة صياغة مسودة قانون النفط العراقي ل " الشرق الاوسط ", ان تكون المسودة نتيجة " املاءات اميركية "	verb: تراس	other_noun: 
+source: تقارير ,	target: -	verb: ذكرت	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-2" source = "AAW_ARB" sentence = "True">
+<Text>وعمم مركز كارلسروهه للأبحاث العلمية تقريرا صحافيا يتحدث عن إخماد النفايات المشعة بطريقة «التحويل Transmutation»، أي تحويل المعدن أو النظير إلى عنصر آخر.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	عمم	_	NOUN	NOUN	_	11	nsubj
+3	مركز	_	NOUN	NOUN	_	2	nmod
+4	كارلسروه	_	ADJ	ADJ	_	3	amod
+5	ه	_	PRON	PRON	_	7	cc
+6	ل	_	ADP	ADP	_	7	case
+7	الابحاث	_	NOUN	NOUN	_	3	nmod
+8	العلمية	_	ADJ	ADJ	_	7	amod
+9	تقريرا	_	NOUN	NOUN	_	8	nmod
+10	صحافيا	_	ADJ	ADJ	_	9	amod
+11	يتحدث	_	VERB	VERB	_	1	parataxis
+12	عن	_	ADP	ADP	_	13	case
+13	اخماد	_	NOUN	NOUN	_	11	dobj
+14	النفايات	_	NOUN	NOUN	_	13	nmod
+15	المشعة	_	_	_	_	0	det
+16	ب	_	ADP	ADP	_	17	case
+17	طريقة	_	NOUN	NOUN	_	11	nmod
+18	"	_	PUNCT	PUNCT	_	19	punct
+19	التحويل	_	X	X	_	17	nmod
+20	Transmutation	_	X	X	_	19	cc
+21	",	_	X	X	_	20	nmod
+22	اي	_	ADJ	ADJ	_	21	amod
+23	تحويل	_	NOUN	NOUN	_	22	nmod
+24	المعدن	_	NOUN	NOUN	_	23	nmod
+25	او	_	CONJ	CONJ	_	24	cc
+26	النظير	_	NOUN	NOUN	_	24	conj
+27	الى	_	ADP	ADP	_	28	case
+28	عنصر	_	NOUN	NOUN	_	23	advcl
+29	اخر	_	ADJ	ADJ	_	28	amod
+30	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+يتحدث
+</Verbs>
+<Nouns>
+عمم مركز كارلسروه ه ل الابحاث العلمية تقريرا صحافيا
+اخماد النفايات
+طريقة " التحويل Transmutation ", اي تحويل المعدن او النظير الى عنصر اخر
+</Nouns>
+<Tuples>
+source: عمم مركز كارلسروه ه ل الابحاث العلمية تقريرا صحافيا	target: اخماد النفايات	verb: يتحدث	other_noun: طريقة " التحويل Transmutation ", اي تحويل المعدن او النظير الى عنصر اخر
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-7" source = "AAW_ARB" sentence = "True">
+<Text>ودفن سايكس في تابوت مصنوع من الرصاص، الأمر الذي سيسهل على العلماء دراسة بقايا جثمانه الذي يأملون في سلامة الكثير من عيناته.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	دفن	_	VERB	VERB	_	1	parataxis
+3	سايكس	_	X	X	_	2	nsubj
+4	في	_	ADP	ADP	_	5	case
+5	تابوت	_	X	X	_	2	advmod
+6	مصنوع	_	NOUN	NOUN	_	5	nmod
+7	من	_	ADP	ADP	_	8	case
+8	الرصاص	_	NOUN	NOUN	_	5	nmod
+9	,	_	PUNCT	PUNCT	_	8	punct
+10	الامر	_	NOUN	NOUN	_	8	nmod
+11	الذي	_	PRON	PRON	_	10	cc
+12	س	_	PART	PART	_	13	aux
+13	يسهل	_	VERB	VERB	_	11	acl
+14	على	_	ADP	ADP	_	15	case
+15	العلماء	_	NOUN	NOUN	_	13	dobj
+16	دراسة	_	NOUN	NOUN	_	15	nmod
+17	بقايا	_	_	_	_	0	cc
+18	جثمان	_	NOUN	NOUN	_	13	nmod
+19	ه	_	PRON	PRON	_	18	nmod
+20	الذي	_	PRON	PRON	_	19	nsubj
+21	ياملون	_	VERB	VERB	_	20	acl
+22	في	_	ADP	ADP	_	23	case
+23	سلامة	_	NOUN	NOUN	_	21	dobj
+24	الكثير	_	ADJ	ADJ	_	23	amod
+25	من	_	ADP	ADP	_	26	case
+26	عينات	_	NOUN	NOUN	_	24	nmod
+27	ه	_	PRON	PRON	_	26	nmod
+28	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+دفن
+يسهل
+ياملون
+</Verbs>
+<Nouns>
+سايكس
+العلماء دراسة
+جثمان ه الذي ياملون في سلامة الكثير من عينات ه
+سلامة الكثير من عينات ه
+</Nouns>
+<Tuples>
+source: سايكس	target: -	verb: دفن	other_noun: 
+source: -	target: العلماء دراسة	verb: يسهل	other_noun: جثمان ه الذي ياملون في سلامة الكثير من عينات ه
+source: -	target: سلامة الكثير من عينات ه	verb: ياملون	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-12" source = "AAW_ARB" sentence = "True">
+<Text>وتبنى المقابر النووية بين طبقات الأرض الصخرية على عمق 500 متر تحت سطح الأرض.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	تبنى	_	VERB	VERB	_	1	parataxis
+3	المقابر	_	NOUN	NOUN	_	2	nsubj
+4	النووية	_	ADJ	ADJ	_	3	amod
+5	بين	_	ADP	ADP	_	6	case
+6	طبقات	_	NOUN	NOUN	_	2	nmod
+7	الارض	_	NOUN	NOUN	_	6	nmod
+8	الصخرية	_	ADJ	ADJ	_	7	amod
+9	على	_	ADP	ADP	_	10	case
+10	عمق	_	NOUN	NOUN	_	6	nmod
+11	500	_	NUM	NUM	_	10	nummod
+12	متر	_	NOUN	NOUN	_	11	nmod
+13	تحت	_	ADP	ADP	_	14	case
+14	سطح	_	NOUN	NOUN	_	11	nmod
+15	الارض	_	NOUN	NOUN	_	14	nmod
+16	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تبنى
+</Verbs>
+<Nouns>
+المقابر النووية
+طبقات الارض الصخرية على عمق 500 متر تحت سطح الارض
+</Nouns>
+<Tuples>
+source: المقابر النووية	target: -	verb: تبنى	other_noun: طبقات الارض الصخرية على عمق 500 متر تحت سطح الارض
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-3" source = "AAW_ARB" sentence = "True">
+<Text>ونجح علماء بول شيرر السويسري في فيليغ، ولأول مرة في العالم، بتحويل العناصر المشعة في المقابر إلى عناصر غير مشعة بطريقة الترانسميوتيشن وذلك بإطلاق أشعة من البروتونات على «هدف ـ المعدن السائل» ونجحوا حينها بالحصول على مصدر قوي من النيوترونات القادرة على تغيير المادة من عنصر مشع إلى عنصر غير مشع.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	نجح	_	VERB	VERB	_	1	parataxis
+3	علماء	_	NOUN	NOUN	_	2	nsubj
+4	بول	_	X	X	_	5	nmod
+5	شيرر	_	X	X	_	3	nmod
+6	السويسري	_	ADJ	ADJ	_	5	amod
+7	في	_	ADP	ADP	_	8	case
+8	فيليغ	_	NOUN	NOUN	_	2	nmod
+9	,	_	PUNCT	PUNCT	_	8	punct
+10	و	_	CONJ	CONJ	_	2	cc
+11	ل	_	ADP	ADP	_	12	case
+12	اول	_	ADJ	ADJ	_	2	iobj
+13	مرة	_	NOUN	NOUN	_	12	nmod
+14	في	_	ADP	ADP	_	15	case
+15	العالم	_	NOUN	NOUN	_	12	nmod
+16	,	_	PUNCT	PUNCT	_	15	punct
+17	ب	_	ADP	ADP	_	18	case
+18	تحويل	_	NOUN	NOUN	_	12	advmod
+19	العناصر	_	NOUN	NOUN	_	18	nmod
+20	المشعة	_	ADJ	ADJ	_	19	amod
+21	في	_	ADP	ADP	_	22	case
+22	المقابر	_	NOUN	NOUN	_	19	nmod
+23	الى	_	ADP	ADP	_	24	case
+24	عناصر	_	NOUN	NOUN	_	22	nmod
+25	غير	_	NOUN	NOUN	_	24	nmod
+26	مشعة	_	_	_	_	0	det
+27	ب	_	ADP	ADP	_	28	case
+28	طريقة	_	NOUN	NOUN	_	24	advcl
+29	الترانسميوتيشن	_	ADJ	ADJ	_	28	amod
+30	و	_	CONJ	CONJ	_	28	cc
+31	ذلك	_	PRON	PRON	_	33	nsubj
+32	ب	_	ADP	ADP	_	33	case
+33	اطلاق	_	NOUN	NOUN	_	28	nmod
+34	اشعة	_	NOUN	NOUN	_	33	nmod
+35	من	_	ADP	ADP	_	36	case
+36	البروتونات	_	NOUN	NOUN	_	33	nmod
+37	على	_	ADP	ADP	_	39	case
+38	"	_	PUNCT	PUNCT	_	39	punct
+39	هدف	_	NOUN	NOUN	_	36	nmod
+40	المعدن	_	NOUN	NOUN	_	39	nmod
+41	السائل	_	NOUN	NOUN	_	40	nmod
+42	"	_	PUNCT	PUNCT	_	39	punct
+43	و	_	CONJ	CONJ	_	39	cc
+44	نجحوا	_	_	_	_	0	conj
+45	حين	_	ADP	ADP	_	46	case
+46	ها	_	PRON	PRON	_	39	dobj
+47	ب	_	ADP	ADP	_	48	case
+48	الحصول	_	NOUN	NOUN	_	46	nsubj
+49	على	_	ADP	ADP	_	50	case
+50	مصدر	_	NOUN	NOUN	_	46	nsubj
+51	قوي	_	ADJ	ADJ	_	50	amod
+52	من	_	ADP	ADP	_	53	case
+53	النيوترونات	_	NOUN	NOUN	_	50	nmod
+54	القادرة	_	ADJ	ADJ	_	53	amod
+55	على	_	ADP	ADP	_	56	case
+56	تغيير	_	NOUN	NOUN	_	50	nmod
+57	المادة	_	NOUN	NOUN	_	56	nmod
+58	من	_	ADP	ADP	_	59	case
+59	عنصر	_	NOUN	NOUN	_	57	nmod
+60	مشع	_	ADJ	ADJ	_	59	amod
+61	الى	_	ADP	ADP	_	62	case
+62	عنصر	_	NOUN	NOUN	_	59	nmod
+63	غير	_	NOUN	NOUN	_	62	nmod
+64	مشع	_	ADJ	ADJ	_	63	amod
+65	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+نجح
+</Verbs>
+<Nouns>
+علماء بول شيرر السويسري
+اول مرة في العالم , ب تحويل العناصر المشعة في المقابر الى عناصر غير ب طريقة الترانسميوتيشن و ذلك ب اطلاق اشعة من البروتونات على " هدف المعدن السائل " و حين ها ب الحصول على مصدر قوي من النيوترونات القادرة على تغيير المادة من عنصر مشع الى عنصر غير مشع
+فيليغ ,
+</Nouns>
+<Tuples>
+source: علماء بول شيرر السويسري	target: اول مرة في العالم , ب تحويل العناصر المشعة في المقابر الى عناصر غير ب طريقة الترانسميوتيشن و ذلك ب اطلاق اشعة من البروتونات على " هدف المعدن السائل " و حين ها ب الحصول على مصدر قوي من النيوترونات القادرة على تغيير المادة من عنصر مشع الى عنصر غير مشع	verb: نجح	other_noun: فيليغ ,
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-10" source = "AAW_ARB" sentence = "True">
+<Text>وتتسبب قطارات نقل النفايات المشعة من لاهاج الفرنسية وغيرها إلى غورليبن في تظاهرات عنيفة سنويا.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	تتسبب	_	VERB	VERB	_	1	parataxis
+3	قطارات	_	NOUN	NOUN	_	2	nsubj
+4	نقل	_	NOUN	NOUN	_	3	nmod
+5	النفايات	_	NOUN	NOUN	_	4	nmod
+6	المشعة	_	ADJ	ADJ	_	5	amod
+7	من	_	ADP	ADP	_	9	case
+8	ل	_	ADP	ADP	_	9	case
+9	اهاج	_	NOUN	NOUN	_	4	advcl
+10	الفرنسية	_	ADJ	ADJ	_	9	amod
+11	و	_	CONJ	CONJ	_	9	cc
+12	غير	_	NOUN	NOUN	_	9	conj
+13	ها	_	PRON	PRON	_	12	nmod
+14	الى	_	ADP	ADP	_	15	case
+15	غورليبن	_	NOUN	NOUN	_	2	advmod
+16	في	_	ADP	ADP	_	17	case
+17	تظاهرات	_	NOUN	NOUN	_	15	nmod
+18	عنيفة	_	ADJ	ADJ	_	17	amod
+19	سنويا	_	ADJ	ADJ	_	17	amod
+20	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تتسبب
+</Verbs>
+<Nouns>
+قطارات نقل النفايات المشعة من ل اهاج الفرنسية و غير ها
+</Nouns>
+<Tuples>
+source: قطارات نقل النفايات المشعة من ل اهاج الفرنسية و غير ها	target: -	verb: تتسبب	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-11" source = "AAW_ARB" sentence = "True">
+<Text>وتضطر السلطات الألمانية لانزال 10 آلاف شرطي سنويا لحماية القطار من أنصار البيئة.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	تضطر	_	VERB	VERB	_	1	parataxis
+3	السلطات	_	NOUN	NOUN	_	2	nsubj
+4	الالمانية	_	ADJ	ADJ	_	3	amod
+5	ل	_	ADP	ADP	_	6	case
+6	انزال	_	NOUN	NOUN	_	2	nmod
+7	10	_	NUM	NUM	_	6	nummod
+8	الاف	_	NUM	NUM	_	7	nummod
+9	شرطي	_	NOUN	NOUN	_	8	nmod
+10	سنويا	_	ADJ	ADJ	_	9	amod
+11	ل	_	ADP	ADP	_	12	case
+12	حماية	_	NOUN	NOUN	_	2	nmod
+13	القطار	_	NOUN	NOUN	_	12	nmod
+14	من	_	ADP	ADP	_	15	case
+15	انصار	_	NOUN	NOUN	_	13	nmod
+16	البيئة	_	NOUN	NOUN	_	15	nmod
+17	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تضطر
+</Verbs>
+<Nouns>
+السلطات الالمانية
+حماية القطار من انصار البيئة
+انزال 10 الاف شرطي سنويا
+</Nouns>
+<Tuples>
+source: السلطات الالمانية	target: -	verb: تضطر	other_noun: حماية القطار من انصار البيئة انزال 10 الاف شرطي سنويا
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-2" source = "AAW_ARB" sentence = "True">
+<Text>التوقعات تشير الى ان منطقة الخليج ستضم قبل العام 2010 اكثر من 100 فندق اقتصادي، وستصل قيمة الاستثمارات في القطاع المتنامي في العديد من الدول الى حوالي ملياري دولار.</Text>
+<Parse>
+1	التوقعات	_	NOUN	NOUN	_	2	nsubj
+2	تشير	_	VERB	VERB	_	0	root
+3	الى	_	ADP	ADP	_	8	mark
+4	ان	_	CONJ	CONJ	_	8	mark
+5	منطقة	_	NOUN	NOUN	_	8	nsubj
+6	الخليج	_	NOUN	NOUN	_	5	nmod
+7	س	_	PART	PART	_	8	aux
+8	تضم	_	VERB	VERB	_	2	conj
+9	قبل	_	ADP	ADP	_	10	case
+10	العام	_	NOUN	NOUN	_	8	nmod
+11	2010	_	NUM	NUM	_	10	nummod
+12	اكثر	_	ADJ	ADJ	_	11	amod
+13	من	_	ADP	ADP	_	14	case
+14	100	_	NUM	NUM	_	12	nummod
+15	فندق	_	NOUN	NOUN	_	14	nmod
+16	اقتصادي	_	ADJ	ADJ	_	15	amod
+17	,	_	PUNCT	PUNCT	_	16	punct
+18	و	_	CONJ	CONJ	_	2	cc
+19	س	_	PART	PART	_	20	aux
+20	تصل	_	VERB	VERB	_	2	csubjpass
+21	قيمة	_	NOUN	NOUN	_	20	nsubj
+22	الاستثمارات	_	NOUN	NOUN	_	21	nmod
+23	في	_	ADP	ADP	_	24	case
+24	القطاع	_	NOUN	NOUN	_	20	nmod
+25	المتنامي	_	ADJ	ADJ	_	24	amod
+26	في	_	ADP	ADP	_	27	case
+27	العديد	_	ADJ	ADJ	_	24	advmod
+28	من	_	ADP	ADP	_	29	case
+29	الدول	_	NOUN	NOUN	_	27	nmod
+30	الى	_	ADP	ADP	_	32	case
+31	حوالي	_	ADP	ADP	_	32	case
+32	ملياري	_	NUM	NUM	_	29	nummod
+33	دولار	_	NOUN	NOUN	_	32	nmod
+34	.	_	PUNCT	PUNCT	_	2	punct
+</Parse>
+<Verbs>
+تشير
+تضم
+تصل
+</Verbs>
+<Nouns>
+التوقعات
+منطقة الخليج
+العام 2010 اكثر من 100 فندق اقتصادي ,
+قيمة الاستثمارات
+القطاع المتنامي في العديد من الدول الى حوالي ملياري دولار
+</Nouns>
+<Tuples>
+source: التوقعات	target: -	verb: تشير	other_noun: 
+source: منطقة الخليج	target: -	verb: تضم	other_noun: العام 2010 اكثر من 100 فندق اقتصادي ,
+source: قيمة الاستثمارات	target: -	verb: تصل	other_noun: القطاع المتنامي في العديد من الدول الى حوالي ملياري دولار
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-2" source = "AAW_ARB" sentence = "True">
+<Text>وقبلت سورية وايران الدعوة الى حضور الاجتماع الذي سيضمهما مع الولايات المتحدة في ما يراه محللون تغيرا في السياسة الاميركية تجاه البلدين.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	قبلت	_	VERB	VERB	_	1	parataxis
+3	سورية	_	ADJ	ADJ	_	2	nsubj
+4	و	_	CONJ	CONJ	_	3	cc
+5	ايران	_	NOUN	NOUN	_	3	conj
+6	الدعوة	_	NOUN	NOUN	_	5	nmod
+7	الى	_	ADP	ADP	_	8	case
+8	حضور	_	NOUN	NOUN	_	2	advmod
+9	الاجتماع	_	NOUN	NOUN	_	8	nmod
+10	الذي	_	PRON	PRON	_	9	cc
+11	س	_	PART	PART	_	12	aux
+12	يضم	_	VERB	VERB	_	9	acl
+13	هما	_	PRON	PRON	_	12	dobj
+14	مع	_	ADP	ADP	_	15	case
+15	الولايات	_	NOUN	NOUN	_	12	nmod
+16	المتحدة	_	ADJ	ADJ	_	15	amod
+17	في	_	ADP	ADP	_	18	case
+18	ما	_	PRON	PRON	_	12	nmod
+19	يرا	_	VERB	VERB	_	18	acl
+20	ه	_	PRON	PRON	_	19	dobj
+21	محللون	_	NOUN	NOUN	_	19	nmod
+22	تغيرا	_	NOUN	NOUN	_	21	nmod
+23	في	_	ADP	ADP	_	24	case
+24	السياسة	_	NOUN	NOUN	_	19	advmod
+25	الاميركية	_	ADJ	ADJ	_	24	amod
+26	تجاه	_	ADP	ADP	_	27	case
+27	البلدين	_	NOUN	NOUN	_	24	nmod
+28	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+قبلت
+يضم
+يرا
+</Verbs>
+<Nouns>
+سورية
+ايران الدعوة
+هما
+ما
+الولايات المتحدة
+ه
+محللون تغيرا
+</Nouns>
+<Tuples>
+source: سورية	target: -	verb: قبلت	other_noun: 
+source: ايران الدعوة	target: -	verb: قبلت	other_noun: 
+source: -	target: هما	verb: يضم	other_noun: ما الولايات المتحدة
+source: -	target: ه	verb: يرا	other_noun: محللون تغيرا
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-1" source = "AAW_ARB" sentence = "True">
+<Text>بعد ظاهرة الطيران الاقتصادي في دول الخليج في السنوات الاخيرة وصلت ظاهرة الفنادق الاقتصادية لتثبت الاتجاه العام نحو القطاعات الاقتصادية الرخيصة او المنخفضة التكاليف الهادفة الى مساعدة متوسطي الحال وتوسيع رقعة التنافس بين المستثمرين .</Text>
+<Parse>
+1	بعد	_	ADP	ADP	_	2	case
+2	ظاهرة	_	NOUN	NOUN	_	11	nmod
+3	الطيران	_	NOUN	NOUN	_	2	nmod
+4	الاقتصادي	_	ADJ	ADJ	_	3	amod
+5	في	_	ADP	ADP	_	6	case
+6	دول	_	NOUN	NOUN	_	3	nmod
+7	الخليج	_	NOUN	NOUN	_	6	nmod
+8	في	_	ADP	ADP	_	9	case
+9	السنوات	_	NOUN	NOUN	_	11	nmod
+10	الاخيرة	_	ADJ	ADJ	_	9	amod
+11	وصلت	_	VERB	VERB	_	0	root
+12	ظاهرة	_	NOUN	NOUN	_	11	dobj
+13	الفنادق	_	NOUN	NOUN	_	12	nmod
+14	الاقتصادية	_	ADJ	ADJ	_	13	amod
+15	ل	_	CONJ	CONJ	_	16	mark
+16	تثبت	_	VERB	VERB	_	11	advcl
+17	الاتجاه	_	NOUN	NOUN	_	16	nsubj
+18	العام	_	ADJ	ADJ	_	17	amod
+19	نحو	_	ADP	ADP	_	20	case
+20	القطاعات	_	NOUN	NOUN	_	16	nmod
+21	الاقتصادية	_	ADJ	ADJ	_	20	amod
+22	الرخيصة	_	NOUN	NOUN	_	21	nmod
+23	او	_	CONJ	CONJ	_	22	cc
+24	المنخفضة	_	NOUN	NOUN	_	22	conj
+25	التكاليف	_	NOUN	NOUN	_	24	nmod
+26	الهادفة	_	ADJ	ADJ	_	25	amod
+27	الى	_	ADP	ADP	_	28	case
+28	مساعدة	_	NOUN	NOUN	_	26	nmod
+29	متوسطي	_	ADJ	ADJ	_	28	amod
+30	الحال	_	NOUN	NOUN	_	28	nmod
+31	و	_	CONJ	CONJ	_	28	cc
+32	توسيع	_	NOUN	NOUN	_	28	conj
+33	رقعة	_	NOUN	NOUN	_	32	nmod
+34	التنافس	_	ADJ	ADJ	_	33	amod
+35	بين	_	ADP	ADP	_	36	case
+36	المستثمرين	_	NOUN	NOUN	_	33	nmod
+37	.	_	PUNCT	PUNCT	_	11	punct
+</Parse>
+<Verbs>
+وصلت
+تثبت
+</Verbs>
+<Nouns>
+ظاهرة الفنادق الاقتصادية
+السنوات الاخيرة
+ظاهرة الطيران الاقتصادي في دول الخليج
+الاتجاه العام
+القطاعات الاقتصادية الرخيصة او المنخفضة التكاليف الهادفة الى مساعدة متوسطي الحال و توسيع رقعة التنافس بين المستثمرين
+</Nouns>
+<Tuples>
+source: -	target: ظاهرة الفنادق الاقتصادية	verb: وصلت	other_noun: السنوات الاخيرة ظاهرة الطيران الاقتصادي في دول الخليج
+source: الاتجاه العام	target: -	verb: تثبت	other_noun: القطاعات الاقتصادية الرخيصة او المنخفضة التكاليف الهادفة الى مساعدة متوسطي الحال و توسيع رقعة التنافس بين المستثمرين
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-6" source = "AAW_ARB" sentence = "True">
+<Text>ويتوقع الخبراء في عالم الأعمال أن يسيطر قطاع الفنادق الاقتصادية على أكثر من 15 بالمائة من غرف فنادق منطقة الشرق الأوسط قبل العام 2015 .</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	يتوقع	_	VERB	VERB	_	1	parataxis
+3	الخبراء	_	NOUN	NOUN	_	2	nsubj
+4	في	_	ADP	ADP	_	5	case
+5	عالم	_	NOUN	NOUN	_	2	nmod
+6	الاعمال	_	NOUN	NOUN	_	5	nmod
+7	ان	_	CONJ	CONJ	_	8	mark
+8	يسيطر	_	VERB	VERB	_	2	advcl
+9	قطاع	_	NOUN	NOUN	_	8	nsubj
+10	الفنادق	_	NOUN	NOUN	_	9	nmod
+11	الاقتصادية	_	ADJ	ADJ	_	10	amod
+12	على	_	ADP	ADP	_	13	case
+13	اكثر	_	ADJ	ADJ	_	8	dobj
+14	من	_	ADP	ADP	_	15	case
+15	15	_	NUM	NUM	_	13	nummod
+16	ب	_	ADP	ADP	_	17	case
+17	المائة	_	NUM	NUM	_	15	nummod
+18	من	_	ADP	ADP	_	19	case
+19	غرف	_	NOUN	NOUN	_	13	nmod
+20	فنادق	_	NOUN	NOUN	_	19	nmod
+21	منطقة	_	NOUN	NOUN	_	20	nmod
+22	الشرق	_	NOUN	NOUN	_	21	nmod
+23	الاوسط	_	ADJ	ADJ	_	22	amod
+24	قبل	_	ADP	ADP	_	25	case
+25	العام	_	NOUN	NOUN	_	13	nmod
+26	2015	_	NUM	NUM	_	25	nummod
+27	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+يتوقع
+يسيطر
+</Verbs>
+<Nouns>
+الخبراء
+عالم الاعمال
+قطاع الفنادق الاقتصادية
+اكثر من 15 ب المائة من غرف فنادق منطقة الشرق الاوسط قبل العام 2015
+</Nouns>
+<Tuples>
+source: الخبراء	target: -	verb: يتوقع	other_noun: عالم الاعمال
+source: قطاع الفنادق الاقتصادية	target: اكثر من 15 ب المائة من غرف فنادق منطقة الشرق الاوسط قبل العام 2015	verb: يسيطر	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-7" source = "AAW_ARB" sentence = "True">
+<Text>سليم الزير، الرئيس التنفيذي لمجموعة فنادق «روتانا»، يقول بهذا الصدد إن :«70 في المائة من المسافرين الدائمين حول العالم يفضلون الإقامة في فنادق منخفضة التكلفة، ونظرا لتدني العدد المتاح في المنطقة فان ذلك من شأنه أن يشجع شركات الفنادق على الدخول في هذه النوعية من الأعمال».</Text>
+<Parse>
+1	سليم	_	X	X	_	2	nmod
+2	الزير	_	X	X	_	0	root
+3	,	_	PUNCT	PUNCT	_	2	punct
+4	الرئيس	_	NOUN	NOUN	_	12	nsubj
+5	التنفيذي	_	ADJ	ADJ	_	4	amod
+6	ل	_	ADP	ADP	_	7	case
+7	مجموعة	_	NOUN	NOUN	_	4	nmod
+8	فنادق	_	NOUN	NOUN	_	7	nmod
+9	"	_	PUNCT	PUNCT	_	4	punct
+10	روتانا	_	X	X	_	11	nmod
+11	",	_	X	X	_	4	nmod
+12	يقول	_	VERB	VERB	_	2	conj
+13	ب	_	ADP	ADP	_	15	case
+14	هذا	_	DET	DET	_	15	det
+15	الصدد	_	NOUN	NOUN	_	12	nmod
+16	ان	_	CONJ	CONJ	_	26	mark
+17	:"	_	NUM	NUM	_	26	nsubj
+18	70	_	NUM	NUM	_	17	nummod
+19	في	_	ADP	ADP	_	20	case
+20	المائة	_	NUM	NUM	_	17	advmod
+21	من	_	ADP	ADP	_	22	case
+22	المسافرين	_	NOUN	NOUN	_	20	nmod
+23	الدائمين	_	ADJ	ADJ	_	22	amod
+24	حول	_	ADP	ADP	_	25	case
+25	العالم	_	NOUN	NOUN	_	22	nmod
+26	يفضلون	_	VERB	VERB	_	12	csubjpass
+27	الاقامة	_	NOUN	NOUN	_	26	dobj
+28	في	_	ADP	ADP	_	29	case
+29	فنادق	_	NOUN	NOUN	_	26	nmod
+30	منخفضة	_	ADJ	ADJ	_	29	amod
+31	التكلفة	_	NOUN	NOUN	_	29	nmod
+32	,	_	PUNCT	PUNCT	_	31	punct
+33	و	_	CONJ	CONJ	_	31	cc
+34	نظرا	_	NOUN	NOUN	_	31	conj
+35	ل	_	ADP	ADP	_	36	case
+36	تدني	_	NOUN	NOUN	_	34	nmod
+37	العدد	_	NOUN	NOUN	_	36	nmod
+38	المتاح	_	ADJ	ADJ	_	37	amod
+39	في	_	ADP	ADP	_	40	case
+40	المنطقة	_	NOUN	NOUN	_	37	nmod
+41	ف	_	CONJ	CONJ	_	37	cc
+42	ان	_	CONJ	CONJ	_	37	cc
+43	ذلك	_	PRON	PRON	_	42	nsubj
+44	من	_	ADP	ADP	_	45	case
+45	شان	_	NOUN	NOUN	_	43	nmod
+46	ه	_	PRON	PRON	_	45	nmod
+47	ان	_	CONJ	CONJ	_	48	mark
+48	يشجع	_	VERB	VERB	_	45	csubj
+49	شركات	_	NOUN	NOUN	_	48	nsubj
+50	الفنادق	_	NOUN	NOUN	_	49	nmod
+51	على	_	ADP	ADP	_	52	case
+52	الدخول	_	NOUN	NOUN	_	48	nmod
+53	في	_	ADP	ADP	_	54	case
+54	هذه	_	DET	DET	_	52	det
+55	النوعية	_	NOUN	NOUN	_	54	nmod
+56	من	_	ADP	ADP	_	57	case
+57	الاعمال	_	NOUN	NOUN	_	52	nmod
+58	".	_	ADJ	ADJ	_	57	amod
+</Parse>
+<Verbs>
+يقول
+يفضلون
+يشجع
+</Verbs>
+<Nouns>
+الرئيس التنفيذي ل مجموعة فنادق " روتانا ",
+هذا الصدد
+:"
+الاقامة
+فنادق منخفضة التكلفة , و نظرا ل تدني العدد المتاح في المنطقة ف ان ذلك من شان ه ان يشجع شركات الفنادق على الدخول في هذه النوعية من الاعمال ".
+شركات الفنادق
+الدخول في هذه النوعية من الاعمال ".
+</Nouns>
+<Tuples>
+source: الرئيس التنفيذي ل مجموعة فنادق " روتانا ",	target: -	verb: يقول	other_noun: هذا الصدد
+source: :"	target: الاقامة	verb: يفضلون	other_noun: فنادق منخفضة التكلفة , و نظرا ل تدني العدد المتاح في المنطقة ف ان ذلك من شان ه ان يشجع شركات الفنادق على الدخول في هذه النوعية من الاعمال ".
+source: شركات الفنادق	target: -	verb: يشجع	other_noun: الدخول في هذه النوعية من الاعمال ".
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-4" source = "AAW_ARB" sentence = "True">
+<Text>وفي الفترة الاخيرة تم الإعلان عن مشاريع لخمس مجموعات فندقية عالمية في هذا القطاع.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	في	_	ADP	ADP	_	3	case
+3	الفترة	_	NOUN	NOUN	_	5	nmod
+4	الاخيرة	_	ADJ	ADJ	_	3	amod
+5	تم	_	VERB	VERB	_	1	parataxis
+6	الاعلان	_	NOUN	NOUN	_	5	nsubj
+7	عن	_	ADP	ADP	_	8	case
+8	مشاريع	_	NOUN	NOUN	_	6	dobj
+9	ل	_	ADP	ADP	_	10	case
+10	خمس	_	NUM	NUM	_	8	nummod
+11	مجموعات	_	NOUN	NOUN	_	10	nmod
+12	فندقية	_	ADJ	ADJ	_	11	amod
+13	عالمية	_	ADJ	ADJ	_	11	amod
+14	في	_	ADP	ADP	_	16	case
+15	هذا	_	DET	DET	_	16	det
+16	القطاع	_	NOUN	NOUN	_	13	nmod
+17	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تم
+</Verbs>
+<Nouns>
+الاعلان عن مشاريع ل خمس مجموعات فندقية عالمية في هذا القطاع
+الفترة الاخيرة
+</Nouns>
+<Tuples>
+source: الاعلان عن مشاريع ل خمس مجموعات فندقية عالمية في هذا القطاع	target: -	verb: تم	other_noun: الفترة الاخيرة
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-5" source = "AAW_ARB" sentence = "True">
+<Text>ومن شأن هذه المشاريع تأمين اكثر من 15 ألف غرفة فندقية في دول المنطقة وبشكل خاص في المدن الرئيسية مثل دبي وأبو ظبي والرياض وجدة والكويت والدوحة والمنامة ومسقط، بالإضافة الى القاهرة ودمشق.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	من	_	ADP	ADP	_	3	case
+3	شان	_	NOUN	NOUN	_	1	dep
+4	هذه	_	DET	DET	_	3	det
+5	المشاريع	_	NOUN	NOUN	_	4	nmod
+6	تامين	_	X	X	_	5	nmod
+7	اكثر	_	ADJ	ADJ	_	6	amod
+8	من	_	ADP	ADP	_	9	case
+9	15	_	NUM	NUM	_	7	nummod
+10	الف	_	NUM	NUM	_	9	nummod
+11	غرفة	_	NOUN	NOUN	_	10	nmod
+12	فندقية	_	ADJ	ADJ	_	11	amod
+13	في	_	ADP	ADP	_	14	case
+14	دول	_	NOUN	NOUN	_	11	nmod
+15	المنطقة	_	NOUN	NOUN	_	14	nmod
+16	و	_	CONJ	CONJ	_	14	cc
+17	ب	_	ADP	ADP	_	18	case
+18	شكل	_	NOUN	NOUN	_	14	conj
+19	خاص	_	ADJ	ADJ	_	18	amod
+20	في	_	ADP	ADP	_	21	case
+21	المدن	_	NOUN	NOUN	_	18	nmod
+22	الرئيسية	_	ADJ	ADJ	_	21	amod
+23	مثل	_	ADP	ADP	_	24	case
+24	دبي	_	X	X	_	18	nmod
+25	و	_	CONJ	CONJ	_	24	cc
+26	ابو	_	X	X	_	24	conj
+27	ظبي	_	X	X	_	26	nmod
+28	و	_	CONJ	CONJ	_	24	cc
+29	الرياض	_	NOUN	NOUN	_	24	conj
+30	و	_	CONJ	CONJ	_	24	cc
+31	جدة	_	NOUN	NOUN	_	24	conj
+32	و	_	CONJ	CONJ	_	24	cc
+33	الكويت	_	NOUN	NOUN	_	24	conj
+34	و	_	CONJ	CONJ	_	24	cc
+35	الدوحة	_	NOUN	NOUN	_	24	conj
+36	و	_	CONJ	CONJ	_	24	cc
+37	المنامة	_	NOUN	NOUN	_	24	conj
+38	و	_	CONJ	CONJ	_	24	cc
+39	مسقط	_	NOUN	NOUN	_	24	conj
+40	,	_	PUNCT	PUNCT	_	39	punct
+41	ب	_	ADP	ADP	_	42	case
+42	الاضافة	_	NOUN	NOUN	_	24	conj
+43	الى	_	ADP	ADP	_	44	case
+44	القاهرة	_	NOUN	NOUN	_	42	nmod
+45	و	_	CONJ	CONJ	_	44	cc
+46	دمشق	_	NOUN	NOUN	_	44	conj
+47	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-1" source = "AAW_ARB" sentence = "True">
+<Text>قال شاكر العبسي مؤسس حركة «فتح الاسلام» المنشقة عن فتح الانتفاضة والمتهمة بإيواء عناصر من تنظيم القاعدة في لبنان إن الحركة «تحمل راية لا إله إلا الله» وان هدف حركته التي تثير الهواجس هو تحرير القدس، ونفى ان يكون قد قاتل في العراق كما يشاع «وان كنت قد قاتلت ذات يوم في نيكاراغوا».</Text>
+<Parse>
+1	قال	_	VERB	VERB	_	0	root
+2	شاكر	_	X	X	_	3	nmod
+3	العبسي	_	X	X	_	1	nsubj
+4	مؤسس	_	ADJ	ADJ	_	3	amod
+5	حركة	_	NOUN	NOUN	_	4	nmod
+6	"	_	PUNCT	PUNCT	_	7	punct
+7	فتح	_	NOUN	NOUN	_	5	nmod
+8	الاسلام	_	NOUN	NOUN	_	7	nmod
+9	"	_	PUNCT	PUNCT	_	7	punct
+10	المنشقة	_	X	X	_	8	nmod
+11	عن	_	ADP	ADP	_	12	case
+12	فتح	_	NOUN	NOUN	_	10	dobj
+13	الانتفاضة	_	NOUN	NOUN	_	12	nmod
+14	و	_	CONJ	CONJ	_	13	cc
+15	المتهمة	_	ADJ	ADJ	_	13	conj
+16	ب	_	ADP	ADP	_	17	case
+17	ايواء	_	NOUN	NOUN	_	10	dobj
+18	عناصر	_	NOUN	NOUN	_	17	nmod
+19	من	_	ADP	ADP	_	20	case
+20	تنظيم	_	NOUN	NOUN	_	18	nmod
+21	القاعدة	_	NOUN	NOUN	_	20	nmod
+22	في	_	ADP	ADP	_	23	case
+23	لبنان	_	NOUN	NOUN	_	18	nmod
+24	ان	_	CONJ	CONJ	_	27	mark
+25	الحركة	_	NOUN	NOUN	_	27	nsubj
+26	"	_	PUNCT	PUNCT	_	27	punct
+27	تحمل	_	VERB	VERB	_	1	parataxis
+28	راية	_	X	X	_	27	nsubj
+29	لا	_	PART	PART	_	30	neg
+30	اله	_	X	X	_	27	nsubj
+31	الا	_	PART	PART	_	30	dobj
+32	الله	_	NOUN	NOUN	_	31	nmod
+33	"	_	PUNCT	PUNCT	_	27	punct
+34	و	_	CONJ	CONJ	_	27	cc
+35	ان	_	CONJ	CONJ	_	40	mark
+36	هدف	_	NOUN	NOUN	_	40	nsubj
+37	حركة	_	NOUN	NOUN	_	36	nmod
+38	ه	_	PRON	PRON	_	37	nmod
+39	التي	_	PRON	PRON	_	37	nsubj
+40	تثير	_	VERB	VERB	_	27	conj
+41	الهواجس	_	X	X	_	40	nsubj
+42	هو	_	PRON	PRON	_	40	dobj
+43	تحرير	_	NOUN	NOUN	_	40	nmod
+44	القدس	_	NOUN	NOUN	_	43	nmod
+45	,	_	PUNCT	PUNCT	_	44	punct
+46	و	_	CONJ	CONJ	_	40	cc
+47	نفى	_	VERB	VERB	_	40	conj
+48	ان	_	CONJ	CONJ	_	49	mark
+49	يكون	_	VERB	VERB	_	47	csubj
+50	قد	_	PART	PART	_	51	aux
+51	قاتل	_	VERB	VERB	_	49	xcomp
+52	في	_	ADP	ADP	_	53	case
+53	العراق	_	NOUN	NOUN	_	51	dobj
+54	ك	_	ADP	ADP	_	56	case
+55	ما	_	PRON	PRON	_	56	nmod
+56	يشاع	_	X	X	_	53	nmod
+57	"	_	PUNCT	PUNCT	_	27	punct
+58	و	_	CONJ	CONJ	_	49	cc
+59	ان	_	CONJ	CONJ	_	62	mark
+60	كنت	_	X	X	_	62	nsubj
+61	قد	_	PART	PART	_	62	aux
+62	قاتلت	_	VERB	VERB	_	49	conj
+63	ذات	_	NOUN	NOUN	_	62	nsubj
+64	يوم	_	NOUN	NOUN	_	63	nmod
+65	في	_	ADP	ADP	_	66	case
+66	نيكاراغوا	_	X	X	_	64	nmod
+67	".	_	X	X	_	66	nmod
+</Parse>
+<Verbs>
+قال
+تحمل
+تثير
+نفى
+يكون
+قاتل
+قاتلت
+</Verbs>
+<Nouns>
+العبسي
+الحركة
+راية
+اله
+هدف حركة ه التي
+الهواجس
+هو
+تحرير القدس ,
+العراق ك ما يشاع
+كنت
+ذات يوم في نيكاراغوا ".
+</Nouns>
+<Tuples>
+source: العبسي	target: -	verb: قال	other_noun: 
+source: الحركة	target: -	verb: تحمل	other_noun: 
+source: راية	target: -	verb: تحمل	other_noun: 
+source: اله	target: -	verb: تحمل	other_noun: 
+source: هدف حركة ه التي	target: هو	verb: تثير	other_noun: تحرير القدس ,
+source: الهواجس	target: هو	verb: تثير	other_noun: تحرير القدس ,
+source: -	target: العراق ك ما يشاع	verb: قاتل	other_noun: 
+source: كنت	target: -	verb: قاتلت	other_noun: 
+source: ذات يوم في نيكاراغوا ".	target: -	verb: قاتلت	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-8" source = "AAW_ARB" sentence = "True">
+<Text>واعلنت مجموعات فندقية عالمية مثل «اكرو» و«ايزي هوتيل» وسلسلة «هوليداي اكسبريس» عن تدشين عدد من هذه الفنادق قبل نهاية عام 2008، وستدشن مجموعة «روتانا» قريبا أول فنادقها الاقتصادية تحت شعار «سنترو» في دبي يليها فندق آخر في أبو ظبي، ومن ثم عملية تشييد 25 فندقا قبل العام 2010 في منطقة الخليج بتكلفة قيمتها 525 مليون دولار، وستؤمن هذه الفنادق حوالي 7500 غرفة.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	اعلنت	_	VERB	VERB	_	1	parataxis
+3	مجموعات	_	NOUN	NOUN	_	2	nsubj
+4	فندقية	_	ADJ	ADJ	_	3	amod
+5	عالمية	_	ADJ	ADJ	_	3	amod
+6	مثل	_	ADP	ADP	_	8	case
+7	"	_	PUNCT	PUNCT	_	8	punct
+8	اكرو	_	NOUN	NOUN	_	2	dobj
+9	"	_	PUNCT	PUNCT	_	8	punct
+10	و	_	CONJ	CONJ	_	8	cc
+11	"	_	PUNCT	PUNCT	_	13	punct
+12	ايزي	_	X	X	_	13	nmod
+13	هوتيل	_	X	X	_	8	nmod
+14	"	_	PUNCT	PUNCT	_	13	punct
+15	و	_	CONJ	CONJ	_	13	cc
+16	سلسلة	_	NOUN	NOUN	_	13	conj
+17	"	_	PUNCT	PUNCT	_	19	punct
+18	هوليداي	_	X	X	_	19	nmod
+19	اكسبريس	_	X	X	_	16	nmod
+20	"	_	PUNCT	PUNCT	_	19	punct
+21	عن	_	ADP	ADP	_	22	case
+22	تدشين	_	NOUN	NOUN	_	19	dobj
+23	عدد	_	NOUN	NOUN	_	22	nmod
+24	من	_	ADP	ADP	_	25	case
+25	هذه	_	DET	DET	_	23	det
+26	الفنادق	_	NOUN	NOUN	_	23	nmod
+27	قبل	_	ADP	ADP	_	28	case
+28	نهاية	_	NOUN	NOUN	_	22	nmod
+29	عام	_	NOUN	NOUN	_	28	nmod
+30	2008,	_	NUM	NUM	_	29	nummod
+31	و	_	CONJ	CONJ	_	1	cc
+32	س	_	PART	PART	_	33	aux
+33	تدشن	_	VERB	VERB	_	1	parataxis
+34	مجموعة	_	NOUN	NOUN	_	33	nsubj
+35	"	_	PUNCT	PUNCT	_	36	punct
+36	روتانا	_	X	X	_	34	nmod
+37	"	_	PUNCT	PUNCT	_	36	punct
+38	قريبا	_	ADJ	ADJ	_	36	amod
+39	اول	_	ADJ	ADJ	_	36	amod
+40	فنادق	_	NOUN	NOUN	_	39	nmod
+41	ها	_	PRON	PRON	_	40	nmod
+42	الاقتصادية	_	ADJ	ADJ	_	40	amod
+43	تحت	_	ADP	ADP	_	44	case
+44	شعار	_	NOUN	NOUN	_	33	nmod
+45	"	_	PUNCT	PUNCT	_	46	punct
+46	سنترو	_	X	X	_	44	nmod
+47	"	_	PUNCT	PUNCT	_	46	punct
+48	في	_	ADP	ADP	_	49	case
+49	دبي	_	X	X	_	44	nmod
+50	يلي	_	VERB	VERB	_	49	acl
+51	ها	_	PRON	PRON	_	50	dobj
+52	فندق	_	NOUN	NOUN	_	51	nsubj
+53	اخر	_	ADJ	ADJ	_	52	amod
+54	في	_	ADP	ADP	_	55	case
+55	ابو	_	X	X	_	50	advmod
+56	ظبي	_	X	X	_	55	nmod
+57	,	_	PUNCT	PUNCT	_	56	punct
+58	و	_	CONJ	CONJ	_	55	cc
+59	من	_	ADP	ADP	_	60	case
+60	ثم	_	CONJ	CONJ	_	55	cc
+61	عملية	_	NOUN	NOUN	_	55	conj
+62	تشييد	_	NOUN	NOUN	_	61	nmod
+63	25	_	NUM	NUM	_	62	nummod
+64	فندقا	_	NOUN	NOUN	_	63	nmod
+65	قبل	_	ADP	ADP	_	66	case
+66	العام	_	NOUN	NOUN	_	63	nmod
+67	2010	_	NUM	NUM	_	66	nummod
+68	في	_	ADP	ADP	_	69	case
+69	منطقة	_	NOUN	NOUN	_	63	nmod
+70	الخليج	_	NOUN	NOUN	_	69	nmod
+71	ب	_	ADP	ADP	_	72	case
+72	تكلفة	_	NOUN	NOUN	_	61	advcl
+73	قيمة	_	NOUN	NOUN	_	72	nmod
+74	ها	_	PRON	PRON	_	73	nmod
+75	525	_	NUM	NUM	_	74	nummod
+76	مليون	_	NUM	NUM	_	75	nummod
+77	دولار	_	NOUN	NOUN	_	76	nmod
+78	,	_	PUNCT	PUNCT	_	77	punct
+79	و	_	CONJ	CONJ	_	33	cc
+80	س	_	PART	PART	_	81	aux
+81	تؤمن	_	VERB	VERB	_	33	parataxis
+82	هذه	_	DET	DET	_	83	det
+83	الفنادق	_	NOUN	NOUN	_	81	nsubj
+84	حوالي	_	ADP	ADP	_	85	case
+85	7500	_	NUM	NUM	_	83	nummod
+86	غرفة	_	NOUN	NOUN	_	85	nmod
+87	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اعلنت
+تدشن
+يلي
+تؤمن
+</Verbs>
+<Nouns>
+مجموعات فندقية عالمية
+" اكرو " " ايزي هوتيل " و سلسلة " هوليداي اكسبريس " عن تدشين عدد من هذه الفنادق قبل نهاية عام 2008,
+مجموعة " روتانا " قريبا اول فنادق ها الاقتصادية
+شعار " سنترو " في دبي يلي ها فندق اخر في ابو ظبي , و من ثم عملية تشييد 25 فندقا قبل العام 2010 في منطقة الخليج ب تكلفة قيمة ها 525 مليون دولار ,
+ها
+هذه الفنادق حوالي 7500 غرفة
+</Nouns>
+<Tuples>
+source: مجموعات فندقية عالمية	target: " اكرو " " ايزي هوتيل " و سلسلة " هوليداي اكسبريس " عن تدشين عدد من هذه الفنادق قبل نهاية عام 2008,	verb: اعلنت	other_noun: 
+source: مجموعة " روتانا " قريبا اول فنادق ها الاقتصادية	target: -	verb: تدشن	other_noun: شعار " سنترو " في دبي يلي ها فندق اخر في ابو ظبي , و من ثم عملية تشييد 25 فندقا قبل العام 2010 في منطقة الخليج ب تكلفة قيمة ها 525 مليون دولار ,
+source: -	target: ها	verb: يلي	other_noun: 
+source: هذه الفنادق حوالي 7500 غرفة	target: -	verb: تؤمن	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-6" source = "AAW_ARB" sentence = "True">
+<Text>وبنى السويسريون «مدفعا للنيوترونات سموه «سينكsinq» لإطلاق النيوترونات على المواد المشعة.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	بنى	_	NOUN	NOUN	_	1	dep
+3	السويسريون	_	ADJ	ADJ	_	2	amod
+4	"	_	PUNCT	PUNCT	_	3	punct
+5	مدفعا	_	_	_	_	0	det
+6	ل	_	ADP	ADP	_	7	case
+7	النيوترونات	_	NOUN	NOUN	_	1	dep
+8	سمو	_	NOUN	NOUN	_	7	nmod
+9	ه	_	PRON	PRON	_	8	nmod
+10	"	_	PUNCT	PUNCT	_	11	punct
+11	سينكsinq	_	X	X	_	8	nmod
+12	"	_	PUNCT	PUNCT	_	11	punct
+13	ل	_	ADP	ADP	_	14	case
+14	اطلاق	_	NOUN	NOUN	_	1	parataxis
+15	النيوترونات	_	NOUN	NOUN	_	14	nmod
+16	على	_	ADP	ADP	_	17	case
+17	المواد	_	NOUN	NOUN	_	14	nmod
+18	المشعة	_	ADJ	ADJ	_	17	amod
+19	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0005-3" source = "AAW_ARB" sentence = "True">
+<Text>وأكد من جهة اخرى انه في حال كان عليه المثول امام القضاء الدولي، فسيكون له الموقف «البطولي» نفسه للرئيس العراقي صدام حسين امام قضاته.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	اكد	_	VERB	VERB	_	1	parataxis
+3	من	_	ADP	ADP	_	4	case
+4	جهة	_	NOUN	NOUN	_	2	dobj
+5	اخرى	_	ADJ	ADJ	_	4	amod
+6	ان	_	CONJ	CONJ	_	10	mark
+7	ه	_	PRON	PRON	_	6	mwe
+8	في	_	ADP	ADP	_	9	case
+9	حال	_	NOUN	NOUN	_	10	cc
+10	كان	_	VERB	VERB	_	2	ccomp
+11	على	_	ADP	ADP	_	12	case
+12	ه	_	PRON	PRON	_	10	dobj
+13	المثول	_	NOUN	NOUN	_	12	nsubj
+14	امام	_	ADP	ADP	_	15	case
+15	القضاء	_	NOUN	NOUN	_	12	nmod
+16	الدولي	_	ADJ	ADJ	_	15	amod
+17	,	_	PUNCT	PUNCT	_	16	punct
+18	ف	_	CONJ	CONJ	_	10	cc
+19	س	_	PART	PART	_	20	aux
+20	يكون	_	VERB	VERB	_	10	conj
+21	ل	_	ADP	ADP	_	22	case
+22	ه	_	PRON	PRON	_	20	dobj
+23	الموقف	_	NOUN	NOUN	_	20	nsubj
+24	"	_	PUNCT	PUNCT	_	25	punct
+25	البطولي	_	X	X	_	23	nmod
+26	"	_	PUNCT	PUNCT	_	25	punct
+27	نفس	_	NOUN	NOUN	_	25	nmod
+28	ه	_	PRON	PRON	_	27	nmod
+29	ل	_	ADP	ADP	_	30	case
+30	الرئيس	_	NOUN	NOUN	_	25	nmod
+31	العراقي	_	ADJ	ADJ	_	30	amod
+32	صدام	_	X	X	_	33	nmod
+33	حسين	_	X	X	_	30	nmod
+34	امام	_	ADP	ADP	_	35	case
+35	قضات	_	NOUN	NOUN	_	25	nmod
+36	ه	_	PRON	PRON	_	35	nmod
+37	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اكد
+كان
+يكون
+</Verbs>
+<Nouns>
+جهة اخرى
+ه
+الموقف " البطولي " نفس ه ل الرئيس العراقي صدام حسين امام قضات ه
+ه
+</Nouns>
+<Tuples>
+source: -	target: جهة اخرى	verb: اكد	other_noun: 
+source: -	target: ه	verb: كان	other_noun: 
+source: الموقف " البطولي " نفس ه ل الرئيس العراقي صدام حسين امام قضات ه	target: ه	verb: يكون	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0008-4" source = "AAW_ARB" sentence = "True">
+<Text>وبين أن وزارة التعليم العالي ستعمل على مساعدة الطلاب في الحصول على التأشيرات بشكل أسرع، مفيدا بأن المرحلة الثالثة من برنامج خادم الحرمين الشريفين للابتعاث الخارجي ستبدأ الصيف المقبل.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	بين	_	ADP	ADP	_	8	mark
+3	ان	_	CONJ	CONJ	_	8	mark
+4	وزارة	_	NOUN	NOUN	_	8	nsubj
+5	التعليم	_	NOUN	NOUN	_	4	nmod
+6	العالي	_	ADJ	ADJ	_	5	amod
+7	س	_	PART	PART	_	8	aux
+8	تعمل	_	VERB	VERB	_	1	parataxis
+9	على	_	ADP	ADP	_	10	case
+10	مساعدة	_	NOUN	NOUN	_	8	dobj
+11	الطلاب	_	NOUN	NOUN	_	10	nmod
+12	في	_	ADP	ADP	_	13	case
+13	الحصول	_	NOUN	NOUN	_	8	nmod
+14	على	_	ADP	ADP	_	15	case
+15	التاشيرات	_	NOUN	NOUN	_	13	nmod
+16	ب	_	ADP	ADP	_	17	case
+17	شكل	_	NOUN	NOUN	_	8	nmod
+18	اسرع	_	ADJ	ADJ	_	17	amod
+19	,	_	PUNCT	PUNCT	_	18	punct
+20	مفيدا	_	_	_	_	0	det
+21	ب	_	ADP	ADP	_	34	mark
+22	ان	_	CONJ	CONJ	_	34	mark
+23	المرحلة	_	NOUN	NOUN	_	34	nsubj
+24	الثالثة	_	ADJ	ADJ	_	23	amod
+25	من	_	ADP	ADP	_	26	case
+26	برنامج	_	NOUN	NOUN	_	23	nmod
+27	خادم	_	NOUN	NOUN	_	26	nmod
+28	الحرمين	_	NOUN	NOUN	_	27	nmod
+29	الشريفين	_	ADJ	ADJ	_	28	amod
+30	ل	_	ADP	ADP	_	31	case
+31	الابتعاث	_	NOUN	NOUN	_	28	nmod
+32	الخارجي	_	ADJ	ADJ	_	31	amod
+33	س	_	PART	PART	_	34	aux
+34	تبدا	_	VERB	VERB	_	8	conj
+35	الصيف	_	NOUN	NOUN	_	34	nsubj
+36	المقبل	_	ADJ	ADJ	_	35	amod
+37	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تعمل
+تبدا
+</Verbs>
+<Nouns>
+وزارة التعليم العالي
+مساعدة الطلاب
+الحصول على التاشيرات
+شكل اسرع ,
+الصيف المقبل
+المرحلة الثالثة من برنامج خادم الحرمين الشريفين ل الابتعاث الخارجي
+</Nouns>
+<Tuples>
+source: وزارة التعليم العالي	target: مساعدة الطلاب	verb: تعمل	other_noun: الحصول على التاشيرات شكل اسرع ,
+source: الصيف المقبل	target: -	verb: تبدا	other_noun: 
+source: المرحلة الثالثة من برنامج خادم الحرمين الشريفين ل الابتعاث الخارجي	target: -	verb: تبدا	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0008-3" source = "AAW_ARB" sentence = "True">
+<Text>وأكد المعجل في تصريحات صحافية عقب مشاركته في برنامج تدريبي للقياديين ينفذه معهد الإدارة العامة في الدمام بعنوان «القدرات القيادية للقرن الـ 21» أن الابتعاث الداخلي سيبدأ التقديم عليه خلال الأيام المقبلة، وستقوم الجامعات والكليات الأهلية بحسب المعجل بتعويض الطلاب عن الفترة الدراسية التي سبقت التحاقهم بها، مشيراً إلى أنهم سيلتحقون بالكليات والجامعات قبل نهاية العام الدراسي الجاري.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	اكد	_	VERB	VERB	_	1	parataxis
+3	المعجل	_	NOUN	NOUN	_	2	nsubj
+4	في	_	ADP	ADP	_	5	case
+5	تصريحات	_	NOUN	NOUN	_	2	nmod
+6	صحافية	_	ADJ	ADJ	_	5	amod
+7	عقب	_	ADP	ADP	_	8	case
+8	مشاركة	_	NOUN	NOUN	_	2	nmod
+9	ه	_	PRON	PRON	_	8	nmod
+10	في	_	ADP	ADP	_	11	case
+11	برنامج	_	NOUN	NOUN	_	8	nmod
+12	تدريبي	_	_	_	_	0	det
+13	ل	_	ADP	ADP	_	14	case
+14	القياديين	_	NOUN	NOUN	_	8	advcl
+15	ينفذ	_	VERB	VERB	_	14	acl
+16	ه	_	PRON	PRON	_	15	dobj
+17	معهد	_	NOUN	NOUN	_	15	nmod
+18	الادارة	_	NOUN	NOUN	_	17	nmod
+19	العامة	_	ADJ	ADJ	_	18	amod
+20	في	_	ADP	ADP	_	21	case
+21	الدمام	_	NOUN	NOUN	_	15	nmod
+22	ب	_	ADP	ADP	_	23	case
+23	عنوان	_	NOUN	NOUN	_	15	nmod
+24	"	_	PUNCT	PUNCT	_	25	punct
+25	القدرات	_	NOUN	NOUN	_	23	nmod
+26	القيادية	_	ADJ	ADJ	_	25	amod
+27	ل	_	ADP	ADP	_	28	case
+28	القرن	_	NOUN	NOUN	_	25	nmod
+29	ال	_	PART	PART	_	30	cc
+30	21	_	NUM	NUM	_	28	nummod
+31	"	_	PUNCT	PUNCT	_	25	punct
+32	ان	_	CONJ	CONJ	_	36	mark
+33	الابتعاث	_	NOUN	NOUN	_	36	nsubj
+34	الداخلي	_	ADJ	ADJ	_	33	amod
+35	س	_	PART	PART	_	36	aux
+36	يبدا	_	VERB	VERB	_	2	csubjpass
+37	التقديم	_	_	_	_	0	det
+38	على	_	ADP	ADP	_	39	case
+39	ه	_	PRON	PRON	_	36	dobj
+40	خلال	_	ADP	ADP	_	41	case
+41	الايام	_	NOUN	NOUN	_	36	nmod
+42	المقبلة	_	ADJ	ADJ	_	41	amod
+43	,	_	PUNCT	PUNCT	_	42	punct
+44	و	_	CONJ	CONJ	_	36	cc
+45	س	_	PART	PART	_	46	aux
+46	تقوم	_	VERB	VERB	_	36	conj
+47	الجامعات	_	NOUN	NOUN	_	46	nsubj
+48	و	_	CONJ	CONJ	_	47	cc
+49	الكليات	_	NOUN	NOUN	_	47	conj
+50	الاهلية	_	ADJ	ADJ	_	49	amod
+51	ب	_	ADP	ADP	_	53	case
+52	حسب	_	ADP	ADP	_	53	case
+53	المعجل	_	NOUN	NOUN	_	46	nmod
+54	ب	_	ADP	ADP	_	55	case
+55	تعويض	_	NOUN	NOUN	_	46	nmod
+56	الطلاب	_	NOUN	NOUN	_	55	nmod
+57	عن	_	ADP	ADP	_	58	case
+58	الفترة	_	NOUN	NOUN	_	55	advcl
+59	الدراسية	_	ADJ	ADJ	_	58	amod
+60	التي	_	PRON	PRON	_	58	cc
+61	سبقت	_	VERB	VERB	_	58	acl
+62	التحاق	_	NOUN	NOUN	_	61	dobj
+63	هم	_	PRON	PRON	_	62	nmod
+64	ب	_	ADP	ADP	_	65	case
+65	ها	_	PRON	PRON	_	61	dobj
+66	,	_	PUNCT	PUNCT	_	67	punct
+67	مشيرا	_	ADJ	ADJ	_	2	xcomp
+68	الى	_	ADP	ADP	_	72	mark
+69	ان	_	CONJ	CONJ	_	72	mark
+70	هم	_	PRON	PRON	_	72	nsubj
+71	س	_	PART	PART	_	72	aux
+72	يلتحقون	_	VERB	VERB	_	67	ccomp
+73	ب	_	ADP	ADP	_	74	case
+74	الكليات	_	NOUN	NOUN	_	72	dobj
+75	و	_	CONJ	CONJ	_	74	cc
+76	الجامعات	_	NOUN	NOUN	_	74	conj
+77	قبل	_	ADP	ADP	_	78	case
+78	نهاية	_	NOUN	NOUN	_	72	nmod
+79	العام	_	NOUN	NOUN	_	78	nmod
+80	الدراسي	_	ADJ	ADJ	_	79	amod
+81	الجاري	_	ADJ	ADJ	_	79	amod
+82	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اكد
+ينفذ
+يبدا
+تقوم
+سبقت
+يلتحقون
+</Verbs>
+<Nouns>
+المعجل
+مشاركة ه في برنامج ل القياديين ينفذ ه معهد الادارة العامة في الدمام ب عنوان " القدرات القيادية ل القرن ال 21 "
+تصريحات صحافية
+ه
+معهد الادارة العامة
+الدمام
+عنوان " القدرات القيادية ل القرن ال 21 "
+الابتعاث الداخلي
+ه
+الايام المقبلة ,
+الجامعات
+الكليات الاهلية
+حسب المعجل
+تعويض الطلاب عن الفترة الدراسية التي سبقت التحاق هم ب ها
+ها
+التحاق هم
+هم
+الكليات
+الجامعات
+نهاية العام الدراسي الجاري
+</Nouns>
+<Tuples>
+source: المعجل	target: -	verb: اكد	other_noun: مشاركة ه في برنامج ل القياديين ينفذ ه معهد الادارة العامة في الدمام ب عنوان " القدرات القيادية ل القرن ال 21 " تصريحات صحافية
+source: -	target: ه	verb: ينفذ	other_noun: معهد الادارة العامة الدمام عنوان " القدرات القيادية ل القرن ال 21 "
+source: الابتعاث الداخلي	target: ه	verb: يبدا	other_noun: الايام المقبلة ,
+source: الجامعات	target: -	verb: تقوم	other_noun: حسب المعجل تعويض الطلاب عن الفترة الدراسية التي سبقت التحاق هم ب ها
+source: الكليات الاهلية	target: -	verb: تقوم	other_noun: حسب المعجل تعويض الطلاب عن الفترة الدراسية التي سبقت التحاق هم ب ها
+source: -	target: ها	verb: سبقت	other_noun: 
+source: -	target: التحاق هم	verb: سبقت	other_noun: 
+source: هم	target: الكليات	verb: يلتحقون	other_noun: نهاية العام الدراسي الجاري
+source: هم	target: الجامعات	verb: يلتحقون	other_noun: نهاية العام الدراسي الجاري
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-9" source = "AAW_ARB" sentence = "True">
+<Text>سنحضر الاجتماع اذا كان ذلك في مصلحة العراق بحسب رؤيتنا».</Text>
+<Parse>
+1	س	_	PART	PART	_	2	aux
+2	نحضر	_	VERB	VERB	_	0	root
+3	الاجتماع	_	NOUN	NOUN	_	2	nsubj
+4	اذا	_	CONJ	CONJ	_	5	mark
+5	كان	_	VERB	VERB	_	2	advcl
+6	ذلك	_	X	X	_	5	nsubj
+7	في	_	ADP	ADP	_	8	case
+8	مصلحة	_	NOUN	NOUN	_	5	nmod
+9	العراق	_	NOUN	NOUN	_	8	nmod
+10	ب	_	ADP	ADP	_	12	case
+11	حسب	_	ADP	ADP	_	12	case
+12	رؤية	_	NOUN	NOUN	_	2	advcl
+13	نا	_	PRON	PRON	_	14	nmod
+14	".	_	X	X	_	12	nmod
+</Parse>
+<Verbs>
+نحضر
+كان
+</Verbs>
+<Nouns>
+الاجتماع
+ذلك
+مصلحة العراق
+</Nouns>
+<Tuples>
+source: الاجتماع	target: -	verb: نحضر	other_noun: 
+source: ذلك	target: -	verb: كان	other_noun: مصلحة العراق
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0008-1" source = "AAW_ARB" sentence = "True">
+<Text>أعلنت وزارة التعليم العالي في السعودية عزمها تقديم 10 آلاف منحة دراسية داخل السعودية، وتنفيذ برامج تأهيلية لأكثر من 5000 طالب وطالبة قبل موعد سفرهم لاستكمال دراساتهم في الجامعات الأجنبية.</Text>
+<Parse>
+1	اعلنت	_	VERB	VERB	_	0	root
+2	وزارة	_	NOUN	NOUN	_	1	nsubj
+3	التعليم	_	NOUN	NOUN	_	2	nmod
+4	العالي	_	ADJ	ADJ	_	3	amod
+5	في	_	ADP	ADP	_	6	case
+6	السعودية	_	NOUN	NOUN	_	1	nmod
+7	عزم	_	NOUN	NOUN	_	6	nmod
+8	ها	_	PRON	PRON	_	6	nsubj
+9	تقديم	_	NOUN	NOUN	_	8	nsubj
+10	10	_	NUM	NUM	_	9	nummod
+11	الاف	_	NUM	NUM	_	10	nummod
+12	منحة	_	NOUN	NOUN	_	11	nmod
+13	دراسية	_	ADJ	ADJ	_	12	amod
+14	داخل	_	ADP	ADP	_	15	case
+15	السعودية	_	NOUN	NOUN	_	1	nmod
+16	,	_	PUNCT	PUNCT	_	15	punct
+17	و	_	CONJ	CONJ	_	15	cc
+18	تنفيذ	_	NOUN	NOUN	_	15	conj
+19	برامج	_	NOUN	NOUN	_	18	nmod
+20	تاهيلية	_	_	_	_	0	det
+21	ل	_	ADP	ADP	_	22	case
+22	اكثر	_	ADJ	ADJ	_	18	advcl
+23	من	_	ADP	ADP	_	24	case
+24	50	_	NUM	NUM	_	22	nummod
+25	طالب	_	NOUN	NOUN	_	24	nmod
+26	و	_	CONJ	CONJ	_	25	cc
+27	طالبة	_	NOUN	NOUN	_	25	conj
+28	قبل	_	ADP	ADP	_	29	case
+29	موعد	_	NOUN	NOUN	_	24	nmod
+30	سفر	_	NOUN	NOUN	_	29	nmod
+31	هم	_	PRON	PRON	_	30	nmod
+32	ل	_	ADP	ADP	_	33	case
+33	استكمال	_	NOUN	NOUN	_	30	nmod
+34	دراسات	_	NOUN	NOUN	_	33	nmod
+35	هم	_	PRON	PRON	_	34	nmod
+36	في	_	ADP	ADP	_	37	case
+37	الجامعات	_	NOUN	NOUN	_	33	nmod
+38	الاجنبية	_	ADJ	ADJ	_	37	amod
+39	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اعلنت
+</Verbs>
+<Nouns>
+وزارة التعليم العالي
+السعودية عزم ها تقديم 10 الاف منحة دراسية
+السعودية ,
+تنفيذ برامج ل اكثر من 50 طالب و طالبة قبل موعد سفر هم ل استكمال دراسات هم في الجامعات الاجنبية
+</Nouns>
+<Tuples>
+source: وزارة التعليم العالي	target: -	verb: اعلنت	other_noun: السعودية عزم ها تقديم 10 الاف منحة دراسية السعودية , تنفيذ برامج ل اكثر من 50 طالب و طالبة قبل موعد سفر هم ل استكمال دراسات هم في الجامعات الاجنبية
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0009-3" source = "AAW_ARB" sentence = "True">
+<Text>ويعكس حجم الاستثمار في هذا القطاع الآمال الكبيرة المعلقة على قطاع السياحة الذي يتنامى يوما بعد يوم ويؤدي الى زيادة أعداد السياح الباحثين عن هذا النوع من الخدمات المنخفضة التكاليف.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	يعكس	_	VERB	VERB	_	1	parataxis
+3	حجم	_	NOUN	NOUN	_	2	nsubj
+4	الاستثمار	_	NOUN	NOUN	_	3	nmod
+5	في	_	ADP	ADP	_	7	case
+6	هذا	_	DET	DET	_	7	det
+7	القطاع	_	NOUN	NOUN	_	2	nmod
+8	الامال	_	NOUN	NOUN	_	7	nmod
+9	الكبيرة	_	ADJ	ADJ	_	8	amod
+10	المعلقة	_	ADJ	ADJ	_	8	amod
+11	على	_	ADP	ADP	_	12	case
+12	قطاع	_	NOUN	NOUN	_	10	dobj
+13	السياحة	_	NOUN	NOUN	_	12	nmod
+14	الذي	_	PRON	PRON	_	13	cc
+15	يتنامى	_	VERB	VERB	_	13	acl
+16	يوما	_	NOUN	NOUN	_	15	dobj
+17	بعد	_	ADP	ADP	_	18	case
+18	يوم	_	NOUN	NOUN	_	15	nmod
+19	و	_	CONJ	CONJ	_	15	cc
+20	يؤدي	_	VERB	VERB	_	15	conj
+21	الى	_	ADP	ADP	_	22	case
+22	زيادة	_	NOUN	NOUN	_	20	dobj
+23	اعداد	_	NOUN	NOUN	_	22	nmod
+24	السياح	_	NOUN	NOUN	_	23	nmod
+25	الباحثين	_	ADJ	ADJ	_	24	amod
+26	عن	_	ADP	ADP	_	27	case
+27	هذا	_	DET	DET	_	24	det
+28	النوع	_	NOUN	NOUN	_	27	nmod
+29	من	_	ADP	ADP	_	30	case
+30	الخدمات	_	NOUN	NOUN	_	27	nmod
+31	المنخفضة	_	NOUN	NOUN	_	30	nmod
+32	التكاليف	_	NOUN	NOUN	_	31	nmod
+33	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+يعكس
+يتنامى
+يؤدي
+</Verbs>
+<Nouns>
+حجم الاستثمار
+هذا القطاع الامال الكبيرة المعلقة على قطاع السياحة الذي يتنامى يوما بعد يوم و يؤدي الى زيادة اعداد السياح الباحثين عن هذا النوع من الخدمات المنخفضة التكاليف
+يوما
+يوم
+زيادة اعداد السياح الباحثين عن هذا النوع من الخدمات المنخفضة التكاليف
+</Nouns>
+<Tuples>
+source: حجم الاستثمار	target: -	verb: يعكس	other_noun: هذا القطاع الامال الكبيرة المعلقة على قطاع السياحة الذي يتنامى يوما بعد يوم و يؤدي الى زيادة اعداد السياح الباحثين عن هذا النوع من الخدمات المنخفضة التكاليف
+source: -	target: يوما	verb: يتنامى	other_noun: يوم
+source: -	target: زيادة اعداد السياح الباحثين عن هذا النوع من الخدمات المنخفضة التكاليف	verb: يؤدي	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0006-5" source = "AAW_ARB" sentence = "True">
+<Text>وتقول بعض المدونات على الشبكة الدولية ان المجموعة التي كشفت المعلومات، مجموعة غير معروفة، وليست لها أية صفة رسمية وأنها على علاقة وطيدة بالجماعات اليمينية الأميركية التي تمولها شركة «اكسون موبايل».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	تقول	_	VERB	VERB	_	1	parataxis
+3	بعض	_	NOUN	NOUN	_	2	nsubj
+4	المدونات	_	NOUN	NOUN	_	3	nmod
+5	على	_	ADP	ADP	_	6	case
+6	الشبكة	_	NOUN	NOUN	_	2	dobj
+7	الدولية	_	ADJ	ADJ	_	6	amod
+8	ان	_	CONJ	CONJ	_	11	mark
+9	المجموعة	_	NOUN	NOUN	_	11	nsubj
+10	التي	_	PRON	PRON	_	11	nmod
+11	كشفت	_	VERB	VERB	_	2	advcl
+12	المعلومات	_	NOUN	NOUN	_	11	dobj
+13	,	_	PUNCT	PUNCT	_	12	punct
+14	مجموعة	_	NOUN	NOUN	_	11	appos
+15	غير	_	NOUN	NOUN	_	14	nmod
+16	معروفة	_	ADJ	ADJ	_	15	amod
+17	,	_	PUNCT	PUNCT	_	16	punct
+18	و	_	CONJ	CONJ	_	11	cc
+19	ليست	_	VERB	VERB	_	11	conj
+20	ل	_	ADP	ADP	_	21	case
+21	ها	_	PRON	PRON	_	19	dobj
+22	اية	_	ADJ	ADJ	_	19	nsubj
+23	صفة	_	NOUN	NOUN	_	22	nmod
+24	رسمية	_	ADJ	ADJ	_	23	amod
+25	و	_	CONJ	CONJ	_	22	cc
+26	ان	_	CONJ	CONJ	_	22	cc
+27	ها	_	PRON	PRON	_	26	nsubj
+28	على	_	ADP	ADP	_	29	case
+29	علاقة	_	NOUN	NOUN	_	27	nmod
+30	و	_	CONJ	CONJ	_	27	cc
+31	طيدة	_	_	_	_	0	conj
+32	ب	_	ADP	ADP	_	33	case
+33	الجماعات	_	NOUN	NOUN	_	27	nmod
+34	اليمينية	_	ADJ	ADJ	_	33	amod
+35	الاميركية	_	ADJ	ADJ	_	33	amod
+36	التي	_	PRON	PRON	_	33	amod
+37	تمول	_	VERB	VERB	_	33	acl
+38	ها	_	PRON	PRON	_	37	dobj
+39	شركة	_	NOUN	NOUN	_	37	nsubj
+40	"	_	PUNCT	PUNCT	_	41	punct
+41	اكسون	_	VERB	VERB	_	37	acl
+42	موبايل	_	X	X	_	43	nmod
+43	".	_	X	X	_	41	dobj
+</Parse>
+<Verbs>
+تقول
+كشفت
+ليست
+تمول
+اكسون
+</Verbs>
+<Nouns>
+بعض المدونات
+الشبكة الدولية
+المجموعة
+المعلومات ,
+التي
+اية صفة رسمية
+ها
+شركة
+ها
+".
+</Nouns>
+<Tuples>
+source: بعض المدونات	target: الشبكة الدولية	verb: تقول	other_noun: 
+source: المجموعة	target: المعلومات ,	verb: كشفت	other_noun: التي
+source: اية صفة رسمية	target: ها	verb: ليست	other_noun: 
+source: شركة	target: ها	verb: تمول	other_noun: 
+source: -	target: ".	verb: اكسون	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-6" source = "AAW_ARB" sentence = "True">
+<Text>ان الولايات المتحدة شاركت في السابق في لقاءات اقليمية حضرتها كل من ايران وسورية وان المشاركة الاميركية في مؤتمر العراق لا تمثل تغييرا في السياسة».</Text>
+<Parse>
+1	ان	_	CONJ	CONJ	_	0	root
+2	الولايات	_	NOUN	NOUN	_	4	nsubj
+3	المتحدة	_	ADJ	ADJ	_	2	amod
+4	شاركت	_	VERB	VERB	_	1	parataxis
+5	في	_	ADP	ADP	_	6	case
+6	السابق	_	NOUN	NOUN	_	4	dobj
+7	في	_	ADP	ADP	_	8	case
+8	لقاءات	_	NOUN	NOUN	_	4	nmod
+9	اقليمية	_	ADJ	ADJ	_	8	amod
+10	حضرة	_	ADJ	ADJ	_	8	amod
+11	ها	_	PRON	PRON	_	10	nmod
+12	كل	_	NOUN	NOUN	_	10	nsubj
+13	من	_	ADP	ADP	_	14	case
+14	ايران	_	NOUN	NOUN	_	12	nmod
+15	و	_	CONJ	CONJ	_	14	cc
+16	سورية	_	ADJ	ADJ	_	14	conj
+17	و	_	CONJ	CONJ	_	4	cc
+18	ان	_	CONJ	CONJ	_	25	mark
+19	المشاركة	_	NOUN	NOUN	_	25	nsubj
+20	الاميركية	_	ADJ	ADJ	_	19	amod
+21	في	_	ADP	ADP	_	22	case
+22	مؤتمر	_	NOUN	NOUN	_	19	nmod
+23	العراق	_	NOUN	NOUN	_	22	nmod
+24	لا	_	PART	PART	_	25	neg
+25	تمثل	_	VERB	VERB	_	4	conj
+26	تغييرا	_	NOUN	NOUN	_	25	dobj
+27	في	_	ADP	ADP	_	28	case
+28	السياسة	_	NOUN	NOUN	_	25	nmod
+29	".	_	ADJ	ADJ	_	28	amod
+</Parse>
+<Verbs>
+شاركت
+تمثل
+</Verbs>
+<Nouns>
+الولايات المتحدة
+السابق
+لقاءات اقليمية حضرة ها كل من ايران و سورية
+المشاركة الاميركية في مؤتمر العراق
+تغييرا
+السياسة ".
+</Nouns>
+<Tuples>
+source: الولايات المتحدة	target: السابق	verb: شاركت	other_noun: لقاءات اقليمية حضرة ها كل من ايران و سورية
+source: المشاركة الاميركية في مؤتمر العراق	target: تغييرا	verb: تمثل	other_noun: السياسة ".
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0006-6" source = "AAW_ARB" sentence = "True">
+<Text>ومن المعروف أن آل غور من أهم الشخصيات الدولية التي تقوم منذ اكثر من ثلاثين عاما بالدعوة الى انقاذ كوكب الارض من ظاهرة الاحتباس الحراري، والعمل على تغيير نمط حياتنا الاستهلاكية، خصوصا على صعيد الطاقة.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	من	_	ADP	ADP	_	3	case
+3	المعروف	_	ADJ	ADJ	_	1	parataxis
+4	ان	_	CONJ	CONJ	_	6	mark
+5	ال	_	PART	PART	_	6	neg
+6	غور	_	X	X	_	3	nsubj
+7	من	_	ADP	ADP	_	8	case
+8	اهم	_	ADJ	ADJ	_	6	dobj
+9	الشخصيات	_	NOUN	NOUN	_	8	nmod
+10	الدولية	_	ADJ	ADJ	_	9	amod
+11	التي	_	PRON	PRON	_	9	cc
+12	تقوم	_	VERB	VERB	_	11	acl
+13	منذ	_	ADP	ADP	_	14	case
+14	اكثر	_	ADJ	ADJ	_	12	advmod
+15	من	_	ADP	ADP	_	16	case
+16	ثلاثين	_	NUM	NUM	_	14	nummod
+17	عاما	_	NOUN	NOUN	_	16	nmod
+18	ب	_	ADP	ADP	_	19	case
+19	الدعوة	_	NOUN	NOUN	_	6	dobj
+20	الى	_	ADP	ADP	_	21	case
+21	انقاذ	_	NOUN	NOUN	_	6	dobj
+22	كوكب	_	X	X	_	21	nmod
+23	الارض	_	NOUN	NOUN	_	22	nmod
+24	من	_	ADP	ADP	_	25	case
+25	ظاهرة	_	NOUN	NOUN	_	22	nmod
+26	الاحتباس	_	NOUN	NOUN	_	25	nmod
+27	الحراري	_	ADJ	ADJ	_	26	amod
+28	,	_	PUNCT	PUNCT	_	27	punct
+29	و	_	CONJ	CONJ	_	26	cc
+30	العمل	_	NOUN	NOUN	_	26	conj
+31	على	_	ADP	ADP	_	32	case
+32	تغيير	_	NOUN	NOUN	_	30	nmod
+33	نمط	_	_	_	_	0	cc
+34	حيات	_	NOUN	NOUN	_	32	nmod
+35	نا	_	PRON	PRON	_	34	nmod
+36	الاستهلاكية	_	ADJ	ADJ	_	34	amod
+37	,	_	PUNCT	PUNCT	_	36	punct
+38	خصوصا	_	NOUN	NOUN	_	40	cc
+39	على	_	ADP	ADP	_	40	case
+40	صعيد	_	NOUN	NOUN	_	32	advcl
+41	الطاقة	_	NOUN	NOUN	_	40	nmod
+42	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تقوم
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0006-1" source = "AAW_ARB" sentence = "True">
+<Text>بعد أيام من فوزه في حفل الاوسكار بجائزة افضل فيلم وثائقي عن فيلمه حول ظاهرة الاحتباس الحراري، يواجه نائب الرئيس الاميركي الاسبق آل غور والمرشح السابق امام جورج بوش في انتخابات الرئاسة حملة تشكيك في مصداقيته البيئية.</Text>
+<Parse>
+1	بعد	_	ADP	ADP	_	2	case
+2	ايام	_	NOUN	NOUN	_	22	nmod
+3	من	_	ADP	ADP	_	4	case
+4	فوز	_	NOUN	NOUN	_	2	nmod
+5	ه	_	PRON	PRON	_	4	nmod
+6	في	_	ADP	ADP	_	7	case
+7	حفل	_	NOUN	NOUN	_	4	nmod
+8	الاوسكار	_	_	_	_	0	det
+9	ب	_	ADP	ADP	_	10	case
+10	جائزة	_	NOUN	NOUN	_	4	advcl
+11	افضل	_	ADJ	ADJ	_	10	amod
+12	فيلم	_	NOUN	NOUN	_	11	nmod
+13	وثائقي	_	ADJ	ADJ	_	12	amod
+14	عن	_	ADP	ADP	_	15	case
+15	فيلم	_	NOUN	NOUN	_	12	nmod
+16	ه	_	PRON	PRON	_	15	nmod
+17	حول	_	ADP	ADP	_	18	case
+18	ظاهرة	_	NOUN	NOUN	_	15	nmod
+19	الاحتباس	_	NOUN	NOUN	_	18	nmod
+20	الحراري	_	ADJ	ADJ	_	19	amod
+21	,	_	PUNCT	PUNCT	_	20	punct
+22	يواجه	_	VERB	VERB	_	0	root
+23	نائب	_	NOUN	NOUN	_	22	nsubj
+24	الرئيس	_	NOUN	NOUN	_	22	dobj
+25	الاميركي	_	ADJ	ADJ	_	24	amod
+26	الاسبق	_	ADJ	ADJ	_	24	amod
+27	ال	_	PART	PART	_	29	cc
+28	غور	_	_	_	_	0	foreign
+29	و	_	CONJ	CONJ	_	24	cc
+30	المرشح	_	NOUN	NOUN	_	24	conj
+31	السابق	_	ADJ	ADJ	_	30	amod
+32	امام	_	ADP	ADP	_	33	case
+33	جورج	_	X	X	_	30	nmod
+34	بوش	_	X	X	_	33	nmod
+35	في	_	ADP	ADP	_	36	case
+36	انتخابات	_	NOUN	NOUN	_	22	advmod
+37	الرئاسة	_	NOUN	NOUN	_	36	nmod
+38	حملة	_	NOUN	NOUN	_	37	nmod
+39	تشكيك	_	VERB	VERB	_	36	acl
+40	في	_	ADP	ADP	_	41	case
+41	مصداقية	_	NOUN	NOUN	_	39	nmod
+42	ه	_	PRON	PRON	_	41	nmod
+43	البيئية	_	ADJ	ADJ	_	41	amod
+44	.	_	PUNCT	PUNCT	_	22	punct
+</Parse>
+<Verbs>
+يواجه
+تشكيك
+</Verbs>
+<Nouns>
+نائب
+الرئيس الاميركي الاسبق
+المرشح السابق امام جورج بوش
+ايام من فوز ه في حفل ب جائزة افضل فيلم وثائقي عن فيلم ه حول ظاهرة الاحتباس الحراري ,
+مصداقية ه البيئية
+</Nouns>
+<Tuples>
+source: نائب	target: الرئيس الاميركي الاسبق	verb: يواجه	other_noun: ايام من فوز ه في حفل ب جائزة افضل فيلم وثائقي عن فيلم ه حول ظاهرة الاحتباس الحراري ,
+source: نائب	target: المرشح السابق امام جورج بوش	verb: يواجه	other_noun: ايام من فوز ه في حفل ب جائزة افضل فيلم وثائقي عن فيلم ه حول ظاهرة الاحتباس الحراري ,
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0006-3" source = "AAW_ARB" sentence = "True">
+<Text>المجموعة حصلت على المعلومات التي نشرتها على شبكة الإنترنت بموجب القوانين الفيدرالية المتعلقة بحرية المعلومات، ووجدت ان منزل آل غور يستهلك 221 الف كيلو ـ واط/ الساعة من الكهرباء أي 20 مرة معدل الاستهلاك الوطني العام.</Text>
+<Parse>
+1	المجموعة	_	NOUN	NOUN	_	2	nsubj
+2	حصلت	_	VERB	VERB	_	0	root
+3	على	_	ADP	ADP	_	4	case
+4	المعلومات	_	NOUN	NOUN	_	2	dobj
+5	التي	_	PRON	PRON	_	4	cc
+6	نشرت	_	VERB	VERB	_	4	acl
+7	ها	_	PRON	PRON	_	6	dobj
+8	على	_	ADP	ADP	_	9	case
+9	شبكة	_	NOUN	NOUN	_	6	nmod
+10	الانترنت	_	NOUN	NOUN	_	9	nmod
+11	ب	_	ADP	ADP	_	12	case
+12	موجب	_	NOUN	NOUN	_	2	nmod
+13	القوانين	_	NOUN	NOUN	_	12	nmod
+14	الفيدرالية	_	ADJ	ADJ	_	13	amod
+15	المتعلقة	_	ADJ	ADJ	_	13	amod
+16	ب	_	ADP	ADP	_	17	case
+17	حرية	_	NOUN	NOUN	_	15	dobj
+18	المعلومات	_	NOUN	NOUN	_	17	nmod
+19	,	_	PUNCT	PUNCT	_	18	punct
+20	و	_	CONJ	CONJ	_	2	cc
+21	وجدت	_	VERB	VERB	_	2	conj
+22	ان	_	CONJ	CONJ	_	26	mark
+23	منزل	_	NOUN	NOUN	_	26	nsubj
+24	ال	_	PART	PART	_	26	advmod:emph
+25	غور	_	X	X	_	24	nmod
+26	يستهلك	_	VERB	VERB	_	21	ccomp
+27	221	_	NUM	NUM	_	26	dobj
+28	الف	_	NUM	NUM	_	27	nummod
+29	كيلو	_	X	X	_	28	nmod
+30	و	_	CONJ	CONJ	_	29	cc
+31	اط	_	NOUN	NOUN	_	29	conj
+32	/	_	PUNCT	PUNCT	_	33	punct
+33	الساعة	_	NOUN	NOUN	_	27	appos
+34	من	_	ADP	ADP	_	35	case
+35	الكهرباء	_	NOUN	NOUN	_	27	xcomp
+36	اي	_	ADJ	ADJ	_	35	amod
+37	20	_	NUM	NUM	_	35	nummod
+38	مرة	_	NOUN	NOUN	_	37	nmod
+39	معدل	_	NOUN	NOUN	_	38	nmod
+40	الاستهلاك	_	NOUN	NOUN	_	39	nmod
+41	الوطني	_	ADJ	ADJ	_	40	amod
+42	العام	_	ADJ	ADJ	_	40	amod
+43	.	_	PUNCT	PUNCT	_	2	punct
+</Parse>
+<Verbs>
+حصلت
+نشرت
+وجدت
+يستهلك
+</Verbs>
+<Nouns>
+المجموعة
+المعلومات نشرت ها على شبكة الانترنت
+موجب القوانين الفيدرالية المتعلقة ب حرية المعلومات ,
+ها
+شبكة الانترنت
+منزل
+221
+</Nouns>
+<Tuples>
+source: المجموعة	target: المعلومات نشرت ها على شبكة الانترنت	verb: حصلت	other_noun: موجب القوانين الفيدرالية المتعلقة ب حرية المعلومات ,
+source: -	target: ها	verb: نشرت	other_noun: شبكة الانترنت
+source: منزل	target: 221	verb: يستهلك	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-7" source = "AAW_ARB" sentence = "True">
+<Text>كما أكد مصدر في وزارة الخارجية الاميركية لـ«الشرق الأوسط» أن موقف الادارة الاميركية لم يتغير من مسألة التفاوض مع ايران وسورية بشأن العراق.</Text>
+<Parse>
+1	كما	_	CONJ	CONJ	_	0	root
+2	اكد	_	VERB	VERB	_	1	parataxis
+3	مصدر	_	NOUN	NOUN	_	2	nsubj
+4	في	_	ADP	ADP	_	5	case
+5	وزارة	_	NOUN	NOUN	_	3	nmod
+6	الخارجية	_	NOUN	NOUN	_	5	nmod
+7	الاميركية	_	ADJ	ADJ	_	5	amod
+8	ل	_	ADP	ADP	_	10	case
+9	"	_	PUNCT	PUNCT	_	10	punct
+10	الشرق	_	NOUN	NOUN	_	6	nmod
+11	الاوسط	_	ADJ	ADJ	_	10	amod
+12	"	_	PUNCT	PUNCT	_	10	punct
+13	ان	_	CONJ	CONJ	_	18	mark
+14	موقف	_	NOUN	NOUN	_	18	nsubj
+15	الادارة	_	NOUN	NOUN	_	14	nmod
+16	الاميركية	_	ADJ	ADJ	_	15	amod
+17	لم	_	PART	PART	_	18	neg
+18	يتغير	_	VERB	VERB	_	2	csubjpass
+19	من	_	ADP	ADP	_	20	case
+20	مسالة	_	NOUN	NOUN	_	18	dobj
+21	التفاوض	_	NOUN	NOUN	_	20	nmod
+22	مع	_	ADP	ADP	_	23	case
+23	ايران	_	NOUN	NOUN	_	21	nmod
+24	و	_	CONJ	CONJ	_	23	cc
+25	سورية	_	ADJ	ADJ	_	23	conj
+26	ب	_	ADP	ADP	_	27	case
+27	شان	_	NOUN	NOUN	_	18	nmod
+28	العراق	_	NOUN	NOUN	_	27	nmod
+29	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+اكد
+يتغير
+</Verbs>
+<Nouns>
+مصدر في وزارة الخارجية الاميركية ل " الشرق الاوسط "
+موقف الادارة الاميركية
+مسالة التفاوض مع ايران و سورية
+شان العراق
+</Nouns>
+<Tuples>
+source: مصدر في وزارة الخارجية الاميركية ل " الشرق الاوسط "	target: -	verb: اكد	other_noun: 
+source: موقف الادارة الاميركية	target: مسالة التفاوض مع ايران و سورية	verb: يتغير	other_noun: شان العراق
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-4" source = "AAW_ARB" sentence = "True">
+<Text>ويعمل العلماء هناك، بالتعاون مع مركز أبحاث كارلسروهه، منذ سنوات في مشروع «ميغابي Megapie» الرامي لتخليص العالم من مشكلة المقابر النووية.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	يعمل	_	VERB	VERB	_	1	parataxis
+3	العلماء	_	NOUN	NOUN	_	2	nsubj
+4	هناك	_	ADV	ADV	_	2	advmod
+5	,	_	PUNCT	PUNCT	_	4	punct
+6	ب	_	ADP	ADP	_	7	case
+7	التعاون	_	NOUN	NOUN	_	2	advmod
+8	مع	_	ADP	ADP	_	9	case
+9	مركز	_	NOUN	NOUN	_	7	nmod
+10	ابحاث	_	_	_	_	0	auxpass
+11	كارلسروه	_	NOUN	NOUN	_	9	nmod
+12	ه	_	PRON	PRON	_	11	nmod
+13	,	_	PUNCT	PUNCT	_	12	punct
+14	منذ	_	ADP	ADP	_	15	case
+15	سنوات	_	NOUN	NOUN	_	2	nmod
+16	في	_	ADP	ADP	_	17	case
+17	مشروع	_	NOUN	NOUN	_	15	nmod
+18	"	_	PUNCT	PUNCT	_	20	punct
+19	ميغابي	_	X	X	_	20	nmod
+20	Megapie	_	X	X	_	17	nmod
+21	"	_	PUNCT	PUNCT	_	20	punct
+22	الرامي	_	ADJ	ADJ	_	20	amod
+23	ل	_	ADP	ADP	_	24	case
+24	تخليص	_	NOUN	NOUN	_	22	nmod
+25	العالم	_	NOUN	NOUN	_	24	nmod
+26	من	_	ADP	ADP	_	27	case
+27	مشكلة	_	NOUN	NOUN	_	24	nmod
+28	المقابر	_	NOUN	NOUN	_	27	nmod
+29	النووية	_	ADJ	ADJ	_	28	amod
+30	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+يعمل
+</Verbs>
+<Nouns>
+العلماء
+سنوات في مشروع " ميغابي Megapie " الرامي ل تخليص العالم من مشكلة المقابر النووية
+</Nouns>
+<Tuples>
+source: العلماء	target: -	verb: يعمل	other_noun: سنوات في مشروع " ميغابي Megapie " الرامي ل تخليص العالم من مشكلة المقابر النووية
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-1" source = "AAW_ARB" sentence = "True">
+<Text>في خطوة غير مسبوقة، يعتزم علماء بريطانيون استخراج جثمان السير مارك سايكس، أحد اشهر الدبلوماسيين البريطانيين في الحرب العالمية الاولى، والذي صنع الحدود الجغرافية لدول الشرق الاوسط، وارتبط اسمه بمعاهدة سايكس بيكو لتقسيم الدول العربية، وذلك بهف «تنفيذ آخر خدمة له»، ليس في ميدان السياسة.</Text>
+<Parse>
+1	في	_	ADP	ADP	_	2	case
+2	خطوة	_	NOUN	NOUN	_	0	root
+3	غير	_	NOUN	NOUN	_	2	nmod
+4	مسبوقة	_	ADJ	ADJ	_	3	amod
+5	,	_	PUNCT	PUNCT	_	4	punct
+6	يعتزم	_	VERB	VERB	_	2	appos
+7	علماء	_	NOUN	NOUN	_	6	nsubj
+8	بريطانيون	_	X	X	_	7	nmod
+9	استخراج	_	NOUN	NOUN	_	8	nmod
+10	جثمان	_	NOUN	NOUN	_	9	nmod
+11	السير	_	NOUN	NOUN	_	10	nmod
+12	مارك	_	X	X	_	13	nmod
+13	سايكس	_	X	X	_	11	nmod
+14	,	_	PUNCT	PUNCT	_	13	punct
+15	احد	_	NOUN	NOUN	_	13	nmod
+16	اشهر	_	NOUN	NOUN	_	15	nmod
+17	الدبلوماسيين	_	NOUN	NOUN	_	16	nmod
+18	البريطانيين	_	ADJ	ADJ	_	17	amod
+19	في	_	ADP	ADP	_	20	case
+20	الحرب	_	NOUN	NOUN	_	18	nmod
+21	العالمية	_	ADJ	ADJ	_	20	amod
+22	الاولى	_	ADJ	ADJ	_	20	amod
+23	,	_	PUNCT	PUNCT	_	22	punct
+24	و	_	CONJ	CONJ	_	20	cc
+25	الذي	_	PRON	PRON	_	20	conj
+26	صنع	_	VERB	VERB	_	25	acl
+27	الحدود	_	NOUN	NOUN	_	26	dobj
+28	الجغرافية	_	ADJ	ADJ	_	27	amod
+29	ل	_	ADP	ADP	_	30	case
+30	دول	_	NOUN	NOUN	_	27	nmod
+31	الشرق	_	NOUN	NOUN	_	30	nmod
+32	الاوسط	_	ADJ	ADJ	_	31	amod
+33	,	_	PUNCT	PUNCT	_	32	punct
+34	و	_	CONJ	CONJ	_	32	cc
+35	ارتبط	_	_	_	_	0	conj
+36	اسم	_	NOUN	NOUN	_	32	conj
+37	ه	_	PRON	PRON	_	36	nmod
+38	ب	_	ADP	ADP	_	39	case
+39	معاهدة	_	NOUN	NOUN	_	26	advmod
+40	سايكس	_	X	X	_	39	nmod
+41	بيكو	_	_	_	_	0	det
+42	ل	_	ADP	ADP	_	43	case
+43	تقسيم	_	NOUN	NOUN	_	26	advmod
+44	الدول	_	NOUN	NOUN	_	43	nmod
+45	العربية	_	ADJ	ADJ	_	44	amod
+46	,	_	PUNCT	PUNCT	_	45	punct
+47	و	_	CONJ	CONJ	_	44	cc
+48	ذلك	_	PRON	PRON	_	49	nsubj
+49	بهف	_	X	X	_	44	nmod
+50	"	_	PUNCT	PUNCT	_	51	punct
+51	تنفيذ	_	NOUN	NOUN	_	49	nmod
+52	اخر	_	ADJ	ADJ	_	51	amod
+53	خدمة	_	NOUN	NOUN	_	52	nmod
+54	ل	_	ADP	ADP	_	55	case
+55	ه	_	PRON	PRON	_	53	dobj
+56	",	_	X	X	_	55	nsubj
+57	ليس	_	VERB	VERB	_	55	acl
+58	في	_	ADP	ADP	_	59	case
+59	ميدان	_	NOUN	NOUN	_	57	nmod
+60	السياسة	_	NOUN	NOUN	_	59	nmod
+61	.	_	PUNCT	PUNCT	_	2	punct
+</Parse>
+<Verbs>
+يعتزم
+صنع
+ليس
+</Verbs>
+<Nouns>
+علماء بريطانيون استخراج جثمان السير مارك سايكس , احد اشهر الدبلوماسيين البريطانيين في الحرب العالمية الاولى , و الذي صنع الحدود الجغرافية ل دول الشرق الاوسط , و اسم ه ب معاهدة سايكس ل تقسيم الدول العربية , و ذلك بهف " تنفيذ اخر خدمة ل ه ", ليس في ميدان السياسة
+الحدود الجغرافية ل دول الشرق الاوسط , و اسم ه
+ميدان السياسة
+</Nouns>
+<Tuples>
+source: علماء بريطانيون استخراج جثمان السير مارك سايكس , احد اشهر الدبلوماسيين البريطانيين في الحرب العالمية الاولى , و الذي صنع الحدود الجغرافية ل دول الشرق الاوسط , و اسم ه ب معاهدة سايكس ل تقسيم الدول العربية , و ذلك بهف " تنفيذ اخر خدمة ل ه ", ليس في ميدان السياسة	target: -	verb: يعتزم	other_noun: 
+source: -	target: الحدود الجغرافية ل دول الشرق الاوسط , و اسم ه	verb: صنع	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-2" source = "AAW_ARB" sentence = "True">
+<Text>.</Text>
+<Parse>
+1	.	_	PUNCT	PUNCT	_	0	root
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-3" source = "AAW_ARB" sentence = "True">
+<Text>بل في ميدان الصحة العامة!</Text>
+<Parse>
+1	بل	_	CONJ	CONJ	_	0	root
+2	في	_	ADP	ADP	_	3	case
+3	ميدان	_	NOUN	NOUN	_	1	dep
+4	الصحة	_	NOUN	NOUN	_	3	nmod
+5	العامة	_	ADJ	ADJ	_	4	amod
+6	!	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0005-2" source = "AAW_ARB" sentence = "True">
+<Text>وحول تسليمه الى محكمة لاهاي من عدمه، قال المسؤول السوداني «بكل ثقة واطمئنان أقول ان خيارات الحكومة مفتوحة بلا قيد لتتخذ ما تراه في مصلحة البلاد»، وشدد «عندي قضية ممكن الدفاع عنها ولست قلقاً على كل حال.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	حول	_	ADP	ADP	_	3	case
+3	تسليم	_	NOUN	NOUN	_	12	nmod
+4	ه	_	PRON	PRON	_	3	nmod
+5	الى	_	ADP	ADP	_	6	case
+6	محكمة	_	NOUN	NOUN	_	3	dobj
+7	لاهاي	_	ADJ	ADJ	_	6	amod
+8	من	_	ADP	ADP	_	9	case
+9	عدم	_	NOUN	NOUN	_	3	advcl
+10	ه	_	PRON	PRON	_	9	nmod
+11	,	_	PUNCT	PUNCT	_	10	punct
+12	قال	_	VERB	VERB	_	1	parataxis
+13	المسؤول	_	NOUN	NOUN	_	12	nsubj
+14	السوداني	_	ADJ	ADJ	_	13	amod
+15	"	_	PUNCT	PUNCT	_	17	punct
+16	ب	_	ADP	ADP	_	17	case
+17	كل	_	NOUN	NOUN	_	12	advmod
+18	ثقة	_	NOUN	NOUN	_	17	nmod
+19	و	_	CONJ	CONJ	_	18	cc
+20	اطمئنان	_	NOUN	NOUN	_	18	conj
+21	اقول	_	NOUN	NOUN	_	20	nmod
+22	ان	_	CONJ	CONJ	_	30	mark
+23	خيارات	_	NOUN	NOUN	_	30	nsubj
+24	الحكومة	_	NOUN	NOUN	_	23	nmod
+25	مفتوحة	_	ADJ	ADJ	_	24	amod
+26	ب	_	ADP	ADP	_	31	case
+27	لا	_	PART	PART	_	31	nmod
+28	قيد	_	ADP	ADP	_	29	case
+29	ل	_	ADP	ADP	_	26	mwe
+30	تتخذ	_	VERB	VERB	_	12	advmod
+31	ما	_	DET	DET	_	25	ccomp
+32	ترا	_	NOUN	NOUN	_	31	nmod
+33	ه	_	PRON	PRON	_	32	nmod
+34	في	_	ADP	ADP	_	35	case
+35	مصلحة	_	NOUN	NOUN	_	31	nmod
+36	البلاد	_	NOUN	NOUN	_	35	nmod
+37	",	_	_	_	_	0	cc
+38	و	_	CONJ	CONJ	_	12	cc
+39	شدد	_	VERB	VERB	_	12	conj
+40	"	_	PUNCT	PUNCT	_	39	punct
+41	عند	_	ADP	ADP	_	42	case
+42	ي	_	PRON	PRON	_	39	nmod
+43	قضية	_	NOUN	NOUN	_	42	nsubj
+44	ممكن	_	ADJ	ADJ	_	43	amod
+45	الدفاع	_	NOUN	NOUN	_	47	cc
+46	عن	_	ADP	ADP	_	47	case
+47	ها	_	PRON	PRON	_	42	dobj
+48	و	_	CONJ	CONJ	_	47	cc
+49	لست	_	VERB	VERB	_	47	conj
+50	قلقا	_	NOUN	NOUN	_	49	nsubj
+51	على	_	ADP	ADP	_	52	case
+52	كل	_	NOUN	NOUN	_	49	nmod
+53	حال	_	NOUN	NOUN	_	52	nmod
+54	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+قال
+تتخذ
+شدد
+لست
+</Verbs>
+<Nouns>
+المسؤول السوداني
+تسليم ه الى محكمة لاهاي من عدم ه ,
+خيارات الحكومة مفتوحة ب لا قيد ل ما ترا ه في مصلحة البلاد
+ي
+قلقا
+كل حال
+</Nouns>
+<Tuples>
+source: المسؤول السوداني	target: -	verb: قال	other_noun: تسليم ه الى محكمة لاهاي من عدم ه ,
+source: خيارات الحكومة مفتوحة ب لا قيد ل ما ترا ه في مصلحة البلاد	target: -	verb: تتخذ	other_noun: 
+source: قلقا	target: -	verb: لست	other_noun: كل حال
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-4" source = "AAW_ARB" sentence = "True">
+<Text>وصرح المتحدث باسم البيت الابيض توني سنو للصحافيين بالقول «يصف العديدون المشاركة الاميركية في اجتماع اقليمي بأنه تغير في السياسة.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	صرح	_	VERB	VERB	_	1	parataxis
+3	المتحدث	_	NOUN	NOUN	_	2	nsubj
+4	ب	_	ADP	ADP	_	5	case
+5	اسم	_	NOUN	NOUN	_	3	nmod
+6	البيت	_	NOUN	NOUN	_	5	nmod
+7	الابيض	_	ADJ	ADJ	_	6	amod
+8	توني	_	ADJ	ADJ	_	6	amod
+9	سنو	_	_	_	_	0	det
+10	ل	_	ADP	ADP	_	11	case
+11	الصحافيين	_	NOUN	NOUN	_	2	iobj
+12	ب	_	ADP	ADP	_	13	case
+13	القول	_	NOUN	NOUN	_	2	advmod
+14	"	_	PUNCT	PUNCT	_	15	punct
+15	يصف	_	VERB	VERB	_	13	ccomp
+16	العديدون	_	NOUN	NOUN	_	15	nsubj
+17	المشاركة	_	NOUN	NOUN	_	16	nmod
+18	الاميركية	_	ADJ	ADJ	_	17	amod
+19	في	_	ADP	ADP	_	20	case
+20	اجتماع	_	NOUN	NOUN	_	15	nmod
+21	اقليمي	_	_	_	_	0	det
+22	ب	_	ADP	ADP	_	25	mark
+23	ان	_	CONJ	CONJ	_	25	mark
+24	ه	_	PRON	PRON	_	25	nsubj
+25	تغير	_	VERB	VERB	_	15	conj
+26	في	_	ADP	ADP	_	27	case
+27	السياسة	_	NOUN	NOUN	_	25	nmod
+28	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+صرح
+يصف
+تغير
+</Verbs>
+<Nouns>
+المتحدث ب اسم البيت الابيض توني
+الصحافيين
+العديدون المشاركة الاميركية
+اجتماع
+ه
+السياسة
+</Nouns>
+<Tuples>
+source: المتحدث ب اسم البيت الابيض توني	target: الصحافيين	verb: صرح	other_noun: 
+source: العديدون المشاركة الاميركية	target: -	verb: يصف	other_noun: اجتماع
+source: ه	target: -	verb: تغير	other_noun: السياسة
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-6" source = "AAW_ARB" sentence = "True">
+<Text>وكانت تلك الانفلونزا ناجمة عن فيروس انفلونزا الطيور «اتش1 ان1»، والذي كانت تحمله الطيور الفرنسية حينذاك، وهو مماثل للفيروس الحالي لإنفلونزا الطيور «اتش 1 ان1».</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	كانت	_	VERB	VERB	_	1	parataxis
+3	تلك	_	DET	DET	_	4	det
+4	الانفلونزا	_	NOUN	NOUN	_	2	nsubj
+5	ناجمة	_	ADJ	ADJ	_	4	amod
+6	عن	_	ADP	ADP	_	7	case
+7	فيروس	_	NOUN	NOUN	_	2	dobj
+8	انفلونزا	_	X	X	_	9	nmod
+9	الطيور	_	X	X	_	7	nmod
+10	"	_	PUNCT	PUNCT	_	11	punct
+11	اتش1	_	NUM	NUM	_	9	nummod
+12	ان1	_	NOUN	NOUN	_	11	nmod
+13	",	_	_	_	_	0	cc
+14	و	_	CONJ	CONJ	_	2	cc
+15	الذي	_	PRON	PRON	_	16	nsubj
+16	كانت	_	VERB	VERB	_	2	csubjpass
+17	تحمل	_	VERB	VERB	_	16	xcomp
+18	ه	_	PRON	PRON	_	17	dobj
+19	الطيور	_	NOUN	NOUN	_	17	nmod
+20	الفرنسية	_	ADJ	ADJ	_	19	amod
+21	حينذاك	_	X	X	_	19	nmod
+22	,	_	PUNCT	PUNCT	_	21	punct
+23	و	_	CONJ	CONJ	_	16	cc
+24	هو	_	PRON	PRON	_	16	conj
+25	مماثل	_	ADJ	ADJ	_	24	amod
+26	ل	_	ADP	ADP	_	27	case
+27	الفيروس	_	NOUN	NOUN	_	25	dobj
+28	الحالي	_	ADJ	ADJ	_	27	amod
+29	ل	_	ADP	ADP	_	30	case
+30	انفلونزا	_	NOUN	NOUN	_	27	nmod
+31	الطيور	_	X	X	_	30	nmod
+32	"	_	PUNCT	PUNCT	_	33	punct
+33	اتش	_	X	X	_	27	nmod
+34	1	_	NUM	NUM	_	33	nummod
+35	ان1	_	NUM	NUM	_	33	nummod
+36	".	_	NOUN	NOUN	_	35	nmod
+</Parse>
+<Verbs>
+كانت
+كانت
+تحمل
+</Verbs>
+<Nouns>
+تلك الانفلونزا ناجمة
+فيروس انفلونزا الطيور " اتش1 ان1
+الذي
+ه
+الطيور الفرنسية حينذاك ,
+</Nouns>
+<Tuples>
+source: تلك الانفلونزا ناجمة	target: فيروس انفلونزا الطيور " اتش1 ان1	verb: كانت	other_noun: 
+source: الذي	target: -	verb: كانت	other_noun: 
+source: -	target: ه	verb: تحمل	other_noun: الطيور الفرنسية حينذاك ,
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0005-1" source = "AAW_ARB" sentence = "True">
+<Text>في تصريحات اعتبر انها تؤكد عدم اكتراثه بالتهمة التي وجهتها له المحكمة الجنائية الدولية في لاهاي اول من امس، بارتكاب جرائم حرب في دارفور، قال وزير الدولة للشؤون الانسانية السوداني أحمد هارون «أشعر أن القضية تافهة، ولا تستحق التوقف عندها طويلا»، مؤكدا انه سيواصل عمله كالمعتاد، وأضاف «ليس هنالك ما يقلقني».</Text>
+<Parse>
+1	في	_	ADP	ADP	_	2	case
+2	تصريحات	_	NOUN	NOUN	_	3	cc
+3	اعتبر	_	VERB	VERB	_	0	root
+4	ان	_	CONJ	CONJ	_	6	mark
+5	ها	_	PRON	PRON	_	6	nsubj
+6	تؤكد	_	VERB	VERB	_	3	ccomp
+7	عدم	_	NOUN	NOUN	_	6	dobj
+8	اكتراث	_	NOUN	NOUN	_	7	nmod
+9	ه	_	PRON	PRON	_	8	nmod
+10	ب	_	ADP	ADP	_	11	case
+11	التهمة	_	NOUN	NOUN	_	6	advmod
+12	التي	_	PRON	PRON	_	13	cc
+13	وجهة	_	NOUN	NOUN	_	33	advmod
+14	ها	_	PRON	PRON	_	13	nmod
+15	ل	_	ADP	ADP	_	16	case
+16	ه	_	PRON	PRON	_	13	dobj
+17	المحكمة	_	NOUN	NOUN	_	16	nsubj
+18	الجنائية	_	ADJ	ADJ	_	17	amod
+19	الدولية	_	ADJ	ADJ	_	17	amod
+20	في	_	ADP	ADP	_	21	case
+21	لاهاي	_	X	X	_	17	nmod
+22	اول	_	ADJ	ADJ	_	21	amod
+23	من	_	ADP	ADP	_	24	case
+24	امس	_	ADV	ADV	_	22	advmod
+25	,	_	PUNCT	PUNCT	_	24	punct
+26	ب	_	ADP	ADP	_	27	case
+27	ارتكاب	_	NOUN	NOUN	_	21	nmod
+28	جرائم	_	NOUN	NOUN	_	27	nmod
+29	حرب	_	NOUN	NOUN	_	28	nmod
+30	في	_	ADP	ADP	_	31	case
+31	دارفور	_	X	X	_	29	nmod
+32	,	_	PUNCT	PUNCT	_	31	punct
+33	قال	_	VERB	VERB	_	11	parataxis
+34	وزير	_	NOUN	NOUN	_	33	nsubj
+35	الدولة	_	NOUN	NOUN	_	34	nmod
+36	ل	_	ADP	ADP	_	37	case
+37	الشؤون	_	NOUN	NOUN	_	33	nmod
+38	الانسانية	_	ADJ	ADJ	_	37	amod
+39	السوداني	_	ADJ	ADJ	_	37	amod
+40	احمد	_	X	X	_	41	nmod
+41	هارون	_	X	X	_	37	nmod
+42	"	_	PUNCT	PUNCT	_	43	punct
+43	اشعر	_	X	X	_	41	nmod
+44	ان	_	CONJ	CONJ	_	50	mark
+45	القضية	_	NOUN	NOUN	_	44	nsubj
+46	تافهة	_	ADJ	ADJ	_	45	amod
+47	,	_	PUNCT	PUNCT	_	46	punct
+48	و	_	CONJ	CONJ	_	3	cc
+49	لا	_	PART	PART	_	50	neg
+50	تستحق	_	VERB	VERB	_	3	parataxis
+51	التوقف	_	NOUN	NOUN	_	50	dobj
+52	عند	_	ADP	ADP	_	53	case
+53	ها	_	PRON	PRON	_	51	nmod
+54	طويلا	_	ADJ	ADJ	_	51	nsubj
+55	",	_	ADJ	ADJ	_	54	amod
+56	مؤكدا	_	ADJ	ADJ	_	54	amod
+57	ان	_	CONJ	CONJ	_	60	mark
+58	ه	_	PRON	PRON	_	60	nsubj
+59	س	_	PART	PART	_	60	aux
+60	يواصل	_	VERB	VERB	_	56	ccomp
+61	عمل	_	NOUN	NOUN	_	60	nsubj
+62	ه	_	PRON	PRON	_	61	nmod
+63	ك	_	ADP	ADP	_	64	case
+64	المعتاد	_	NOUN	NOUN	_	60	nmod
+65	,	_	PUNCT	PUNCT	_	64	punct
+66	و	_	CONJ	CONJ	_	60	cc
+67	اضاف	_	VERB	VERB	_	60	conj
+68	"	_	PUNCT	PUNCT	_	69	punct
+69	ليس	_	VERB	VERB	_	67	ccomp
+70	هنالك	_	ADV	ADV	_	69	advmod
+71	ما	_	PRON	PRON	_	69	dobj
+72	يقلقني	_	VERB	VERB	_	71	acl
+73	".	_	X	X	_	72	dobj
+</Parse>
+<Verbs>
+اعتبر
+تؤكد
+قال
+تستحق
+يواصل
+اضاف
+ليس
+يقلقني
+</Verbs>
+<Nouns>
+ها
+عدم اكتراث ه
+وزير الدولة
+الشؤون الانسانية السوداني احمد هارون " اشعر
+التوقف عند ها طويلا ", مؤكدا ان ه س يواصل عمل ه ك المعتاد , و اضاف " ليس هنالك ما يقلقني ".
+ه
+عمل ه
+المعتاد ,
+ما
+".
+</Nouns>
+<Tuples>
+source: ها	target: عدم اكتراث ه	verb: تؤكد	other_noun: 
+source: وزير الدولة	target: -	verb: قال	other_noun: الشؤون الانسانية السوداني احمد هارون " اشعر
+source: -	target: التوقف عند ها طويلا ", مؤكدا ان ه س يواصل عمل ه ك المعتاد , و اضاف " ليس هنالك ما يقلقني ".	verb: تستحق	other_noun: 
+source: ه	target: -	verb: يواصل	other_noun: المعتاد ,
+source: عمل ه	target: -	verb: يواصل	other_noun: المعتاد ,
+source: -	target: ما	verb: ليس	other_noun: 
+source: -	target: ".	verb: يقلقني	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-8" source = "AAW_ARB" sentence = "True">
+<Text>وقال البروفسور جون اوكسفورد، الباحث المعروف في علم الفيروسات في كلية الملكة ماري بلندن، والذي يترأس فريق البحث، ان هناك 5 الى 6 عينات فقط في العالم مفيدة لدراسة وباء الانفلونزا عامي 1917 و1918، فيما لا يوجد سوى تابوت واحد من الرصاص هو للسير سايكس.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	قال	_	VERB	VERB	_	1	parataxis
+3	البروفسور	_	X	X	_	5	nmod
+4	جون	_	X	X	_	5	nmod
+5	اوكسفورد	_	X	X	_	2	nsubj
+6	,	_	PUNCT	PUNCT	_	5	punct
+7	الباحث	_	NOUN	NOUN	_	5	nmod
+8	المعروف	_	ADJ	ADJ	_	7	amod
+9	في	_	ADP	ADP	_	10	case
+10	علم	_	NOUN	NOUN	_	7	nmod
+11	الفيروسات	_	NOUN	NOUN	_	10	nmod
+12	في	_	ADP	ADP	_	13	case
+13	كلية	_	NOUN	NOUN	_	7	nmod
+14	الملكة	_	NOUN	NOUN	_	13	nmod
+15	ماري	_	X	X	_	16	nmod
+16	بلندن	_	X	X	_	14	nmod
+17	,	_	PUNCT	PUNCT	_	16	punct
+18	و	_	CONJ	CONJ	_	2	cc
+19	الذي	_	PRON	PRON	_	20	nsubj
+20	يتراس	_	VERB	VERB	_	2	csubjpass
+21	فريق	_	NOUN	NOUN	_	20	dobj
+22	البحث	_	NOUN	NOUN	_	21	nmod
+23	,	_	PUNCT	PUNCT	_	22	punct
+24	ان	_	CONJ	CONJ	_	25	mark
+25	هناك	_	ADV	ADV	_	20	dobj
+26	5	_	NUM	NUM	_	25	nsubj
+27	الى	_	ADP	ADP	_	28	case
+28	6	_	NUM	NUM	_	25	advmod
+29	عينات	_	NOUN	NOUN	_	28	nmod
+30	فقط	_	ADV	ADV	_	28	advmod:emph
+31	في	_	ADP	ADP	_	32	case
+32	العالم	_	NOUN	NOUN	_	25	nmod
+33	مفيدة	_	ADJ	ADJ	_	32	amod
+34	ل	_	ADP	ADP	_	35	case
+35	دراسة	_	NOUN	NOUN	_	32	nmod
+36	و	_	CONJ	CONJ	_	35	cc
+37	باء	_	NOUN	NOUN	_	35	conj
+38	الانفلونزا	_	NOUN	NOUN	_	37	nmod
+39	عامي	_	NOUN	NOUN	_	38	nmod
+40	1917	_	NUM	NUM	_	39	nummod
+41	و1918	_	NUM	NUM	_	40	nummod
+42	,	_	PUNCT	PUNCT	_	41	punct
+43	فيما	_	CONJ	CONJ	_	45	mark
+44	لا	_	PART	PART	_	45	neg
+45	يوجد	_	VERB	VERB	_	25	conj
+46	سوى	_	ADP	ADP	_	47	case
+47	تابوت	_	NOUN	NOUN	_	45	dobj
+48	واحد	_	ADJ	ADJ	_	47	amod
+49	من	_	ADP	ADP	_	50	case
+50	الرصاص	_	NOUN	NOUN	_	47	nmod
+51	هو	_	PRON	PRON	_	50	nmod
+52	ل	_	ADP	ADP	_	53	case
+53	السير	_	NOUN	NOUN	_	45	nmod
+54	سايكس	_	X	X	_	53	nmod
+55	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+قال
+يتراس
+يوجد
+</Verbs>
+<Nouns>
+اوكسفورد
+الذي
+هناك
+يوجد
+فريق البحث ,
+تابوت واحد من الرصاص هو
+السير سايكس
+</Nouns>
+<Tuples>
+source: اوكسفورد	target: -	verb: قال	other_noun: 
+source: الذي	target: هناك	verb: يتراس	other_noun: 
+source: الذي	target: يوجد	verb: يتراس	other_noun: 
+source: الذي	target: فريق البحث ,	verb: يتراس	other_noun: 
+source: -	target: تابوت واحد من الرصاص هو	verb: يوجد	other_noun: السير سايكس
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0007-4" source = "AAW_ARB" sentence = "True">
+<Text>ويأمل الباحثون العاملون في ميدان تطوير لقاحات مضادة لانفلونزا الطيور، في ان يتيح لهم جثمان سايكس التعرف على فيروس الانفلونزا الذي توفي بسببه عن عمر يناهز 39 عاما في غرفته بالفندق اثناء وجوده في باريس لحضور مؤتمر السلام هناك.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	يامل	_	VERB	VERB	_	1	parataxis
+3	الباحثون	_	NOUN	NOUN	_	2	nsubj
+4	العاملون	_	ADJ	ADJ	_	3	amod
+5	في	_	ADP	ADP	_	6	case
+6	ميدان	_	NOUN	NOUN	_	2	nmod
+7	تطوير	_	NOUN	NOUN	_	6	nmod
+8	لقاحات	_	X	X	_	7	nmod
+9	مضادة	_	ADJ	ADJ	_	8	amod
+10	ل	_	ADP	ADP	_	11	case
+11	انفلونزا	_	NOUN	NOUN	_	8	nmod
+12	الطيور	_	ADJ	ADJ	_	11	amod
+13	,	_	PUNCT	PUNCT	_	12	punct
+14	في	_	ADP	ADP	_	16	mark
+15	ان	_	CONJ	CONJ	_	16	mark
+16	يتيح	_	VERB	VERB	_	2	advcl
+17	ل	_	ADP	ADP	_	18	case
+18	هم	_	PRON	PRON	_	16	dobj
+19	جثمان	_	NOUN	NOUN	_	16	dobj
+20	سايكس	_	X	X	_	19	nmod
+21	التعرف	_	NOUN	NOUN	_	20	nmod
+22	على	_	ADP	ADP	_	23	case
+23	فيروس	_	NOUN	NOUN	_	20	dobj
+24	الانفلونزا	_	NOUN	NOUN	_	23	nmod
+25	الذي	_	PRON	PRON	_	24	cc
+26	توفي	_	VERB	VERB	_	24	acl
+27	ب	_	ADP	ADP	_	28	case
+28	سبب	_	NOUN	NOUN	_	26	dobj
+29	ه	_	PRON	PRON	_	28	nmod
+30	عن	_	ADP	ADP	_	31	case
+31	عمر	_	NOUN	NOUN	_	26	nmod
+32	يناهز	_	VERB	VERB	_	31	acl
+33	39	_	NUM	NUM	_	32	dobj
+34	عاما	_	NOUN	NOUN	_	33	nmod
+35	في	_	ADP	ADP	_	36	case
+36	غرفة	_	NOUN	NOUN	_	32	nmod
+37	ه	_	PRON	PRON	_	36	nmod
+38	ب	_	ADP	ADP	_	39	case
+39	الفندق	_	NOUN	NOUN	_	32	advmod
+40	اثناء	_	ADP	ADP	_	41	case
+41	وجود	_	NOUN	NOUN	_	32	nmod
+42	ه	_	PRON	PRON	_	41	nmod
+43	في	_	ADP	ADP	_	44	case
+44	باريس	_	X	X	_	41	nmod
+45	ل	_	ADP	ADP	_	46	case
+46	حضور	_	NOUN	NOUN	_	32	nmod
+47	مؤتمر	_	NOUN	NOUN	_	46	nmod
+48	السلام	_	NOUN	NOUN	_	47	nmod
+49	هناك	_	ADV	ADV	_	47	advmod:emph
+50	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+يامل
+يتيح
+توفي
+يناهز
+</Verbs>
+<Nouns>
+الباحثون العاملون
+ميدان تطوير لقاحات مضادة ل انفلونزا الطيور ,
+هم
+جثمان سايكس التعرف على فيروس الانفلونزا الذي توفي ب سبب ه عن عمر يناهز 39 عاما في غرفة ه ب الفندق اثناء وجود ه في باريس ل حضور مؤتمر السلام هناك
+سبب ه
+عمر يناهز 39 عاما في غرفة ه ب الفندق اثناء وجود ه في باريس ل حضور مؤتمر السلام هناك
+39
+غرفة ه
+وجود ه في باريس
+حضور مؤتمر السلام هناك
+</Nouns>
+<Tuples>
+source: الباحثون العاملون	target: -	verb: يامل	other_noun: ميدان تطوير لقاحات مضادة ل انفلونزا الطيور ,
+source: -	target: هم	verb: يتيح	other_noun: 
+source: -	target: جثمان سايكس التعرف على فيروس الانفلونزا الذي توفي ب سبب ه عن عمر يناهز 39 عاما في غرفة ه ب الفندق اثناء وجود ه في باريس ل حضور مؤتمر السلام هناك	verb: يتيح	other_noun: 
+source: -	target: سبب ه	verb: توفي	other_noun: عمر يناهز 39 عاما في غرفة ه ب الفندق اثناء وجود ه في باريس ل حضور مؤتمر السلام هناك
+source: -	target: 39	verb: يناهز	other_noun: غرفة ه وجود ه في باريس حضور مؤتمر السلام هناك
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0001-5" source = "AAW_ARB" sentence = "True">
+<Text>.</Text>
+<Parse>
+1	.	_	PUNCT	PUNCT	_	0	root
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-8" source = "AAW_ARB" sentence = "True">
+<Text>وتعتبر المقابر النووية من المشاكل البيئية التي تواجه أوروبا بسبب المخاطر التي يمكن أن تنجم عنها.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	تعتبر	_	VERB	VERB	_	1	parataxis
+3	المقابر	_	NOUN	NOUN	_	2	nsubj
+4	النووية	_	ADJ	ADJ	_	3	amod
+5	من	_	ADP	ADP	_	6	case
+6	المشاكل	_	NOUN	NOUN	_	2	dobj
+7	البيئية	_	ADJ	ADJ	_	6	amod
+8	التي	_	PRON	PRON	_	6	cc
+9	تواجه	_	VERB	VERB	_	6	acl
+10	اوروبا	_	X	X	_	9	nsubj
+11	ب	_	ADP	ADP	_	13	case
+12	سبب	_	NOUN	NOUN	_	13	cc
+13	المخاطر	_	NOUN	NOUN	_	9	nmod
+14	التي	_	PRON	PRON	_	13	cc
+15	يمكن	_	VERB	VERB	_	13	acl
+16	ان	_	CONJ	CONJ	_	19	mark
+17	تنجم	_	_	_	_	0	det
+18	عن	_	ADP	ADP	_	19	case
+19	ها	_	PRON	PRON	_	15	dobj
+20	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+تعتبر
+تواجه
+يمكن
+</Verbs>
+<Nouns>
+المقابر النووية
+المشاكل البيئية تواجه اوروبا ب سبب المخاطر التي يمكن ان عن ها
+اوروبا
+المخاطر يمكن ان عن ها
+ها
+</Nouns>
+<Tuples>
+source: المقابر النووية	target: المشاكل البيئية تواجه اوروبا ب سبب المخاطر التي يمكن ان عن ها	verb: تعتبر	other_noun: 
+source: اوروبا	target: -	verb: تواجه	other_noun: المخاطر يمكن ان عن ها
+source: -	target: ها	verb: يمكن	other_noun: 
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0010-9" source = "AAW_ARB" sentence = "True">
+<Text>وهناك في ألمانيا مقبرتان للنفايات النووية في اهاوس (ولاية الراين الشمالي فيستفاليا) وفي غورليبن (ولاية سكسونيا السفلى).</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	هناك	_	ADV	ADV	_	1	parataxis
+3	في	_	ADP	ADP	_	4	case
+4	المانيا	_	X	X	_	2	advmod
+5	مقبرتان	_	_	_	_	0	det
+6	ل	_	ADP	ADP	_	7	case
+7	النفايات	_	NOUN	NOUN	_	1	dep
+8	النووية	_	ADJ	ADJ	_	7	amod
+9	في	_	ADP	ADP	_	10	case
+10	اهاوس	_	X	X	_	7	nmod
+11	(	_	PUNCT	PUNCT	_	12	punct
+12	ولاية	_	NOUN	NOUN	_	10	nmod
+13	الراين	_	NOUN	NOUN	_	12	nmod
+14	الشمالي	_	ADJ	ADJ	_	13	amod
+15	فيستفاليا	_	X	X	_	13	nmod
+16	)	_	PUNCT	PUNCT	_	12	punct
+17	و	_	CONJ	CONJ	_	7	cc
+18	في	_	ADP	ADP	_	19	case
+19	غورليبن	_	X	X	_	7	nmod
+20	(	_	PUNCT	PUNCT	_	21	punct
+21	ولاية	_	NOUN	NOUN	_	19	nmod
+22	سكسونيا	_	X	X	_	21	nmod
+23	السفلى	_	X	X	_	24	nmod
+24	).	_	X	X	_	21	nmod
+</Parse>
+<Verbs>
+</Verbs>
+<Nouns>
+</Nouns>
+<Tuples>
+</Tuples>
+</Sentence>
+<Sentence date = "20070301" id="AAW_ARB_20070301.0003-6" source = "AAW_ARB" sentence = "True">
+<Text>وعن المقاتلين الذين يأتونهم من العراق قال: «نحن واقعيون، ودول الطوق أولى بالدفاع عن فلسطين، ثم اننا لا نسأل كل متطوع إن كان قاتل في العراق أم لم يقاتل.</Text>
+<Parse>
+1	و	_	CONJ	CONJ	_	0	root
+2	عن	_	ADP	ADP	_	3	case
+3	المقاتلين	_	NOUN	NOUN	_	9	nmod
+4	الذين	_	PRON	PRON	_	3	cc
+5	ياتون	_	VERB	VERB	_	4	acl
+6	هم	_	PRON	PRON	_	5	dobj
+7	من	_	ADP	ADP	_	8	case
+8	العراق	_	NOUN	NOUN	_	5	nmod
+9	قال	_	VERB	VERB	_	1	parataxis
+10	:	_	PUNCT	PUNCT	_	9	punct
+11	"	_	PUNCT	PUNCT	_	13	punct
+12	نحن	_	X	X	_	13	nmod
+13	واقعيون	_	X	X	_	9	dobj
+14	,	_	PUNCT	PUNCT	_	13	punct
+15	و	_	CONJ	CONJ	_	13	cc
+16	دول	_	NOUN	NOUN	_	13	conj
+17	الطوق	_	NOUN	NOUN	_	16	nmod
+18	اولى	_	ADJ	ADJ	_	17	amod
+19	ب	_	ADP	ADP	_	20	case
+20	الدفاع	_	NOUN	NOUN	_	17	nmod
+21	عن	_	ADP	ADP	_	22	case
+22	فلسطين	_	NOUN	NOUN	_	20	nmod
+23	,	_	PUNCT	PUNCT	_	22	punct
+24	ثم	_	CONJ	CONJ	_	9	cc
+25	ان	_	CONJ	CONJ	_	28	mark
+26	نا	_	PRON	PRON	_	28	nsubj
+27	لا	_	PART	PART	_	28	neg
+28	نسال	_	X	X	_	9	conj
+29	كل	_	NOUN	NOUN	_	28	dobj
+30	متطوع	_	ADJ	ADJ	_	29	amod
+31	ان	_	CONJ	CONJ	_	32	mark
+32	كان	_	VERB	VERB	_	28	advcl
+33	قاتل	_	VERB	VERB	_	32	xcomp
+34	في	_	ADP	ADP	_	35	case
+35	العراق	_	NOUN	NOUN	_	33	nmod
+36	ام	_	CONJ	CONJ	_	33	cc
+37	لم	_	PART	PART	_	38	neg
+38	يقاتل	_	X	X	_	33	advmod
+39	.	_	PUNCT	PUNCT	_	1	punct
+</Parse>
+<Verbs>
+ياتون
+قال
+كان
+قاتل
+</Verbs>
+<Nouns>
+هم
+العراق
+واقعيون
+دول الطوق اولى ب الدفاع عن فلسطين ,
+المقاتلين
+العراق
+</Nouns>
+<Tuples>
+source: -	target: هم	verb: ياتون	other_noun: العراق
+source: -	target: واقعيون	verb: قال	other_noun: المقاتلين
+source: -	target: دول الطوق اولى ب الدفاع عن فلسطين ,	verb: قال	other_noun: المقاتلين
+</Tuples>
+</Sentence>
+</Sentences>
