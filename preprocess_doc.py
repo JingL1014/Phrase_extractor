@@ -40,7 +40,7 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 			source = story.attrib['source']
 
 			text = story.find('Text').text
-			text = text.replace('\n', ' ').replace('  ', ' ').strip()
+			text = text.replace('\n', ' ').strip()
 
 			if entry_id in docdict:
 				print('id must be unique, this article is in document dictionary :'+entry_id)
@@ -56,12 +56,30 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 	parsed = open(inputparsed)
 	parsedfile = parsed.readlines()
 	parsedlines = []
-	for line in parsedfile:
-		if "Sentence #" in line or "[" in line:
-			continue
-		else:
+	#for line in parsedfile:
+		#if "Sentence #" in line or "[" in line:
+		#	continue
+		#else:
 			#print(line)
-			parsedlines.append(line.replace("\n"," ").strip())
+			#parsedlines.append(line.replace("\n"," ").strip())
+	i = 0
+	while i <len(parsedfile):
+		line = parsedfile[i]
+		if "Sentence #" in line:
+			i = i+1
+			continue
+		elif not line.startswith('['):
+			temp = line
+			i = i+1
+			line = parsedfile[i]
+			while(not line.startswith('[')):
+				temp = temp+line
+				i = i+1
+				line = parsedfile[i]
+		#print(temp)
+		parsedlines.append(temp.replace('\n', ' ').strip())
+		i = i+1
+
 
 
 
@@ -71,6 +89,7 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 	sentidx = 1
 	#print(len(doctexts))
 
+	processed = 0;
 	for line in parsedlines:
 		doc = doctexts[0]
 		#print(doc)
@@ -78,10 +97,14 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 		#print(isinstance(doc,str))
 		#print(isinstance(line,str))
 		#print(doc.encode('UTF-8').find(line))
-		
-
+		#break
+		#'''
 		if doc.encode('UTF-8').find(line) ==-1:
-			#print(line)
+			#print(processed)
+			#if processed==1:
+			#	print(line)
+			#	print(doc)
+			#	raw_input("Press Enter to continue...")
 			doctexts.remove(doc)
 			sentidx = 1
 			doc = doctexts[0]
@@ -97,6 +120,8 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 			#print(sents_dict[key]['sentence_id']+":"+key)
 			sentidx = sentidx + 1
 		
+		processed = processed+1
+		#'''
 
 	#print(len(parsedlines))
 	#print(len(sents))
