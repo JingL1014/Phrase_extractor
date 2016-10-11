@@ -76,8 +76,8 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 				temp = temp+line
 				i = i+1
 				line = parsedfile[i]
-		#print(temp)
-		parsedlines.append(temp.replace('\n', ' ').strip())
+			#print(temp)
+			parsedlines.append(temp.replace('\n', ' ').strip())
 		i = i+1
 
 
@@ -88,6 +88,8 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 	sents = []
 	sentidx = 1
 	#print(len(doctexts))
+	#print(len(parsedlines))
+	#raw_input("Press Enter to continue...")
 
 	processed = 0;
 	for line in parsedlines:
@@ -99,9 +101,10 @@ def read_doc_input(inputxml,inputparsed,outputfile):
 		#print(doc.encode('UTF-8').find(line))
 		#break
 		#'''
+		line = line.replace("&gt;",">").replace("&lt;","<").replace("&amp;","&")
 		if doc.encode('UTF-8').find(line) ==-1:
 			#print(processed)
-			#if processed==1:
+			#if processed>=33223:
 			#	print(line)
 			#	print(doc)
 			#	raw_input("Press Enter to continue...")

@@ -3,8 +3,10 @@
 import xml.etree.ElementTree as ET
 import networkx as nx
 import PETRgraph
-import sys
 
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf-8')
 
 def run():
 	events = read_xml_input(filepaths)
@@ -93,12 +95,12 @@ def extract_phrases(event_dict):
 
 	for key, val in sorted(event_dict.items()):
 		NStory += 1
-		print('\n\nProcessing story {}'.format(key))
+		#print('\n\nProcessing story {}'.format(key))
 		StoryDate = event_dict[key]['meta']['date']
 
 		for sent in val['sents']:
 			NSent += 1
-			print('Processing sentence ' + sent)
+			#print('Processing sentence ' + sent)
 			if 'parsed' in event_dict[key]['sents'][sent]:
 				SentenceText = event_dict[key]['sents'][sent]['content']
 				SentenceParsed = event_dict[key]['sents'][sent]['parsed']
@@ -110,12 +112,12 @@ def extract_phrases(event_dict):
 				#print(nx.dfs_successors(sentence.udgraph,6))
 
 				sentence.get_phrases()
-				print('verbs:')
-				for v in sentence.metadata['verbs']: print(v)
-				print('nouns:')
-				for n in sentence.metadata['nouns']: print(n)
-				print('triplets:')
-				for triple in sentence.metadata['triplets']: print("s: "+triple[0]+"\tt: "+triple[1]+"\tv: "+triple[2]+"\to: "+(" ").join(triple[3])+"\n")
+				#print('verbs:')
+				#for v in sentence.metadata['verbs']: print(v)
+				#print('nouns:')
+				#for n in sentence.metadata['nouns']: print(n)
+				#print('triplets:')
+				#for triple in sentence.metadata['triplets']: print("s: "+triple[0]+"\tt: "+triple[1]+"\tv: "+triple[2]+"\to: "+(" ").join(triple[3])+"\n")
 						
 				event_dict[key]['sents'][sent]['phrase_dict'] = sentence.metadata
 
@@ -125,42 +127,36 @@ def extract_phrases(event_dict):
 
 
 def write_phrases(event_dict,outputfile):
-	output=[]
-	output.append("<Sentences>\n")
+	#output=[]
+	root = ET.Element('Sentences')
+	#output.append("<Sentences>\n")
 	for key, val in sorted(event_dict.items()):
 		
 		StoryDate = event_dict[key]['meta']['date']
 
 		for sent in val['sents']:
 			#source = key[0:key.index('_')]
-			output.append("<Sentence date = \""+StoryDate+"\" id=\""+key+"_"+sent+"\" source = \""+key+"\" sentence = \"True\">\n")
-			output.append("<Text>"+event_dict[key]['sents'][sent]['content']+"</Text>\n")
-			output.append("<Parse>\n"+event_dict[key]['sents'][sent]['parsed']+"\n</Parse>\n")
-			output.append("<Verbs>\n")
-			for v in event_dict[key]['sents'][sent]['phrase_dict']['verbs']:
-				output.append(v+"\n")
-			output.append("</Verbs>\n")
-
-			output.append("<Nouns>\n")
-			for n in event_dict[key]['sents'][sent]['phrase_dict']['nouns']:
-				output.append(n+"\n")
-			output.append("</Nouns>\n")
-
-			output.append("<Tuples>\n")
+			sentenceElt=ET.SubElement(root, 'Sentence', date=StoryDate, id=key+"_"+sent, source=key, sentence="true")
+			Text=ET.SubElement(sentenceElt, 'Text')
+			Text.text=event_dict[key]['sents'][sent]['content']
+			Parse=ET.SubElement(sentenceElt, 'Parse')
+			Parse.text=event_dict[key]['sents'][sent]['parsed']
+			Verbs=ET.SubElement(sentenceElt, 'Verbs')
+			verbs_data = '\n'.join(map(str, event_dict[key]['sents'][sent]['phrase_dict']['verbs'])) 
+			Verbs.text=verbs_data
+			Nouns=ET.SubElement(sentenceElt, 'Nouns')
+			nouns_data='\n'.join(map(str,event_dict[key]['sents'][sent]['phrase_dict']['nouns']))
+			Nouns.text=nouns_data
+			Tuples=ET.SubElement(sentenceElt, 'Tuples')
+			tuples_data=''
 			for triple in event_dict[key]['sents'][sent]['phrase_dict']['triplets']:
-				output.append("source: "+triple[0]+"\ttarget: "+triple[1]+"\tverb: "+triple[2]+"\tother_noun: "+(" ").join(triple[3])+"\n")
-			output.append("</Tuples>\n")
-
-			output.append("</Sentence>\n")
-
-	output.append("</Sentences>\n")
+				tuples_data=tuples_data+"source: "+triple[0]+"\ttarget: "+triple[1]+"\tverb: "+triple[2]+"\tother_noun: "+(" ").join(triple[3])+"\n"
+				
+			Tuples.text=tuples_data
 
 
-
-	ofile = open(outputfile,'w')
-	for line in output:
-		ofile.write(line.encode('utf8'))
-	ofile.close()
+	tree = ET.ElementTree(root)
+        tree.write(outputfile,'UTF-8')
 
 
 
