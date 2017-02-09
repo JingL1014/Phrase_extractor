@@ -60,7 +60,8 @@ class Sentence:
 				for parent in parents:
 					if parent in allsuccessors.keys():
 						for child in allsuccessors[parent]:
-							if parent!=nounhead or self.udgraph[parent][child]['relation'] not in ['cc','conj']:
+							if (parent==nounhead and self.udgraph[parent][child]['relation'] not in ['acl','acl:relcl','cc','conj','appos','punct']) or (parent!=nounhead and self.udgraph[parent][child]['relation'] not in ['acl','acl:relcl','appos','dobj','punct']):
+								#if parent!=nounhead or self.udgraph[parent][child]['relation'] not in []:
 								npIDs.append(child)
 								temp.append(child)
 				parents = temp
@@ -70,7 +71,7 @@ class Sentence:
 				print(str(parent))
 				print(child)
 			'''		
-
+			#raw_input(" ")
 
 			#for value in allsuccessors.values():
 			#	npIDs.extend(value)
@@ -79,7 +80,7 @@ class Sentence:
 		npIDs.append(nounhead)
 		npTokens =[]
 		npIDs.sort()
-		print(npIDs)
+		#print(npIDs)
 		if self.udgraph.node[npIDs[0]]['pos']=='ADP':
 			npIDs = npIDs[1:]
 		for npID in npIDs:
@@ -98,9 +99,9 @@ class Sentence:
 		target = []
 		othernoun = []
 		for successor in self.udgraph.successors(nodeID):
-			print(str(nodeID)+"\t"+str(successor)+"\t"+self.udgraph.node[successor]['pos'])
+			#print(str(nodeID)+"\t"+str(successor)+"\t"+self.udgraph.node[successor]['pos'])
 			if('relation' in self.udgraph[nodeID][successor]):
-				print(self.udgraph[nodeID][successor]['relation'])
+				#print(self.udgraph[nodeID][successor]['relation'])
 				if(self.udgraph[nodeID][successor]['relation']=='nsubj'):
 					#source.append(self.udgraph.node[successor]['token'])
 					source.append(self.get_nounPharse(successor))
@@ -128,11 +129,34 @@ class Sentence:
 			nodeID = node[0]
 			attrs = node[1]
 			if 'pos' in attrs and attrs['pos']== 'VERB':
-				print(str(nodeID)+"\t"+attrs['pos']+"\t"+(" ").join(str(e) for e in self.udgraph.successors(nodeID)))
+				#print(str(nodeID)+"\t"+attrs['pos']+"\t"+(" ").join(str(e) for e in self.udgraph.successors(nodeID)))
 				#print(self.udgraph.successors(nodeID))
 				
 				verb = attrs['token']
 				source,target,othernoun = self.get_source_target(nodeID)
+
+					#check for conjuncting verbs
+				predecessors = self.udgraph.predecessors(nodeID)
+				for predecessor in predecessors:
+					if 'relation' in self.udgraph[predecessor][nodeID] and self.udgraph[predecessor][nodeID]['relation'] in ['conj']:
+						psource,ptarget,pothernoun = self.get_source_target(predecessor)
+						source.extend(psource)
+						#print(self.udgraph.node[predecessor]['token'])
+						#raw_input("find conj verb:"+str(predecessor))
+
+				#find the subject for 'xcomp' relation
+				#An open clausal complement (xcomp) of a verb or an adjective is a predicative or clausal complement without its own subject. 
+				#The reference of the subject is necessarily determined by an argument external to the xcomp 
+				#(normally by the object of the next higher clause, if there is one, or else by the subject of the next higher clause).
+				for predecessor in predecessors:
+					if 'relation' in self.udgraph[predecessor][nodeID] and self.udgraph[predecessor][nodeID]['relation'] in ['xcomp']: 
+						psource,ptarget,pothernoun = self.get_source_target(predecessor)
+						if len(ptarget)>0:
+							source.extend(ptarget)
+						elif len(psource)>0:
+							source.extend(psource)
+						#print(self.udgraph.node[predecessor]['token'])
+						#raw_input("find xcomp relation:"+str(predecessor))
 
 				#for s in source: print(s)
 				#for t in target: print(t)
