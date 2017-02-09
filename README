@@ -1,9 +1,14 @@
 =============================================================================
 1. Prerequisites
 =============================================================================
-1a.TurboParser
+1a.
+TurboParser
 You need download TurboParser v2.3 and compile it following the instructions in TurboParser's README file.
 LINK:http://www.cs.cmu.edu/~ark/TurboParser/
+
+UDpipe
+An alternative parser is UDpipe, the pre-compiled binary package (udpipe-1.0.0-bin.zip) can be downloaded at: https://github.com/ufal/udpipe/releases/tag/v1.0.0. To use UDpipe, a language model is needed, which can be downloaded at https://ufal.mff.cuni.cz/udpipe#download
+
 
 1b. Stanford word segmenter
 You need download Stanford segmenter v3.6.0 and unzip the file.
@@ -23,9 +28,9 @@ LINK:http://stanfordnlp.github.io/CoreNLP/download.html
 ============================================================================
 Download the entire repository and save it in the root folder of TurboParser. Shell script run_sentence.sh and run_document.sh are provided to do phrase extraction of an input arabic file.
 
-usage: Based on the input format (sentence or document), you can run either run_sentence.sh or run_document.sh
-run_sentence.sh Sample_arabic_sent.xml
-run_document.sh Sample_arabic_doc.xml
+usage: Based on the input format (sentence or document), you can run either run_sentence_X.sh or run_document_X.sh (X is turboParser or udpipe based on your choice of parser)
+run_sentence_X.sh Sample_arabic_sent.xml
+run_document_X.sh Sample_arabic_doc.xml
 
 
 2a. Input data format
@@ -33,7 +38,7 @@ Two types of input format is allowed:
 -> sentence: the input file has one sentence per entry. A sample "Sample_arabic_sent.xml" of input data can be found under directory data/
 -> document: the input file has one document per entry. This type of input will perform sentence splitting before other processes. A sample "Sample_arabic_doc.xml" of input data can be found under directory data/
 
-2b. Running run_document.sh or run_sentence.sh
+2b. Running run_document_X.sh or run_sentence_X.sh
 You need change the value of following parameters based on your situation
 
 -> SCRIPT: the location where you put folder "scripts"
@@ -51,6 +56,14 @@ STANFORD_SEG=/users/ljwinnie/Downloads/stanford-segmenter-2015-12-09
 -> TurboParserPath: the location where TurboParser is saved
 example:
 TurboParserPath=/users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0
+
+-> udpipePath: the location where UDpipe is saved
+example:
+/users/ljwinnie/Desktop/petrarch2/phrase_extractor/udpipe-1.0.0-bin
+
+-> languageModel: the location where the language model used in UDpipe is saved
+example:
+/users/ljwinnie/Desktop/petrarch2/phrase_extractor/udpipe-1.0.0-bin/model/arabic-ud-1.2-160523.udpipe
 
 ->STANFORD_CORENLP: the location where the Stanford CoreNLP is saved
 example:

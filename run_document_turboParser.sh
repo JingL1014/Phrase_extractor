@@ -19,22 +19,23 @@ SFILENAME=$FILENAME-sent.xml
 echo "Call Stanford Segmenter to do word segmenting..."
 java -mx1g -cp $CLASSPATH edu.stanford.nlp.international.arabic.process.ArabicSegmenter -loadClassifier $STANFORD_SEG/data/arabic-segmenter-atb+bn+arztrain.ser.gz -textFile ${FILE}/$FILENAME-sent.txt > ${FILE}/$SFILENAME.segmented
 
-echo "Call TurboParser to do pos tagging and dependency parsing"
+echo "Call TurboParser to do pos tagging and dependency parsing..."
 ${SCRIPT}/create_conll_corpus_from_text.pl ${FILE}/$SFILENAME.segmented > ${FILE}/$SFILENAME.conll
 ${SCRIPT}/create_tagging_corpus.sh ${FILE}/$SFILENAME.conll # Creates $FILENAME.conll.tagging.
 ${SCRIPT}/run_tagger.sh $TurboParserPath ${FILE}/$SFILENAME.conll.tagging # Does pos tagging
 ${SCRIPT}/create_conll_predicted_tags_corpus.sh ${FILE}/$SFILENAME.conll ${FILE}/$SFILENAME.conll.tagging.pred # Does Dependency parser and Creates $FILENAME.conll.predpos
 ${SCRIPT}/run_parser.sh $TurboParserPath ${FILE}/$SFILENAME.conll.predpos # Creates $FILENAME.conll.predpos.pred.
 
-rm ${FILE}/$SFILENAME.segmented
-rm ${FILE}/$SFILENAME.conll
-rm ${FILE}/$SFILENAME.conll.tagging
-rm ${FILE}/$SFILENAME.conll.tagging.pred
-rm ${FILE}/$SFILENAME.conll.predpos
+#rm ${FILE}/$SFILENAME.segmented
+#rm ${FILE}/$SFILENAME.conll
+#rm ${FILE}/$SFILENAME.conll.tagging
+#rm ${FILE}/$SFILENAME.conll.tagging.pred
+#rm ${FILE}/$SFILENAME.conll.predpos
 
+echo "Do phrase extraction..."
 python generateParsedFile.py ${FILE}/$SFILENAME
 python arabic_phrase_extract.py ${FILE}/$SFILENAME
 
-rm ${FILE}/$FILENAME.out
-rm ${FILE}/$FILENAME-sent.txt
-rm ${FILE}/$SFILENAME.conll.predpos.pred
+#rm ${FILE}/$FILENAME.out
+#rm ${FILE}/$FILENAME-sent.txt
+#rm ${FILE}/$SFILENAME.conll.predpos.pred
