@@ -18,10 +18,10 @@ def _format_ud_parsed_str(parsed_str):
     parsed = parsed_str.split('\n')
     cleanparsed=[]
     for p in parsed:
-    	if len(p.split("\t"))==8:
+    	if len(p.split("\t"))==8 or len(p.split("\t"))==10 :
     		cleanparsed.append(p)
     	else:
-    		print("number of field is not 8"+p)
+    		print("number of field is not 8 or 10:"+p)
 
 
     treestr = '\n'.join(cleanparsed)

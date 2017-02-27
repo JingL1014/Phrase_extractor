@@ -4,29 +4,30 @@
 1a.
 TurboParser
 You need download TurboParser v2.3 and compile it following the instructions in TurboParser's README file.
-LINK:http://www.cs.cmu.edu/~ark/TurboParser/
+LINK:http://www.cs.cmu.edu/~ark/TurboParser/. To use TurboParser, pre-trained Arabic models for pos tagging and dependency parser are needed.
+
+-> Download two models from the following link: https://1drv.ms/u/s!An8tQToldhOkhO9O8p3lB1oR5MUl6A
+-> Uncompress the models. 
+-> create a folder "arabic" under directory models/ in the root folder of TurboParser and save the models in that folder (e.g. /users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/models/arabic/arabic_tagger.model)
+
 
 UDpipe
-An alternative parser is UDpipe, the pre-compiled binary package (udpipe-1.0.0-bin.zip) can be downloaded at: https://github.com/ufal/udpipe/releases/tag/v1.0.0. To use UDpipe, a language model is needed, which can be downloaded at https://ufal.mff.cuni.cz/udpipe#download
+An alternative parser is UDpipe, the pre-compiled binary package (udpipe-1.0.0-bin.zip) can be downloaded at: https://github.com/ufal/udpipe/releases/tag/v1.0.0. To use UDpipe, a language model is needed, which can be downloaded at
+https://1drv.ms/u/s!An8tQToldhOkh_JIep-cJhimMDiboQ 
 
 
 1b. Stanford word segmenter
 You need download Stanford segmenter v3.6.0 and unzip the file.
 LINK:http://nlp.stanford.edu/software/segmenter.shtml#Download
 
-1c. pre-trained Arabic models for pos tagging and dependency parser
--> Download two models from the following link: https://1drv.ms/u/s!An8tQToldhOkhO9O8p3lB1oR5MUl6A
--> Uncompress the models. 
--> create a folder "arabic" under directory models/ in the root folder of TurboParser and save the models in that folder (e.g. /users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0/models/arabic/arabic_tagger.model)
-
-1d. Stanford CoreNLP
+1c. Stanford CoreNLP
 If your input file is document and you need to use Stanford CoreNLP to do sentence splitting
 LINK:http://stanfordnlp.github.io/CoreNLP/download.html
 
 ============================================================================
 2. Usage
 ============================================================================
-Download the entire repository and save it in the root folder of TurboParser. Shell script run_sentence.sh and run_document.sh are provided to do phrase extraction of an input arabic file.
+Download the entire repository. Shell script run_sentence.sh and run_document.sh are provided to do phrase extraction of an input arabic file.
 
 usage: Based on the input format (sentence or document), you can run either run_sentence_X.sh or run_document_X.sh (X is turboParser or udpipe based on your choice of parser)
 run_sentence_X.sh Sample_arabic_sent.xml
