@@ -89,7 +89,7 @@ def read_xml_input(filepaths, parsed=False):
 
 
 
-def extract_phrases(event_dict):
+def extract_phrases(event_dict,nounOption):
 	NStory = 0
 	NSent = 0
 
@@ -111,11 +111,18 @@ def extract_phrases(event_dict):
 				#print(sentence.udgraph.edges())
 				#print(nx.dfs_successors(sentence.udgraph,6))
 
-				sentence.get_phrases()
+				if nounOption=="long":
+					sentence.get_phrases()
+				elif nounOption=="short":
+					sentence.get_phrases_short()
+				elif nounOption=="both":
+					sentence.get_phrases()
+					sentence.get_phrases_short()
+
 				#print('verbs:')
-				#for v in sentence.metadata['verbs']: print(v)
+				#for v in set(sentence.metadata['verbs']): print(v)
 				#print('nouns:')
-				#for n in sentence.metadata['nouns']: print(n)
+				#for n in set(sentence.metadata['nouns']): print(n)
 				#print('triplets:')
 				#for triple in sentence.metadata['triplets']: print("s: "+triple[0]+"\tt: "+triple[1]+"\tv: "+triple[2]+"\to: "+(" ").join(triple[3])+"\n")
 						
@@ -142,10 +149,10 @@ def write_phrases(event_dict,outputfile):
 			Parse=ET.SubElement(sentenceElt, 'Parse')
 			Parse.text=event_dict[key]['sents'][sent]['parsed']
 			Verbs=ET.SubElement(sentenceElt, 'Verbs')
-			verbs_data = '\n'.join(map(str, event_dict[key]['sents'][sent]['phrase_dict']['verbs'])) 
+			verbs_data = '\n'.join(map(str, set(event_dict[key]['sents'][sent]['phrase_dict']['verbs'])))
 			Verbs.text=verbs_data
 			Nouns=ET.SubElement(sentenceElt, 'Nouns')
-			nouns_data='\n'.join(map(str,event_dict[key]['sents'][sent]['phrase_dict']['nouns']))
+			nouns_data='\n'.join(map(str,set(event_dict[key]['sents'][sent]['phrase_dict']['nouns'])))
 			Nouns.text=nouns_data
 			Tuples=ET.SubElement(sentenceElt, 'Tuples')
 			tuples_data=''
@@ -162,6 +169,7 @@ def write_phrases(event_dict,outputfile):
 
 inputFile=sys.argv[1].replace(".xml","")+"_parsed.xml"
 outputFile = inputFile.replace(".xml","")+"_phrase.xml"
+nounOption=sys.argv[2]
 events = read_xml_input([inputFile], True)
-updated_events = extract_phrases(events)
+updated_events = extract_phrases(events,nounOption)
 write_phrases(updated_events,outputFile)

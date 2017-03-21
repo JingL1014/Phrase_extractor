@@ -10,6 +10,8 @@ languageModel=/users/ljwinnie/Desktop/petrarch2/phrase_extractor/udpipe-1.0.0-bi
 STANFORD_CORENLP=/users/ljwinnie/toolbox/stanford-corenlp-full-2015-01-29
 
 FILENAME=$1
+NounOption=$2
+
 
 echo "Call Stanford CoreNLP to do sentence splitting..."
 java -cp "$STANFORD_CORENLP/*" -Xmx4g edu.stanford.nlp.pipeline.StanfordCoreNLP -props ${FILE}/StanfordCoreNLP-arabic.properties -file ${FILE}/$FILENAME -outputFormat text -outputDirectory ${FILE}
@@ -31,7 +33,7 @@ ${udpipePath}/udpipe --tag --parse --outfile=${FILE}/$SFILENAME.conll.predpos.pr
 
 echo "Do phrase extraction..."
 python generateParsedFile.py ${FILE}/$SFILENAME
-python arabic_phrase_extract.py ${FILE}/$SFILENAME
+python arabic_phrase_extract.py ${FILE}/$SFILENAME $NounOption
 
 #rm ${FILE}/$FILENAME.out
 #rm ${FILE}/$FILENAME-sent.txt

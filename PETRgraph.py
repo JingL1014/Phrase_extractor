@@ -90,6 +90,65 @@ class Sentence:
 
 		return nounPhrase
 
+	def get_nounPharse_short(self, nounhead):
+		npIDs=[]
+		if(self.udgraph.node[nounhead]['pos'] in ['NOUN','PROPN']):
+			allsuccessors = nx.dfs_successors(self.udgraph,nounhead)
+
+			flag = True
+			parents = [nounhead]
+			
+			while len(parents)>0:
+				temp = []
+				for parent in parents:
+					if parent in allsuccessors.keys():
+						for child in allsuccessors[parent]:
+							if (parent==nounhead and self.udgraph[parent][child]['relation'] not in ['acl','acl:relcl','cc','conj','appos','punct','amod']):
+							#or (parent!=nounhead and self.udgraph[parent][child]['relation'] not in ['acl','acl:relcl','appos','dobj','punct']):
+								#if parent!=nounhead or self.udgraph[parent][child]['relation'] not in []:
+								npIDs.append(child)
+								temp.append(child)
+				parents = temp
+			
+			'''
+			for parent,child in allsuccessors.items():
+				print(str(parent))
+				print(child)
+			'''		
+			#raw_input(" ")
+
+			#for value in allsuccessors.values():
+			#	npIDs.extend(value)
+			#print(npIDs)
+
+		npIDs.append(nounhead)
+		npTokens =[]
+		npIDs.sort()
+		#print(npIDs)
+
+		start = 0
+		for i in range(0,len(npIDs)):
+			if self.udgraph.node[npIDs[i]]['pos']=='ADP':
+				start = i+1
+		npIDs = npIDs[start:]
+
+		flag = False
+		for i in range(1,len(npIDs)):
+			if npIDs[i]-npIDs[i-1] != 1:
+				flag = True
+
+		if flag == True:
+			npIDs = []
+			npIDs.append(nounhead)
+
+
+		for npID in npIDs:
+			npTokens.append(self.udgraph.node[npID]['token'])
+			
+		nounPhrase = (' ').join(npTokens)
+
+		return nounPhrase
+
 
 
 
@@ -180,3 +239,25 @@ class Sentence:
 				self.metadata['nouns'].extend(source)
 				self.metadata['nouns'].extend(target)
 				self.metadata['nouns'].extend(othernoun)
+
+	def get_phrases_short(self):
+		for node in self.udgraph.nodes(data=True):
+			nodeID = node[0]
+			attrs = node[1]
+			if 'pos' in attrs and attrs['pos']== 'VERB':
+				#print(str(nodeID)+"\t"+attrs['pos']+"\t"+(" ").join(str(e) for e in self.udgraph.successors(nodeID)))
+				#print(self.udgraph.successors(nodeID))
+				
+				verb = attrs['token']
+
+				self.metadata['verbs'].append(verb)
+
+			elif 'pos' in attrs and attrs['pos'] in ['NOUN','ADJ','PROPN']:
+
+				nouns = self.get_nounPharse_short(nodeID)
+				self.metadata['nouns'].append(nouns)
+
+
+
+
+		

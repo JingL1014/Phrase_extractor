@@ -29,9 +29,10 @@ LINK:http://stanfordnlp.github.io/CoreNLP/download.html
 ============================================================================
 Download the entire repository. Shell script run_sentence.sh and run_document.sh are provided to do phrase extraction of an input arabic file.
 
-usage: Based on the input format (sentence or document), you can run either run_sentence_X.sh or run_document_X.sh (X is turboParser or udpipe based on your choice of parser)
-run_sentence_X.sh Sample_arabic_sent.xml
-run_document_X.sh Sample_arabic_doc.xml
+usage: Based on the input format (sentence or document), you can run either run_sentence_X.sh or run_document_X.sh (X is turboParser or udpipe based on your choice of parser). The first argument is the file name. The second argument is the format of noun phrases: long, short or both. "long" means that the extracted noun phrases include not only the head but also addtional modifiers: adjective, prepositional phrase. "short" means the extracted noun phrases include just the head. "both" means that both long and short noun phrases are extracted.
+
+run_sentence_X.sh Sample_arabic_sent.xml [NounPhraseOption]
+run_document_X.sh Sample_arabic_doc.xml [NounPhraseOption]
 
 
 2a. Input data format

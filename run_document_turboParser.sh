@@ -8,6 +8,7 @@ TurboParserPath=/users/ljwinnie/toolbox/turboParser/TurboParser-2.3.0
 STANFORD_CORENLP=/users/ljwinnie/toolbox/stanford-corenlp-full-2015-01-29
 
 FILENAME=$1
+NounOption=$2
 
 echo "Call Stanford CoreNLP to do sentence splitting..."
 java -cp "$STANFORD_CORENLP/*" -Xmx4g edu.stanford.nlp.pipeline.StanfordCoreNLP -props ${FILE}/StanfordCoreNLP-arabic.properties -file ${FILE}/$FILENAME -outputFormat text -outputDirectory ${FILE}
@@ -34,7 +35,7 @@ ${SCRIPT}/run_parser.sh $TurboParserPath ${FILE}/$SFILENAME.conll.predpos # Crea
 
 echo "Do phrase extraction..."
 python generateParsedFile.py ${FILE}/$SFILENAME
-python arabic_phrase_extract.py ${FILE}/$SFILENAME
+python arabic_phrase_extract.py ${FILE}/$SFILENAME $NounOption
 
 #rm ${FILE}/$FILENAME.out
 #rm ${FILE}/$FILENAME-sent.txt
